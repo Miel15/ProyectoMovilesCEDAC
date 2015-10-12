@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MovilesCedac.xcodeproj">
+      location = "self:Cedac.xcodeproj">
    </FileRef>
 </Workspace>

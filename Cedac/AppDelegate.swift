@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  MovilesCedac
+//  Cedac
 //
-//  Created by Sebastián Loredo on 13/09/15.
-//  Copyright (c) 2015 Carlos Sebastián Loredo Gómez. All rights reserved.
+//  Created by Sebastián Loredo on 10/10/15.
+//  Copyright © 2015 Carlos Sebastián Loredo Gómez. All rights reserved.
 //
 
 import UIKit

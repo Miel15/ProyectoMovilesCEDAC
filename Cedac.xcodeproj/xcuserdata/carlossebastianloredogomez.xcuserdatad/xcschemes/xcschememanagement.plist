@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MovilesCedac.xcscheme</key>
+		<key>Cedac.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6D5E55E11BA5F9E2000963F1</key>
+		<key>6D3EE3A51BC9975E00CFD061</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6D5E55F61BA5F9E2000963F1</key>
+		<key>6D3EE3B91BC9975E00CFD061</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D3EE3C41BC9975E00CFD061</key>
 		<dict>
 			<key>primary</key>
 			<true/>
