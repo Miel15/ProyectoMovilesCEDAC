@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Cedac.xcscheme</key>
+		<key>CEDAC.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>6D3EE3A51BC9975E00CFD061</key>
+		<key>6D8A97C71BA7869E00E23C28</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>6D3EE3B91BC9975E00CFD061</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>6D3EE3C41BC9975E00CFD061</key>
+		<key>6D8A97DC1BA7869F00E23C28</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,64 +7,124 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D3EE3AA1BC9975E00CFD061 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3A91BC9975E00CFD061 /* AppDelegate.swift */; };
-		6D3EE3AC1BC9975E00CFD061 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3AB1BC9975E00CFD061 /* ViewController.swift */; };
-		6D3EE3AF1BC9975E00CFD061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3AD1BC9975E00CFD061 /* Main.storyboard */; };
-		6D3EE3B11BC9975E00CFD061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3B01BC9975E00CFD061 /* Assets.xcassets */; };
-		6D3EE3B41BC9975E00CFD061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3B21BC9975E00CFD061 /* LaunchScreen.storyboard */; };
-		6D3EE3BF1BC9975E00CFD061 /* CedacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3BE1BC9975E00CFD061 /* CedacTests.swift */; };
-		6D3EE3CA1BC9975E00CFD061 /* CedacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3C91BC9975E00CFD061 /* CedacUITests.swift */; };
+		6D3794891BC9F857001500EB /* buey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794791BC9F857001500EB /* buey.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D37948A1BC9F857001500EB /* caballo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947A1BC9F857001500EB /* caballo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D37948B1BC9F857001500EB /* canario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947B1BC9F857001500EB /* canario.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D37948C1BC9F857001500EB /* elefante.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947C1BC9F857001500EB /* elefante.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D37948D1BC9F857001500EB /* gato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947D1BC9F857001500EB /* gato.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D37948E1BC9F857001500EB /* jirafa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947E1BC9F857001500EB /* jirafa.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D37948F1BC9F857001500EB /* lobo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947F1BC9F857001500EB /* lobo.jpeg */; settings = {ASSET_TAGS = (); }; };
+		6D3794901BC9F857001500EB /* mono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794801BC9F857001500EB /* mono.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794911BC9F857001500EB /* oso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794811BC9F857001500EB /* oso.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794921BC9F857001500EB /* pato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794821BC9F857001500EB /* pato.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794931BC9F857001500EB /* perico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794831BC9F857001500EB /* perico.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794941BC9F857001500EB /* perro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794841BC9F857001500EB /* perro.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794951BC9F857001500EB /* pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794851BC9F857001500EB /* pollo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794961BC9F857001500EB /* rana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794861BC9F857001500EB /* rana.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794971BC9F857001500EB /* tigre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794871BC9F857001500EB /* tigre.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3794981BC9F857001500EB /* zebra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794881BC9F857001500EB /* zebra.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D37949A1BC9FC4C001500EB /* Niveles2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3794991BC9FC4C001500EB /* Niveles2.swift */; settings = {ASSET_TAGS = (); }; };
+		6D37949C1BCAE919001500EB /* Intermedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D37949B1BCAE919001500EB /* Intermedio.swift */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3971BC9892100CFD061 /* trofeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3961BC9892100CFD061 /* trofeo.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE39A1BC9898500CFD061 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3991BC9898500CFD061 /* info.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE39C1BC98A1B00CFD061 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE39B1BC98A1B00CFD061 /* play.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3D81BC99D8100CFD061 /* Campos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3D71BC99D8100CFD061 /* Campos.swift */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3DA1BC9A00C00CFD061 /* Niveles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3D91BC9A00C00CFD061 /* Niveles.swift */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3DC1BC9B21000CFD061 /* Nivel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3DF1BC9B38500CFD061 /* al.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3DE1BC9B38500CFD061 /* al.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3E11BC9B38A00CFD061 /* EUA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E01BC9B38A00CFD061 /* EUA.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3E31BC9B38F00CFD061 /* francia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E21BC9B38F00CFD061 /* francia.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3E51BC9B39400CFD061 /* mex.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E41BC9B39400CFD061 /* mex.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3E91BC9D03600CFD061 /* vi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E81BC9D03600CFD061 /* vi.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3EB1BC9D03F00CFD061 /* grecia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3EA1BC9D03F00CFD061 /* grecia.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3ED1BC9D04400CFD061 /* can.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3EC1BC9D04400CFD061 /* can.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3EF1BC9D04900CFD061 /* ar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3EE1BC9D04900CFD061 /* ar.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3F11BC9D04F00CFD061 /* af.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F01BC9D04F00CFD061 /* af.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3F31BC9D08F00CFD061 /* uc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F21BC9D08F00CFD061 /* uc.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3F51BC9D09600CFD061 /* togo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F41BC9D09600CFD061 /* togo.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3F71BC9D09D00CFD061 /* suecia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F61BC9D09D00CFD061 /* suecia.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3F91BC9D0A200CFD061 /* serbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F81BC9D0A200CFD061 /* serbia.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3FB1BC9D0A700CFD061 /* reino.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3FA1BC9D0A700CFD061 /* reino.png */; settings = {ASSET_TAGS = (); }; };
+		6D3EE3FD1BC9D0AB00CFD061 /* palaos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3FC1BC9D0AB00CFD061 /* palaos.png */; settings = {ASSET_TAGS = (); }; };
+		6D8A97CE1BA7869E00E23C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */; };
+		6D8A97D01BA7869E00E23C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CF1BA7869E00E23C28 /* ViewController.swift */; };
+		6D8A97D31BA7869F00E23C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D11BA7869F00E23C28 /* Main.storyboard */; };
+		6D8A97D51BA7869F00E23C28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D41BA7869F00E23C28 /* Images.xcassets */; };
+		6D8A97D81BA7869F00E23C28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D61BA7869F00E23C28 /* LaunchScreen.xib */; };
+		6D8A97E41BA7869F00E23C28 /* CEDACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97E31BA7869F00E23C28 /* CEDACTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6D3EE3BB1BC9975E00CFD061 /* PBXContainerItemProxy */ = {
+		6D8A97DE1BA7869F00E23C28 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6D3EE39E1BC9975E00CFD061 /* Project object */;
+			containerPortal = 6D8A97C01BA7869E00E23C28 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6D3EE3A51BC9975E00CFD061;
-			remoteInfo = Cedac;
-		};
-		6D3EE3C61BC9975E00CFD061 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6D3EE39E1BC9975E00CFD061 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6D3EE3A51BC9975E00CFD061;
-			remoteInfo = Cedac;
+			remoteGlobalIDString = 6D8A97C71BA7869E00E23C28;
+			remoteInfo = CEDAC;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D3EE3A61BC9975E00CFD061 /* Cedac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cedac.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D3EE3A91BC9975E00CFD061 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6D3EE3AB1BC9975E00CFD061 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6D3EE3AE1BC9975E00CFD061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6D3EE3B01BC9975E00CFD061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6D3EE3B31BC9975E00CFD061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6D3EE3B51BC9975E00CFD061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D3EE3BA1BC9975E00CFD061 /* CedacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D3EE3BE1BC9975E00CFD061 /* CedacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedacTests.swift; sourceTree = "<group>"; };
-		6D3EE3C01BC9975E00CFD061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6D3EE3C51BC9975E00CFD061 /* CedacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6D3EE3C91BC9975E00CFD061 /* CedacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CedacUITests.swift; sourceTree = "<group>"; };
-		6D3EE3CB1BC9975E00CFD061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D3794791BC9F857001500EB /* buey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buey.jpg; sourceTree = "<group>"; };
+		6D37947A1BC9F857001500EB /* caballo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caballo.jpg; sourceTree = "<group>"; };
+		6D37947B1BC9F857001500EB /* canario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canario.jpg; sourceTree = "<group>"; };
+		6D37947C1BC9F857001500EB /* elefante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elefante.jpg; sourceTree = "<group>"; };
+		6D37947D1BC9F857001500EB /* gato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gato.jpg; sourceTree = "<group>"; };
+		6D37947E1BC9F857001500EB /* jirafa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jirafa.jpg; sourceTree = "<group>"; };
+		6D37947F1BC9F857001500EB /* lobo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lobo.jpeg; sourceTree = "<group>"; };
+		6D3794801BC9F857001500EB /* mono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mono.jpg; sourceTree = "<group>"; };
+		6D3794811BC9F857001500EB /* oso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oso.jpg; sourceTree = "<group>"; };
+		6D3794821BC9F857001500EB /* pato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pato.jpg; sourceTree = "<group>"; };
+		6D3794831BC9F857001500EB /* perico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perico.jpg; sourceTree = "<group>"; };
+		6D3794841BC9F857001500EB /* perro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perro.jpg; sourceTree = "<group>"; };
+		6D3794851BC9F857001500EB /* pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo.jpg; sourceTree = "<group>"; };
+		6D3794861BC9F857001500EB /* rana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rana.jpg; sourceTree = "<group>"; };
+		6D3794871BC9F857001500EB /* tigre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tigre.jpg; sourceTree = "<group>"; };
+		6D3794881BC9F857001500EB /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = "<group>"; };
+		6D3794991BC9FC4C001500EB /* Niveles2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Niveles2.swift; sourceTree = "<group>"; };
+		6D37949B1BCAE919001500EB /* Intermedio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Intermedio.swift; path = ../Intermedio.swift; sourceTree = "<group>"; };
+		6D3EE3961BC9892100CFD061 /* trofeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeo.png; sourceTree = "<group>"; };
+		6D3EE3991BC9898500CFD061 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		6D3EE39B1BC98A1B00CFD061 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		6D3EE3D71BC99D8100CFD061 /* Campos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Campos.swift; path = ../Campos.swift; sourceTree = "<group>"; };
+		6D3EE3D91BC9A00C00CFD061 /* Niveles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Niveles.swift; path = ../Niveles.swift; sourceTree = "<group>"; };
+		6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nivel1.swift; path = ../Nivel1.swift; sourceTree = "<group>"; };
+		6D3EE3DE1BC9B38500CFD061 /* al.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al.jpg; sourceTree = "<group>"; };
+		6D3EE3E01BC9B38A00CFD061 /* EUA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EUA.jpg; sourceTree = "<group>"; };
+		6D3EE3E21BC9B38F00CFD061 /* francia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = francia.jpg; sourceTree = "<group>"; };
+		6D3EE3E41BC9B39400CFD061 /* mex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mex.png; sourceTree = "<group>"; };
+		6D3EE3E81BC9D03600CFD061 /* vi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vi.png; sourceTree = "<group>"; };
+		6D3EE3EA1BC9D03F00CFD061 /* grecia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grecia.png; sourceTree = "<group>"; };
+		6D3EE3EC1BC9D04400CFD061 /* can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = can.png; sourceTree = "<group>"; };
+		6D3EE3EE1BC9D04900CFD061 /* ar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar.png; sourceTree = "<group>"; };
+		6D3EE3F01BC9D04F00CFD061 /* af.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = af.png; sourceTree = "<group>"; };
+		6D3EE3F21BC9D08F00CFD061 /* uc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uc.png; sourceTree = "<group>"; };
+		6D3EE3F41BC9D09600CFD061 /* togo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = togo.png; sourceTree = "<group>"; };
+		6D3EE3F61BC9D09D00CFD061 /* suecia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suecia.png; sourceTree = "<group>"; };
+		6D3EE3F81BC9D0A200CFD061 /* serbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serbia.png; sourceTree = "<group>"; };
+		6D3EE3FA1BC9D0A700CFD061 /* reino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reino.png; sourceTree = "<group>"; };
+		6D3EE3FC1BC9D0AB00CFD061 /* palaos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palaos.png; sourceTree = "<group>"; };
+		6D8A97C81BA7869E00E23C28 /* CEDAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEDAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8A97CC1BA7869E00E23C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6D8A97CF1BA7869E00E23C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6D8A97D21BA7869F00E23C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6D8A97D41BA7869F00E23C28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6D8A97D71BA7869F00E23C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6D8A97DD1BA7869F00E23C28 /* CEDACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEDACTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8A97E21BA7869F00E23C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8A97E31BA7869F00E23C28 /* CEDACTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEDACTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D3EE3A31BC9975E00CFD061 /* Frameworks */ = {
+		6D8A97C51BA7869E00E23C28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D3EE3B71BC9975E00CFD061 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D3EE3C21BC9975E00CFD061 /* Frameworks */ = {
+		6D8A97DA1BA7869F00E23C28 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,136 +134,184 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D3EE39D1BC9975E00CFD061 = {
+		6D3794781BC9F7F7001500EB /* Imgs Animales */ = {
 			isa = PBXGroup;
 			children = (
-				6D3EE3A81BC9975E00CFD061 /* Cedac */,
-				6D3EE3BD1BC9975E00CFD061 /* CedacTests */,
-				6D3EE3C81BC9975E00CFD061 /* CedacUITests */,
-				6D3EE3A71BC9975E00CFD061 /* Products */,
+				6D3794791BC9F857001500EB /* buey.jpg */,
+				6D37947A1BC9F857001500EB /* caballo.jpg */,
+				6D37947B1BC9F857001500EB /* canario.jpg */,
+				6D37947C1BC9F857001500EB /* elefante.jpg */,
+				6D37947D1BC9F857001500EB /* gato.jpg */,
+				6D37947E1BC9F857001500EB /* jirafa.jpg */,
+				6D37947F1BC9F857001500EB /* lobo.jpeg */,
+				6D3794801BC9F857001500EB /* mono.jpg */,
+				6D3794811BC9F857001500EB /* oso.jpg */,
+				6D3794821BC9F857001500EB /* pato.jpg */,
+				6D3794831BC9F857001500EB /* perico.jpg */,
+				6D3794841BC9F857001500EB /* perro.jpg */,
+				6D3794851BC9F857001500EB /* pollo.jpg */,
+				6D3794861BC9F857001500EB /* rana.jpg */,
+				6D3794871BC9F857001500EB /* tigre.jpg */,
+				6D3794881BC9F857001500EB /* zebra.jpg */,
+			);
+			name = "Imgs Animales";
+			sourceTree = "<group>";
+		};
+		6D3EE3981BC9892700CFD061 /* Imgs Menú */ = {
+			isa = PBXGroup;
+			children = (
+				6D3EE3961BC9892100CFD061 /* trofeo.png */,
+				6D3EE39B1BC98A1B00CFD061 /* play.png */,
+				6D3EE3991BC9898500CFD061 /* info.png */,
+			);
+			name = "Imgs Menú";
+			sourceTree = "<group>";
+		};
+		6D3EE3DD1BC9B37700CFD061 /* Banderas */ = {
+			isa = PBXGroup;
+			children = (
+				6D3EE3DE1BC9B38500CFD061 /* al.jpg */,
+				6D3EE3E01BC9B38A00CFD061 /* EUA.jpg */,
+				6D3EE3E21BC9B38F00CFD061 /* francia.jpg */,
+				6D3EE3E41BC9B39400CFD061 /* mex.png */,
+				6D3EE3E81BC9D03600CFD061 /* vi.png */,
+				6D3EE3EE1BC9D04900CFD061 /* ar.png */,
+				6D3EE3F01BC9D04F00CFD061 /* af.png */,
+				6D3EE3FA1BC9D0A700CFD061 /* reino.png */,
+				6D3EE3F21BC9D08F00CFD061 /* uc.png */,
+				6D3EE3FC1BC9D0AB00CFD061 /* palaos.png */,
+				6D3EE3F81BC9D0A200CFD061 /* serbia.png */,
+				6D3EE3F61BC9D09D00CFD061 /* suecia.png */,
+				6D3EE3F41BC9D09600CFD061 /* togo.png */,
+				6D3EE3EA1BC9D03F00CFD061 /* grecia.png */,
+				6D3EE3EC1BC9D04400CFD061 /* can.png */,
+			);
+			name = Banderas;
+			sourceTree = "<group>";
+		};
+		6D8A97BF1BA7869E00E23C28 = {
+			isa = PBXGroup;
+			children = (
+				6D3794991BC9FC4C001500EB /* Niveles2.swift */,
+				6D8A97CA1BA7869E00E23C28 /* CEDAC */,
+				6D8A97E01BA7869F00E23C28 /* CEDACTests */,
+				6D8A97C91BA7869E00E23C28 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6D3EE3A71BC9975E00CFD061 /* Products */ = {
+		6D8A97C91BA7869E00E23C28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D3EE3A61BC9975E00CFD061 /* Cedac.app */,
-				6D3EE3BA1BC9975E00CFD061 /* CedacTests.xctest */,
-				6D3EE3C51BC9975E00CFD061 /* CedacUITests.xctest */,
+				6D8A97C81BA7869E00E23C28 /* CEDAC.app */,
+				6D8A97DD1BA7869F00E23C28 /* CEDACTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6D3EE3A81BC9975E00CFD061 /* Cedac */ = {
+		6D8A97CA1BA7869E00E23C28 /* CEDAC */ = {
 			isa = PBXGroup;
 			children = (
-				6D3EE3A91BC9975E00CFD061 /* AppDelegate.swift */,
-				6D3EE3AB1BC9975E00CFD061 /* ViewController.swift */,
-				6D3EE3AD1BC9975E00CFD061 /* Main.storyboard */,
-				6D3EE3B01BC9975E00CFD061 /* Assets.xcassets */,
-				6D3EE3B21BC9975E00CFD061 /* LaunchScreen.storyboard */,
-				6D3EE3B51BC9975E00CFD061 /* Info.plist */,
+				6D3794781BC9F7F7001500EB /* Imgs Animales */,
+				6D3EE3DD1BC9B37700CFD061 /* Banderas */,
+				6D3EE3981BC9892700CFD061 /* Imgs Menú */,
+				6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */,
+				6D8A97CF1BA7869E00E23C28 /* ViewController.swift */,
+				6D3EE3D71BC99D8100CFD061 /* Campos.swift */,
+				6D3EE3D91BC9A00C00CFD061 /* Niveles.swift */,
+				6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */,
+				6D37949B1BCAE919001500EB /* Intermedio.swift */,
+				6D8A97D11BA7869F00E23C28 /* Main.storyboard */,
+				6D8A97D41BA7869F00E23C28 /* Images.xcassets */,
+				6D8A97D61BA7869F00E23C28 /* LaunchScreen.xib */,
+				6D8A97CB1BA7869E00E23C28 /* Supporting Files */,
 			);
-			path = Cedac;
+			path = CEDAC;
 			sourceTree = "<group>";
 		};
-		6D3EE3BD1BC9975E00CFD061 /* CedacTests */ = {
+		6D8A97CB1BA7869E00E23C28 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6D3EE3BE1BC9975E00CFD061 /* CedacTests.swift */,
-				6D3EE3C01BC9975E00CFD061 /* Info.plist */,
+				6D8A97CC1BA7869E00E23C28 /* Info.plist */,
 			);
-			path = CedacTests;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6D3EE3C81BC9975E00CFD061 /* CedacUITests */ = {
+		6D8A97E01BA7869F00E23C28 /* CEDACTests */ = {
 			isa = PBXGroup;
 			children = (
-				6D3EE3C91BC9975E00CFD061 /* CedacUITests.swift */,
-				6D3EE3CB1BC9975E00CFD061 /* Info.plist */,
+				6D8A97E31BA7869F00E23C28 /* CEDACTests.swift */,
+				6D8A97E11BA7869F00E23C28 /* Supporting Files */,
 			);
-			path = CedacUITests;
+			path = CEDACTests;
+			sourceTree = "<group>";
+		};
+		6D8A97E11BA7869F00E23C28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D8A97E21BA7869F00E23C28 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D3EE3A51BC9975E00CFD061 /* Cedac */ = {
+		6D8A97C71BA7869E00E23C28 /* CEDAC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D3EE3CE1BC9975E00CFD061 /* Build configuration list for PBXNativeTarget "Cedac" */;
+			buildConfigurationList = 6D8A97E71BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDAC" */;
 			buildPhases = (
-				6D3EE3A21BC9975E00CFD061 /* Sources */,
-				6D3EE3A31BC9975E00CFD061 /* Frameworks */,
-				6D3EE3A41BC9975E00CFD061 /* Resources */,
+				6D8A97C41BA7869E00E23C28 /* Sources */,
+				6D8A97C51BA7869E00E23C28 /* Frameworks */,
+				6D8A97C61BA7869E00E23C28 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Cedac;
-			productName = Cedac;
-			productReference = 6D3EE3A61BC9975E00CFD061 /* Cedac.app */;
+			name = CEDAC;
+			productName = CEDAC;
+			productReference = 6D8A97C81BA7869E00E23C28 /* CEDAC.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D3EE3B91BC9975E00CFD061 /* CedacTests */ = {
+		6D8A97DC1BA7869F00E23C28 /* CEDACTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D3EE3D11BC9975E00CFD061 /* Build configuration list for PBXNativeTarget "CedacTests" */;
+			buildConfigurationList = 6D8A97EA1BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDACTests" */;
 			buildPhases = (
-				6D3EE3B61BC9975E00CFD061 /* Sources */,
-				6D3EE3B71BC9975E00CFD061 /* Frameworks */,
-				6D3EE3B81BC9975E00CFD061 /* Resources */,
+				6D8A97D91BA7869F00E23C28 /* Sources */,
+				6D8A97DA1BA7869F00E23C28 /* Frameworks */,
+				6D8A97DB1BA7869F00E23C28 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6D3EE3BC1BC9975E00CFD061 /* PBXTargetDependency */,
+				6D8A97DF1BA7869F00E23C28 /* PBXTargetDependency */,
 			);
-			name = CedacTests;
-			productName = CedacTests;
-			productReference = 6D3EE3BA1BC9975E00CFD061 /* CedacTests.xctest */;
+			name = CEDACTests;
+			productName = CEDACTests;
+			productReference = 6D8A97DD1BA7869F00E23C28 /* CEDACTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		6D3EE3C41BC9975E00CFD061 /* CedacUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6D3EE3D41BC9975E00CFD061 /* Build configuration list for PBXNativeTarget "CedacUITests" */;
-			buildPhases = (
-				6D3EE3C11BC9975E00CFD061 /* Sources */,
-				6D3EE3C21BC9975E00CFD061 /* Frameworks */,
-				6D3EE3C31BC9975E00CFD061 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6D3EE3C71BC9975E00CFD061 /* PBXTargetDependency */,
-			);
-			name = CedacUITests;
-			productName = CedacUITests;
-			productReference = 6D3EE3C51BC9975E00CFD061 /* CedacUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6D3EE39E1BC9975E00CFD061 /* Project object */ = {
+		6D8A97C01BA7869E00E23C28 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Carlos Sebastián Loredo Gómez";
 				TargetAttributes = {
-					6D3EE3A51BC9975E00CFD061 = {
-						CreatedOnToolsVersion = 7.0.1;
+					6D8A97C71BA7869E00E23C28 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = EBK3U6A6BC;
 					};
-					6D3EE3B91BC9975E00CFD061 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 6D3EE3A51BC9975E00CFD061;
-					};
-					6D3EE3C41BC9975E00CFD061 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 6D3EE3A51BC9975E00CFD061;
+					6D8A97DC1BA7869F00E23C28 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6D8A97C71BA7869E00E23C28;
 					};
 				};
 			};
-			buildConfigurationList = 6D3EE3A11BC9975E00CFD061 /* Build configuration list for PBXProject "Cedac" */;
+			buildConfigurationList = 6D8A97C31BA7869E00E23C28 /* Build configuration list for PBXProject "CEDAC" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -211,37 +319,63 @@
 				en,
 				Base,
 			);
-			mainGroup = 6D3EE39D1BC9975E00CFD061;
-			productRefGroup = 6D3EE3A71BC9975E00CFD061 /* Products */;
+			mainGroup = 6D8A97BF1BA7869E00E23C28;
+			productRefGroup = 6D8A97C91BA7869E00E23C28 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D3EE3A51BC9975E00CFD061 /* Cedac */,
-				6D3EE3B91BC9975E00CFD061 /* CedacTests */,
-				6D3EE3C41BC9975E00CFD061 /* CedacUITests */,
+				6D8A97C71BA7869E00E23C28 /* CEDAC */,
+				6D8A97DC1BA7869F00E23C28 /* CEDACTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6D3EE3A41BC9975E00CFD061 /* Resources */ = {
+		6D8A97C61BA7869E00E23C28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3EE3B41BC9975E00CFD061 /* LaunchScreen.storyboard in Resources */,
-				6D3EE3B11BC9975E00CFD061 /* Assets.xcassets in Resources */,
-				6D3EE3AF1BC9975E00CFD061 /* Main.storyboard in Resources */,
+				6D3EE3F11BC9D04F00CFD061 /* af.png in Resources */,
+				6D3EE3971BC9892100CFD061 /* trofeo.png in Resources */,
+				6D3794891BC9F857001500EB /* buey.jpg in Resources */,
+				6D37948B1BC9F857001500EB /* canario.jpg in Resources */,
+				6D3EE3F51BC9D09600CFD061 /* togo.png in Resources */,
+				6D3EE3E11BC9B38A00CFD061 /* EUA.jpg in Resources */,
+				6D3794981BC9F857001500EB /* zebra.jpg in Resources */,
+				6D3EE3F71BC9D09D00CFD061 /* suecia.png in Resources */,
+				6D3EE39A1BC9898500CFD061 /* info.png in Resources */,
+				6D37948F1BC9F857001500EB /* lobo.jpeg in Resources */,
+				6D3EE3F31BC9D08F00CFD061 /* uc.png in Resources */,
+				6D37948A1BC9F857001500EB /* caballo.jpg in Resources */,
+				6D3794921BC9F857001500EB /* pato.jpg in Resources */,
+				6D3794951BC9F857001500EB /* pollo.jpg in Resources */,
+				6D3794961BC9F857001500EB /* rana.jpg in Resources */,
+				6D3EE3FD1BC9D0AB00CFD061 /* palaos.png in Resources */,
+				6D3EE3ED1BC9D04400CFD061 /* can.png in Resources */,
+				6D3EE3EF1BC9D04900CFD061 /* ar.png in Resources */,
+				6D3EE3E31BC9B38F00CFD061 /* francia.jpg in Resources */,
+				6D3794901BC9F857001500EB /* mono.jpg in Resources */,
+				6D8A97D31BA7869F00E23C28 /* Main.storyboard in Resources */,
+				6D8A97D81BA7869F00E23C28 /* LaunchScreen.xib in Resources */,
+				6D3794941BC9F857001500EB /* perro.jpg in Resources */,
+				6D3EE3DF1BC9B38500CFD061 /* al.jpg in Resources */,
+				6D3EE3E91BC9D03600CFD061 /* vi.png in Resources */,
+				6D3794931BC9F857001500EB /* perico.jpg in Resources */,
+				6D37948C1BC9F857001500EB /* elefante.jpg in Resources */,
+				6D3EE3EB1BC9D03F00CFD061 /* grecia.png in Resources */,
+				6D3EE3FB1BC9D0A700CFD061 /* reino.png in Resources */,
+				6D3794911BC9F857001500EB /* oso.jpg in Resources */,
+				6D37948D1BC9F857001500EB /* gato.jpg in Resources */,
+				6D8A97D51BA7869F00E23C28 /* Images.xcassets in Resources */,
+				6D3794971BC9F857001500EB /* tigre.jpg in Resources */,
+				6D3EE3E51BC9B39400CFD061 /* mex.png in Resources */,
+				6D3EE39C1BC98A1B00CFD061 /* play.png in Resources */,
+				6D37948E1BC9F857001500EB /* jirafa.jpg in Resources */,
+				6D3EE3F91BC9D0A200CFD061 /* serbia.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D3EE3B81BC9975E00CFD061 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D3EE3C31BC9975E00CFD061 /* Resources */ = {
+		6D8A97DB1BA7869F00E23C28 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -251,67 +385,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6D3EE3A21BC9975E00CFD061 /* Sources */ = {
+		6D8A97C41BA7869E00E23C28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3EE3AC1BC9975E00CFD061 /* ViewController.swift in Sources */,
-				6D3EE3AA1BC9975E00CFD061 /* AppDelegate.swift in Sources */,
+				6D8A97D01BA7869E00E23C28 /* ViewController.swift in Sources */,
+				6D37949C1BCAE919001500EB /* Intermedio.swift in Sources */,
+				6D37949A1BC9FC4C001500EB /* Niveles2.swift in Sources */,
+				6D3EE3D81BC99D8100CFD061 /* Campos.swift in Sources */,
+				6D3EE3DA1BC9A00C00CFD061 /* Niveles.swift in Sources */,
+				6D3EE3DC1BC9B21000CFD061 /* Nivel1.swift in Sources */,
+				6D8A97CE1BA7869E00E23C28 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6D3EE3B61BC9975E00CFD061 /* Sources */ = {
+		6D8A97D91BA7869F00E23C28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3EE3BF1BC9975E00CFD061 /* CedacTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D3EE3C11BC9975E00CFD061 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6D3EE3CA1BC9975E00CFD061 /* CedacUITests.swift in Sources */,
+				6D8A97E41BA7869F00E23C28 /* CEDACTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6D3EE3BC1BC9975E00CFD061 /* PBXTargetDependency */ = {
+		6D8A97DF1BA7869F00E23C28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6D3EE3A51BC9975E00CFD061 /* Cedac */;
-			targetProxy = 6D3EE3BB1BC9975E00CFD061 /* PBXContainerItemProxy */;
-		};
-		6D3EE3C71BC9975E00CFD061 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6D3EE3A51BC9975E00CFD061 /* Cedac */;
-			targetProxy = 6D3EE3C61BC9975E00CFD061 /* PBXContainerItemProxy */;
+			target = 6D8A97C71BA7869E00E23C28 /* CEDAC */;
+			targetProxy = 6D8A97DE1BA7869F00E23C28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6D3EE3AD1BC9975E00CFD061 /* Main.storyboard */ = {
+		6D8A97D11BA7869F00E23C28 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6D3EE3AE1BC9975E00CFD061 /* Base */,
+				6D8A97D21BA7869F00E23C28 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6D3EE3B21BC9975E00CFD061 /* LaunchScreen.storyboard */ = {
+		6D8A97D61BA7869F00E23C28 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6D3EE3B31BC9975E00CFD061 /* Base */,
+				6D8A97D71BA7869F00E23C28 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6D3EE3CC1BC9975E00CFD061 /* Debug */ = {
+		6D8A97E51BA7869F00E23C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -330,9 +456,8 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -341,13 +466,14 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -356,7 +482,7 @@
 			};
 			name = Debug;
 		};
-		6D3EE3CD1BC9975E00CFD061 /* Release */ = {
+		6D8A97E61BA7869F00E23C28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -386,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -394,113 +520,97 @@
 			};
 			name = Release;
 		};
-		6D3EE3CF1BC9975E00CFD061 /* Debug */ = {
+		6D8A97E81BA7869F00E23C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Cedac/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CEDAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.Cedac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
-		6D3EE3D01BC9975E00CFD061 /* Release */ = {
+		6D8A97E91BA7869F00E23C28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Cedac/Info.plist;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CEDAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.Cedac;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
-		6D3EE3D21BC9975E00CFD061 /* Debug */ = {
+		6D8A97EB1BA7869F00E23C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CedacTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CEDACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.CedacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cedac.app/Cedac";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDAC.app/CEDAC";
 			};
 			name = Debug;
 		};
-		6D3EE3D31BC9975E00CFD061 /* Release */ = {
+		6D8A97EC1BA7869F00E23C28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CedacTests/Info.plist;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CEDACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.CedacTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cedac.app/Cedac";
-			};
-			name = Release;
-		};
-		6D3EE3D51BC9975E00CFD061 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CedacUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.CedacUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Cedac;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		6D3EE3D61BC9975E00CFD061 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CedacUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.CedacUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Cedac;
-				USES_XCTRUNNER = YES;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDAC.app/CEDAC";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D3EE3A11BC9975E00CFD061 /* Build configuration list for PBXProject "Cedac" */ = {
+		6D8A97C31BA7869E00E23C28 /* Build configuration list for PBXProject "CEDAC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D3EE3CC1BC9975E00CFD061 /* Debug */,
-				6D3EE3CD1BC9975E00CFD061 /* Release */,
+				6D8A97E51BA7869F00E23C28 /* Debug */,
+				6D8A97E61BA7869F00E23C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D3EE3CE1BC9975E00CFD061 /* Build configuration list for PBXNativeTarget "Cedac" */ = {
+		6D8A97E71BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDAC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D3EE3CF1BC9975E00CFD061 /* Debug */,
-				6D3EE3D01BC9975E00CFD061 /* Release */,
+				6D8A97E81BA7869F00E23C28 /* Debug */,
+				6D8A97E91BA7869F00E23C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6D3EE3D11BC9975E00CFD061 /* Build configuration list for PBXNativeTarget "CedacTests" */ = {
+		6D8A97EA1BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDACTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6D3EE3D21BC9975E00CFD061 /* Debug */,
-				6D3EE3D31BC9975E00CFD061 /* Release */,
+				6D8A97EB1BA7869F00E23C28 /* Debug */,
+				6D8A97EC1BA7869F00E23C28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		6D3EE3D41BC9975E00CFD061 /* Build configuration list for PBXNativeTarget "CedacUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6D3EE3D51BC9975E00CFD061 /* Debug */,
-				6D3EE3D61BC9975E00CFD061 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6D3EE39E1BC9975E00CFD061 /* Project object */;
+	rootObject = 6D8A97C01BA7869E00E23C28 /* Project object */;
 }
