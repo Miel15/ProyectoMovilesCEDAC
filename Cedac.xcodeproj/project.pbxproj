@@ -272,7 +272,7 @@
 		6D6F38BC1BD4938D00BE1AA0 /* Reloj de mano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38BB1BD4938D00BE1AA0 /* Reloj de mano.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38BE1BD493A800BE1AA0 /* Uvas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38BD1BD493A800BE1AA0 /* Uvas.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38C01BD493C700BE1AA0 /* Zanahorias.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38BF1BD493C700BE1AA0 /* Zanahorias.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F38C21BD493DB00BE1AA0 /* Sandía.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C11BD493DB00BE1AA0 /* Sandía.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38C21BD493DB00BE1AA0 /* Sandia.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C11BD493DB00BE1AA0 /* Sandia.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38C41BD493EE00BE1AA0 /* Yogur.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C31BD493EE00BE1AA0 /* Yogur.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38C71BD587D200BE1AA0 /* Boca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C61BD587D200BE1AA0 /* Boca.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38C91BD587E900BE1AA0 /* Brazo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C81BD587E900BE1AA0 /* Brazo.m4a */; settings = {ASSET_TAGS = (); }; };
@@ -577,7 +577,7 @@
 		6D6F38BB1BD4938D00BE1AA0 /* Reloj de mano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reloj de mano.m4a"; sourceTree = "<group>"; };
 		6D6F38BD1BD493A800BE1AA0 /* Uvas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Uvas.m4a; sourceTree = "<group>"; };
 		6D6F38BF1BD493C700BE1AA0 /* Zanahorias.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zanahorias.m4a; sourceTree = "<group>"; };
-		6D6F38C11BD493DB00BE1AA0 /* Sandía.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sandía.m4a"; sourceTree = "<group>"; };
+		6D6F38C11BD493DB00BE1AA0 /* Sandia.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sandia.m4a; sourceTree = "<group>"; };
 		6D6F38C31BD493EE00BE1AA0 /* Yogur.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yogur.m4a; sourceTree = "<group>"; };
 		6D6F38C61BD587D200BE1AA0 /* Boca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boca.m4a; sourceTree = "<group>"; };
 		6D6F38C81BD587E900BE1AA0 /* Brazo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brazo.m4a; sourceTree = "<group>"; };
@@ -960,7 +960,7 @@
 			isa = PBXGroup;
 			children = (
 				6D6F38BF1BD493C700BE1AA0 /* Zanahorias.m4a */,
-				6D6F38C11BD493DB00BE1AA0 /* Sandía.m4a */,
+				6D6F38C11BD493DB00BE1AA0 /* Sandia.m4a */,
 				6D6F38BD1BD493A800BE1AA0 /* Uvas.m4a */,
 				6D6F38C31BD493EE00BE1AA0 /* Yogur.m4a */,
 			);
@@ -1202,7 +1202,7 @@
 				6D6F379F1BD479D000BE1AA0 /* Tiburon.m4a in Resources */,
 				6D6F37241BD45B0E00BE1AA0 /* tenedor.jpg in Resources */,
 				6D3EE39A1BC9898500CFD061 /* info.png in Resources */,
-				6D6F38C21BD493DB00BE1AA0 /* Sandía.m4a in Resources */,
+				6D6F38C21BD493DB00BE1AA0 /* Sandia.m4a in Resources */,
 				6D6F36F41BD459E600BE1AA0 /* cuchillo.jpg in Resources */,
 				6D6F38B31BD4932600BE1AA0 /* Botas.m4a in Resources */,
 				6D37948F1BC9F857001500EB /* lobo.jpeg in Resources */,
