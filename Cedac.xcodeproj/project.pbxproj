@@ -51,7 +51,7 @@
 		6D6F36DC1BD4590300BE1AA0 /* tortuga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DB1BD4590300BE1AA0 /* tortuga.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36DE1BD4590F00BE1AA0 /* vaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DD1BD4590F00BE1AA0 /* vaca.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36E01BD4591E00BE1AA0 /* venado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DF1BD4591E00BE1AA0 /* venado.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D6F36E61BD4598500BE1AA0 /* baño.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E51BD4598500BE1AA0 /* baño.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36E61BD4598500BE1AA0 /* banio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E51BD4598500BE1AA0 /* banio.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36E81BD4599D00BE1AA0 /* basura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E71BD4599D00BE1AA0 /* basura.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36EA1BD459AA00BE1AA0 /* closet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36EC1BD459B600BE1AA0 /* cochera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36EB1BD459B600BE1AA0 /* cochera.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -97,23 +97,23 @@
 		6D6F37581BD473BF00BE1AA0 /* Vaso.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37571BD473BF00BE1AA0 /* Vaso.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F375A1BD473DC00BE1AA0 /* Tocador.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37591BD473DC00BE1AA0 /* Tocador.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F375C1BD473F400BE1AA0 /* Tenedor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375B1BD473F400BE1AA0 /* Tenedor.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F375E1BD4740B00BE1AA0 /* Televisión.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375D1BD4740B00BE1AA0 /* Televisión.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37601BD4742200BE1AA0 /* Teléfono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375F1BD4742200BE1AA0 /* Teléfono.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37621BD4743500BE1AA0 /* Sillón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37611BD4743500BE1AA0 /* Sillón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F375E1BD4740B00BE1AA0 /* Television.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375D1BD4740B00BE1AA0 /* Television.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37601BD4742200BE1AA0 /* Telefono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375F1BD4742200BE1AA0 /* Telefono.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37621BD4743500BE1AA0 /* Sillon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37611BD4743500BE1AA0 /* Sillon.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37641BD4744900BE1AA0 /* Sala.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37631BD4744900BE1AA0 /* Sala.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37661BD4745C00BE1AA0 /* Sartén.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37651BD4745C00BE1AA0 /* Sartén.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37661BD4745C00BE1AA0 /* Sarten.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37651BD4745C00BE1AA0 /* Sarten.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37681BD4746F00BE1AA0 /* Silla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37671BD4746F00BE1AA0 /* Silla.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F376A1BD4748800BE1AA0 /* Reloj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37691BD4748800BE1AA0 /* Reloj.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F376C1BD4749900BE1AA0 /* Puerta.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F376B1BD4749900BE1AA0 /* Puerta.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F376E1BD474DE00BE1AA0 /* Refrigerador.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F376D1BD474DE00BE1AA0 /* Refrigerador.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37701BD4751600BE1AA0 /* Regadera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F376F1BD4751600BE1AA0 /* Regadera.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37721BD4752500BE1AA0 /* Recámara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37711BD4752500BE1AA0 /* Recámara.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37721BD4752500BE1AA0 /* Recamara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37711BD4752500BE1AA0 /* Recamara.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37741BD4753400BE1AA0 /* Maceta.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37731BD4753400BE1AA0 /* Maceta.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37761BD4754600BE1AA0 /* Lavadora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37751BD4754600BE1AA0 /* Lavadora.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37781BD4755900BE1AA0 /* Lavabo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37771BD4755900BE1AA0 /* Lavabo.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F377A1BD4756A00BE1AA0 /* Laptop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37791BD4756A00BE1AA0 /* Laptop.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F377C1BD4757B00BE1AA0 /* Libro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F377B1BD4757B00BE1AA0 /* Libro.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F377E1BD4758B00BE1AA0 /* Lámpara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F377D1BD4758B00BE1AA0 /* Lámpara.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F377E1BD4758B00BE1AA0 /* Lampara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F377D1BD4758B00BE1AA0 /* Lampara.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37801BD475A300BE1AA0 /* Impresora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F377F1BD475A300BE1AA0 /* Impresora.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37821BD475B200BE1AA0 /* Estufa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37811BD475B200BE1AA0 /* Estufa.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37841BD475CC00BE1AA0 /* Espejo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37831BD475CC00BE1AA0 /* Espejo.m4a */; settings = {ASSET_TAGS = (); }; };
@@ -129,11 +129,11 @@
 		6D6F37991BD4799A00BE1AA0 /* Tortuga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37981BD4799A00BE1AA0 /* Tortuga.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F379B1BD479AA00BE1AA0 /* Toro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F379A1BD479AA00BE1AA0 /* Toro.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F379D1BD479BA00BE1AA0 /* Tigre.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F379C1BD479BA00BE1AA0 /* Tigre.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F379F1BD479D000BE1AA0 /* Tiburón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F379E1BD479D000BE1AA0 /* Tiburón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F379F1BD479D000BE1AA0 /* Tiburon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F379E1BD479D000BE1AA0 /* Tiburon.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37A11BD479E100BE1AA0 /* Rinoceronte.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A01BD479E100BE1AA0 /* Rinoceronte.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37A31BD479F100BE1AA0 /* Rana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A21BD479F100BE1AA0 /* Rana.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37A51BD47A0800BE1AA0 /* Pollo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A41BD47A0800BE1AA0 /* Pollo.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37A71BD47A1900BE1AA0 /* Pingüino.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A61BD47A1900BE1AA0 /* Pingüino.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37A71BD47A1900BE1AA0 /* Pinguino.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A61BD47A1900BE1AA0 /* Pinguino.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37A91BD47A2A00BE1AA0 /* Pez.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A81BD47A2A00BE1AA0 /* Pez.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37AB1BD47A3900BE1AA0 /* Perro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37AA1BD47A3900BE1AA0 /* Perro.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37AD1BD47A4900BE1AA0 /* Perico.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37AC1BD47A4900BE1AA0 /* Perico.m4a */; settings = {ASSET_TAGS = (); }; };
@@ -145,7 +145,7 @@
 		6D6F37B91BD47ABC00BE1AA0 /* Mapache.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37B81BD47ABC00BE1AA0 /* Mapache.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37BB1BD47ACA00BE1AA0 /* Lobo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37BA1BD47ACA00BE1AA0 /* Lobo.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37BD1BD47ADA00BE1AA0 /* Leopardo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37BC1BD47ADA00BE1AA0 /* Leopardo.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37BF1BD47AE900BE1AA0 /* León.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37BE1BD47AE900BE1AA0 /* León.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37BF1BD47AE900BE1AA0 /* Leon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37BE1BD47AE900BE1AA0 /* Leon.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37C11BD47AF700BE1AA0 /* Koala.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C01BD47AF700BE1AA0 /* Koala.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37C31BD47B0700BE1AA0 /* Jirafa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C21BD47B0700BE1AA0 /* Jirafa.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37C51BD47B1500BE1AA0 /* Iguana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C41BD47B1500BE1AA0 /* Iguana.m4a */; settings = {ASSET_TAGS = (); }; };
@@ -155,11 +155,11 @@
 		6D6F37CD1BD47B4F00BE1AA0 /* Cebra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37CC1BD47B4F00BE1AA0 /* Cebra.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37CF1BD47B6100BE1AA0 /* Canario.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37CE1BD47B6100BE1AA0 /* Canario.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37D11BD47B7600BE1AA0 /* Caballo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D01BD47B7600BE1AA0 /* Caballo.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37D31BD47B8B00BE1AA0 /* Búho.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D21BD47B8B00BE1AA0 /* Búho.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37D51BD47BB700BE1AA0 /* Borrego Cimarrón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarrón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37D31BD47B8B00BE1AA0 /* Buho.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D21BD47B8B00BE1AA0 /* Buho.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37D51BD47BB700BE1AA0 /* Borrego Cimarron.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarron.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37D71BD47BC600BE1AA0 /* Buey.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D61BD47BC600BE1AA0 /* Buey.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37D91BD47BF500BE1AA0 /* Bote de basura.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D81BD47BF500BE1AA0 /* Bote de basura.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F37DB1BD47C1F00BE1AA0 /* Baño.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37DA1BD47C1F00BE1AA0 /* Baño.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37DB1BD47C1F00BE1AA0 /* Banio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37DA1BD47C1F00BE1AA0 /* Banio.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37DD1BD47C3F00BE1AA0 /* Cocina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37DC1BD47C3F00BE1AA0 /* Cocina.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37DF1BD47C4E00BE1AA0 /* Cochera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37DE1BD47C4E00BE1AA0 /* Cochera.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F37E11BD47C6500BE1AA0 /* Closet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37E01BD47C6500BE1AA0 /* Closet.m4a */; settings = {ASSET_TAGS = (); }; };
@@ -184,7 +184,7 @@
 		6D6F38071BD4840200BE1AA0 /* naranjas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38061BD4840200BE1AA0 /* naranjas.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F38091BD4840900BE1AA0 /* pan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38081BD4840900BE1AA0 /* pan.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F380B1BD4841500BE1AA0 /* pescado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F380A1BD4841500BE1AA0 /* pescado.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D6F380D1BD4842600BE1AA0 /* piña.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F380C1BD4842600BE1AA0 /* piña.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F380D1BD4842600BE1AA0 /* pinia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F380C1BD4842600BE1AA0 /* pinia.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F380F1BD4842F00BE1AA0 /* platano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F380E1BD4842F00BE1AA0 /* platano.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F38111BD4843F00BE1AA0 /* pollo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38101BD4843F00BE1AA0 /* pollo2.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F38131BD4844600BE1AA0 /* queso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38121BD4844600BE1AA0 /* queso.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -245,19 +245,19 @@
 		6D6F38851BD4915200BE1AA0 /* Traje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38841BD4915200BE1AA0 /* Traje.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38871BD4916600BE1AA0 /* Tenis.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38861BD4916600BE1AA0 /* Tenis.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38891BD4918100BE1AA0 /* Tacones.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38881BD4918100BE1AA0 /* Tacones.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F388B1BD4919200BE1AA0 /* Suéter.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F388A1BD4919200BE1AA0 /* Suéter.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F388B1BD4919200BE1AA0 /* Sueter.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F388A1BD4919200BE1AA0 /* Sueter.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F388D1BD491A600BE1AA0 /* Sudadera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F388C1BD491A600BE1AA0 /* Sudadera.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F388F1BD491B700BE1AA0 /* Sombrero.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F388E1BD491B700BE1AA0 /* Sombrero.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38911BD491D200BE1AA0 /* Pijama.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38901BD491D200BE1AA0 /* Pijama.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38931BD491EF00BE1AA0 /* Pantuflas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38921BD491EF00BE1AA0 /* Pantuflas.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F38951BD4920200BE1AA0 /* Pantalón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38941BD4920200BE1AA0 /* Pantalón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38951BD4920200BE1AA0 /* Pantalon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38941BD4920200BE1AA0 /* Pantalon.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38971BD4921C00BE1AA0 /* Lentes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38961BD4921C00BE1AA0 /* Lentes.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38991BD4922F00BE1AA0 /* Guantes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38981BD4922F00BE1AA0 /* Guantes.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F389B1BD4923F00BE1AA0 /* Gorra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F389A1BD4923F00BE1AA0 /* Gorra.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F389D1BD4924F00BE1AA0 /* Falda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F389C1BD4924F00BE1AA0 /* Falda.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F389F1BD4926300BE1AA0 /* Corbata.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F389E1BD4926300BE1AA0 /* Corbata.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38A11BD4927300BE1AA0 /* Collar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A01BD4927300BE1AA0 /* Collar.m4a */; settings = {ASSET_TAGS = (); }; };
-		6D6F38A31BD4928500BE1AA0 /* Cinturón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A21BD4928500BE1AA0 /* Cinturón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38A31BD4928500BE1AA0 /* Cinturon.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A21BD4928500BE1AA0 /* Cinturon.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38A51BD4929900BE1AA0 /* Chanclas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A41BD4929900BE1AA0 /* Chanclas.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38A71BD492BC00BE1AA0 /* Chamarra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A61BD492BC00BE1AA0 /* Chamarra.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38A91BD492CD00BE1AA0 /* Chaleco.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A81BD492CD00BE1AA0 /* Chaleco.m4a */; settings = {ASSET_TAGS = (); }; };
@@ -355,7 +355,7 @@
 		6D6F36DB1BD4590300BE1AA0 /* tortuga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tortuga.jpg; sourceTree = "<group>"; };
 		6D6F36DD1BD4590F00BE1AA0 /* vaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaca.jpg; sourceTree = "<group>"; };
 		6D6F36DF1BD4591E00BE1AA0 /* venado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venado.jpg; sourceTree = "<group>"; };
-		6D6F36E51BD4598500BE1AA0 /* baño.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baño.jpg"; sourceTree = "<group>"; };
+		6D6F36E51BD4598500BE1AA0 /* banio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = banio.jpg; sourceTree = "<group>"; };
 		6D6F36E71BD4599D00BE1AA0 /* basura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basura.jpg; sourceTree = "<group>"; };
 		6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = closet.jpeg; sourceTree = "<group>"; };
 		6D6F36EB1BD459B600BE1AA0 /* cochera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cochera.jpg; sourceTree = "<group>"; };
@@ -401,23 +401,23 @@
 		6D6F37571BD473BF00BE1AA0 /* Vaso.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vaso.m4a; sourceTree = "<group>"; };
 		6D6F37591BD473DC00BE1AA0 /* Tocador.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tocador.m4a; sourceTree = "<group>"; };
 		6D6F375B1BD473F400BE1AA0 /* Tenedor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tenedor.m4a; sourceTree = "<group>"; };
-		6D6F375D1BD4740B00BE1AA0 /* Televisión.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Televisión.m4a"; sourceTree = "<group>"; };
-		6D6F375F1BD4742200BE1AA0 /* Teléfono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teléfono.m4a"; sourceTree = "<group>"; };
-		6D6F37611BD4743500BE1AA0 /* Sillón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sillón.m4a"; sourceTree = "<group>"; };
+		6D6F375D1BD4740B00BE1AA0 /* Television.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Television.m4a; sourceTree = "<group>"; };
+		6D6F375F1BD4742200BE1AA0 /* Telefono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Telefono.m4a; sourceTree = "<group>"; };
+		6D6F37611BD4743500BE1AA0 /* Sillon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sillon.m4a; sourceTree = "<group>"; };
 		6D6F37631BD4744900BE1AA0 /* Sala.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sala.m4a; sourceTree = "<group>"; };
-		6D6F37651BD4745C00BE1AA0 /* Sartén.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sartén.m4a"; sourceTree = "<group>"; };
+		6D6F37651BD4745C00BE1AA0 /* Sarten.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sarten.m4a; sourceTree = "<group>"; };
 		6D6F37671BD4746F00BE1AA0 /* Silla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silla.m4a; sourceTree = "<group>"; };
 		6D6F37691BD4748800BE1AA0 /* Reloj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reloj.m4a; sourceTree = "<group>"; };
 		6D6F376B1BD4749900BE1AA0 /* Puerta.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Puerta.m4a; sourceTree = "<group>"; };
 		6D6F376D1BD474DE00BE1AA0 /* Refrigerador.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Refrigerador.m4a; sourceTree = "<group>"; };
 		6D6F376F1BD4751600BE1AA0 /* Regadera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Regadera.m4a; sourceTree = "<group>"; };
-		6D6F37711BD4752500BE1AA0 /* Recámara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recámara.m4a"; sourceTree = "<group>"; };
+		6D6F37711BD4752500BE1AA0 /* Recamara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Recamara.m4a; sourceTree = "<group>"; };
 		6D6F37731BD4753400BE1AA0 /* Maceta.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Maceta.m4a; sourceTree = "<group>"; };
 		6D6F37751BD4754600BE1AA0 /* Lavadora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lavadora.m4a; sourceTree = "<group>"; };
 		6D6F37771BD4755900BE1AA0 /* Lavabo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lavabo.m4a; sourceTree = "<group>"; };
 		6D6F37791BD4756A00BE1AA0 /* Laptop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laptop.m4a; sourceTree = "<group>"; };
 		6D6F377B1BD4757B00BE1AA0 /* Libro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Libro.m4a; sourceTree = "<group>"; };
-		6D6F377D1BD4758B00BE1AA0 /* Lámpara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lámpara.m4a"; sourceTree = "<group>"; };
+		6D6F377D1BD4758B00BE1AA0 /* Lampara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lampara.m4a; sourceTree = "<group>"; };
 		6D6F377F1BD475A300BE1AA0 /* Impresora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impresora.m4a; sourceTree = "<group>"; };
 		6D6F37811BD475B200BE1AA0 /* Estufa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Estufa.m4a; sourceTree = "<group>"; };
 		6D6F37831BD475CC00BE1AA0 /* Espejo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Espejo.m4a; sourceTree = "<group>"; };
@@ -433,11 +433,11 @@
 		6D6F37981BD4799A00BE1AA0 /* Tortuga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tortuga.m4a; sourceTree = "<group>"; };
 		6D6F379A1BD479AA00BE1AA0 /* Toro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Toro.m4a; sourceTree = "<group>"; };
 		6D6F379C1BD479BA00BE1AA0 /* Tigre.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tigre.m4a; sourceTree = "<group>"; };
-		6D6F379E1BD479D000BE1AA0 /* Tiburón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiburón.m4a"; sourceTree = "<group>"; };
+		6D6F379E1BD479D000BE1AA0 /* Tiburon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tiburon.m4a; sourceTree = "<group>"; };
 		6D6F37A01BD479E100BE1AA0 /* Rinoceronte.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rinoceronte.m4a; sourceTree = "<group>"; };
 		6D6F37A21BD479F100BE1AA0 /* Rana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rana.m4a; sourceTree = "<group>"; };
 		6D6F37A41BD47A0800BE1AA0 /* Pollo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pollo.m4a; sourceTree = "<group>"; };
-		6D6F37A61BD47A1900BE1AA0 /* Pingüino.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pingüino.m4a"; sourceTree = "<group>"; };
+		6D6F37A61BD47A1900BE1AA0 /* Pinguino.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pinguino.m4a; sourceTree = "<group>"; };
 		6D6F37A81BD47A2A00BE1AA0 /* Pez.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pez.m4a; sourceTree = "<group>"; };
 		6D6F37AA1BD47A3900BE1AA0 /* Perro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Perro.m4a; sourceTree = "<group>"; };
 		6D6F37AC1BD47A4900BE1AA0 /* Perico.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Perico.m4a; sourceTree = "<group>"; };
@@ -449,7 +449,7 @@
 		6D6F37B81BD47ABC00BE1AA0 /* Mapache.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mapache.m4a; sourceTree = "<group>"; };
 		6D6F37BA1BD47ACA00BE1AA0 /* Lobo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobo.m4a; sourceTree = "<group>"; };
 		6D6F37BC1BD47ADA00BE1AA0 /* Leopardo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Leopardo.m4a; sourceTree = "<group>"; };
-		6D6F37BE1BD47AE900BE1AA0 /* León.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "León.m4a"; sourceTree = "<group>"; };
+		6D6F37BE1BD47AE900BE1AA0 /* Leon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Leon.m4a; sourceTree = "<group>"; };
 		6D6F37C01BD47AF700BE1AA0 /* Koala.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Koala.m4a; sourceTree = "<group>"; };
 		6D6F37C21BD47B0700BE1AA0 /* Jirafa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jirafa.m4a; sourceTree = "<group>"; };
 		6D6F37C41BD47B1500BE1AA0 /* Iguana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iguana.m4a; sourceTree = "<group>"; };
@@ -459,11 +459,11 @@
 		6D6F37CC1BD47B4F00BE1AA0 /* Cebra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cebra.m4a; sourceTree = "<group>"; };
 		6D6F37CE1BD47B6100BE1AA0 /* Canario.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Canario.m4a; sourceTree = "<group>"; };
 		6D6F37D01BD47B7600BE1AA0 /* Caballo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caballo.m4a; sourceTree = "<group>"; };
-		6D6F37D21BD47B8B00BE1AA0 /* Búho.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Búho.m4a"; sourceTree = "<group>"; };
-		6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarrón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Borrego Cimarrón.m4a"; sourceTree = "<group>"; };
+		6D6F37D21BD47B8B00BE1AA0 /* Buho.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buho.m4a; sourceTree = "<group>"; };
+		6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarron.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Borrego Cimarron.m4a"; sourceTree = "<group>"; };
 		6D6F37D61BD47BC600BE1AA0 /* Buey.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buey.m4a; sourceTree = "<group>"; };
 		6D6F37D81BD47BF500BE1AA0 /* Bote de basura.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bote de basura.m4a"; sourceTree = "<group>"; };
-		6D6F37DA1BD47C1F00BE1AA0 /* Baño.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baño.m4a"; sourceTree = "<group>"; };
+		6D6F37DA1BD47C1F00BE1AA0 /* Banio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Banio.m4a; sourceTree = "<group>"; };
 		6D6F37DC1BD47C3F00BE1AA0 /* Cocina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cocina.m4a; sourceTree = "<group>"; };
 		6D6F37DE1BD47C4E00BE1AA0 /* Cochera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cochera.m4a; sourceTree = "<group>"; };
 		6D6F37E01BD47C6500BE1AA0 /* Closet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Closet.m4a; sourceTree = "<group>"; };
@@ -488,7 +488,7 @@
 		6D6F38061BD4840200BE1AA0 /* naranjas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naranjas.jpg; sourceTree = "<group>"; };
 		6D6F38081BD4840900BE1AA0 /* pan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pan.jpg; sourceTree = "<group>"; };
 		6D6F380A1BD4841500BE1AA0 /* pescado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pescado.jpg; sourceTree = "<group>"; };
-		6D6F380C1BD4842600BE1AA0 /* piña.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "piña.jpg"; sourceTree = "<group>"; };
+		6D6F380C1BD4842600BE1AA0 /* pinia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinia.jpg; sourceTree = "<group>"; };
 		6D6F380E1BD4842F00BE1AA0 /* platano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platano.jpg; sourceTree = "<group>"; };
 		6D6F38101BD4843F00BE1AA0 /* pollo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo2.jpg; sourceTree = "<group>"; };
 		6D6F38121BD4844600BE1AA0 /* queso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queso.jpg; sourceTree = "<group>"; };
@@ -550,19 +550,19 @@
 		6D6F38841BD4915200BE1AA0 /* Traje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Traje.m4a; sourceTree = "<group>"; };
 		6D6F38861BD4916600BE1AA0 /* Tenis.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tenis.m4a; sourceTree = "<group>"; };
 		6D6F38881BD4918100BE1AA0 /* Tacones.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tacones.m4a; sourceTree = "<group>"; };
-		6D6F388A1BD4919200BE1AA0 /* Suéter.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suéter.m4a"; sourceTree = "<group>"; };
+		6D6F388A1BD4919200BE1AA0 /* Sueter.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sueter.m4a; sourceTree = "<group>"; };
 		6D6F388C1BD491A600BE1AA0 /* Sudadera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sudadera.m4a; sourceTree = "<group>"; };
 		6D6F388E1BD491B700BE1AA0 /* Sombrero.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sombrero.m4a; sourceTree = "<group>"; };
 		6D6F38901BD491D200BE1AA0 /* Pijama.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pijama.m4a; sourceTree = "<group>"; };
 		6D6F38921BD491EF00BE1AA0 /* Pantuflas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pantuflas.m4a; sourceTree = "<group>"; };
-		6D6F38941BD4920200BE1AA0 /* Pantalón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pantalón.m4a"; sourceTree = "<group>"; };
+		6D6F38941BD4920200BE1AA0 /* Pantalon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pantalon.m4a; sourceTree = "<group>"; };
 		6D6F38961BD4921C00BE1AA0 /* Lentes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lentes.m4a; sourceTree = "<group>"; };
 		6D6F38981BD4922F00BE1AA0 /* Guantes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guantes.m4a; sourceTree = "<group>"; };
 		6D6F389A1BD4923F00BE1AA0 /* Gorra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gorra.m4a; sourceTree = "<group>"; };
 		6D6F389C1BD4924F00BE1AA0 /* Falda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Falda.m4a; sourceTree = "<group>"; };
 		6D6F389E1BD4926300BE1AA0 /* Corbata.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Corbata.m4a; sourceTree = "<group>"; };
 		6D6F38A01BD4927300BE1AA0 /* Collar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Collar.m4a; sourceTree = "<group>"; };
-		6D6F38A21BD4928500BE1AA0 /* Cinturón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cinturón.m4a"; sourceTree = "<group>"; };
+		6D6F38A21BD4928500BE1AA0 /* Cinturon.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cinturon.m4a; sourceTree = "<group>"; };
 		6D6F38A41BD4929900BE1AA0 /* Chanclas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chanclas.m4a; sourceTree = "<group>"; };
 		6D6F38A61BD492BC00BE1AA0 /* Chamarra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chamarra.m4a; sourceTree = "<group>"; };
 		6D6F38A81BD492CD00BE1AA0 /* Chaleco.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chaleco.m4a; sourceTree = "<group>"; };
@@ -684,7 +684,7 @@
 		6D4153271BD40EAA0095981C /* Casa */ = {
 			isa = PBXGroup;
 			children = (
-				6D6F36E51BD4598500BE1AA0 /* baño.jpg */,
+				6D6F36E51BD4598500BE1AA0 /* banio.jpg */,
 				6D6F36E71BD4599D00BE1AA0 /* basura.jpg */,
 				6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */,
 				6D6F36EB1BD459B600BE1AA0 /* cochera.jpg */,
@@ -740,7 +740,7 @@
 				6D6F37F81BD483B200BE1AA0 /* helado.jpg */,
 				6D6F380A1BD4841500BE1AA0 /* pescado.jpg */,
 				6D6F38121BD4844600BE1AA0 /* queso.jpg */,
-				6D6F380C1BD4842600BE1AA0 /* piña.jpg */,
+				6D6F380C1BD4842600BE1AA0 /* pinia.jpg */,
 				6D6F381A1BD4847100BE1AA0 /* yogur.jpg */,
 				6D6F38161BD4845700BE1AA0 /* sandia.jpg */,
 				6D6F38181BD4846900BE1AA0 /* uvas.jpg */,
@@ -775,7 +775,7 @@
 		6D6F37501BD471F400BE1AA0 /* Audios Casa */ = {
 			isa = PBXGroup;
 			children = (
-				6D6F37DA1BD47C1F00BE1AA0 /* Baño.m4a */,
+				6D6F37DA1BD47C1F00BE1AA0 /* Banio.m4a */,
 				6D6F37D81BD47BF500BE1AA0 /* Bote de basura.m4a */,
 				6D6F37E01BD47C6500BE1AA0 /* Closet.m4a */,
 				6D6F37DE1BD47C4E00BE1AA0 /* Cochera.m4a */,
@@ -788,7 +788,7 @@
 				6D6F37831BD475CC00BE1AA0 /* Espejo.m4a */,
 				6D6F37811BD475B200BE1AA0 /* Estufa.m4a */,
 				6D6F377F1BD475A300BE1AA0 /* Impresora.m4a */,
-				6D6F377D1BD4758B00BE1AA0 /* Lámpara.m4a */,
+				6D6F377D1BD4758B00BE1AA0 /* Lampara.m4a */,
 				6D6F37791BD4756A00BE1AA0 /* Laptop.m4a */,
 				6D6F37771BD4755900BE1AA0 /* Lavabo.m4a */,
 				6D6F37751BD4754600BE1AA0 /* Lavadora.m4a */,
@@ -797,16 +797,16 @@
 				6D6F37511BD4720400BE1AA0 /* Mesa.m4a */,
 				6D6F37551BD4739B00BE1AA0 /* Microondas.m4a */,
 				6D6F376B1BD4749900BE1AA0 /* Puerta.m4a */,
-				6D6F37711BD4752500BE1AA0 /* Recámara.m4a */,
+				6D6F37711BD4752500BE1AA0 /* Recamara.m4a */,
 				6D6F376D1BD474DE00BE1AA0 /* Refrigerador.m4a */,
 				6D6F376F1BD4751600BE1AA0 /* Regadera.m4a */,
 				6D6F37691BD4748800BE1AA0 /* Reloj.m4a */,
 				6D6F37631BD4744900BE1AA0 /* Sala.m4a */,
-				6D6F37651BD4745C00BE1AA0 /* Sartén.m4a */,
+				6D6F37651BD4745C00BE1AA0 /* Sarten.m4a */,
 				6D6F37671BD4746F00BE1AA0 /* Silla.m4a */,
-				6D6F37611BD4743500BE1AA0 /* Sillón.m4a */,
-				6D6F375F1BD4742200BE1AA0 /* Teléfono.m4a */,
-				6D6F375D1BD4740B00BE1AA0 /* Televisión.m4a */,
+				6D6F37611BD4743500BE1AA0 /* Sillon.m4a */,
+				6D6F375F1BD4742200BE1AA0 /* Telefono.m4a */,
+				6D6F375D1BD4740B00BE1AA0 /* Television.m4a */,
 				6D6F375B1BD473F400BE1AA0 /* Tenedor.m4a */,
 				6D6F37591BD473DC00BE1AA0 /* Tocador.m4a */,
 				6D6F37571BD473BF00BE1AA0 /* Vaso.m4a */,
@@ -819,9 +819,9 @@
 			children = (
 				6D6F37901BD4793400BE1AA0 /* Ardilla.m4a */,
 				6D6F37921BD4795700BE1AA0 /* Avestruz.m4a */,
-				6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarrón.m4a */,
+				6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarron.m4a */,
 				6D6F37D61BD47BC600BE1AA0 /* Buey.m4a */,
-				6D6F37D21BD47B8B00BE1AA0 /* Búho.m4a */,
+				6D6F37D21BD47B8B00BE1AA0 /* Buho.m4a */,
 				6D6F37D01BD47B7600BE1AA0 /* Caballo.m4a */,
 				6D6F37CE1BD47B6100BE1AA0 /* Canario.m4a */,
 				6D6F37CC1BD47B4F00BE1AA0 /* Cebra.m4a */,
@@ -831,7 +831,7 @@
 				6D6F37C41BD47B1500BE1AA0 /* Iguana.m4a */,
 				6D6F37C21BD47B0700BE1AA0 /* Jirafa.m4a */,
 				6D6F37C01BD47AF700BE1AA0 /* Koala.m4a */,
-				6D6F37BE1BD47AE900BE1AA0 /* León.m4a */,
+				6D6F37BE1BD47AE900BE1AA0 /* Leon.m4a */,
 				6D6F37BC1BD47ADA00BE1AA0 /* Leopardo.m4a */,
 				6D6F37BA1BD47ACA00BE1AA0 /* Lobo.m4a */,
 				6D6F37B81BD47ABC00BE1AA0 /* Mapache.m4a */,
@@ -843,11 +843,11 @@
 				6D6F37AC1BD47A4900BE1AA0 /* Perico.m4a */,
 				6D6F37AA1BD47A3900BE1AA0 /* Perro.m4a */,
 				6D6F37A81BD47A2A00BE1AA0 /* Pez.m4a */,
-				6D6F37A61BD47A1900BE1AA0 /* Pingüino.m4a */,
+				6D6F37A61BD47A1900BE1AA0 /* Pinguino.m4a */,
 				6D6F37A41BD47A0800BE1AA0 /* Pollo.m4a */,
 				6D6F37A21BD479F100BE1AA0 /* Rana.m4a */,
 				6D6F37A01BD479E100BE1AA0 /* Rinoceronte.m4a */,
-				6D6F379E1BD479D000BE1AA0 /* Tiburón.m4a */,
+				6D6F379E1BD479D000BE1AA0 /* Tiburon.m4a */,
 				6D6F379C1BD479BA00BE1AA0 /* Tigre.m4a */,
 				6D6F379A1BD479AA00BE1AA0 /* Toro.m4a */,
 				6D6F37981BD4799A00BE1AA0 /* Tortuga.m4a */,
@@ -933,20 +933,20 @@
 				6D6F38A81BD492CD00BE1AA0 /* Chaleco.m4a */,
 				6D6F38A61BD492BC00BE1AA0 /* Chamarra.m4a */,
 				6D6F38A41BD4929900BE1AA0 /* Chanclas.m4a */,
-				6D6F38A21BD4928500BE1AA0 /* Cinturón.m4a */,
+				6D6F38A21BD4928500BE1AA0 /* Cinturon.m4a */,
 				6D6F38A01BD4927300BE1AA0 /* Collar.m4a */,
 				6D6F389E1BD4926300BE1AA0 /* Corbata.m4a */,
 				6D6F389C1BD4924F00BE1AA0 /* Falda.m4a */,
 				6D6F389A1BD4923F00BE1AA0 /* Gorra.m4a */,
 				6D6F38981BD4922F00BE1AA0 /* Guantes.m4a */,
 				6D6F38961BD4921C00BE1AA0 /* Lentes.m4a */,
-				6D6F38941BD4920200BE1AA0 /* Pantalón.m4a */,
+				6D6F38941BD4920200BE1AA0 /* Pantalon.m4a */,
 				6D6F38921BD491EF00BE1AA0 /* Pantuflas.m4a */,
 				6D6F38901BD491D200BE1AA0 /* Pijama.m4a */,
 				6D6F38BB1BD4938D00BE1AA0 /* Reloj de mano.m4a */,
 				6D6F388E1BD491B700BE1AA0 /* Sombrero.m4a */,
 				6D6F388C1BD491A600BE1AA0 /* Sudadera.m4a */,
-				6D6F388A1BD4919200BE1AA0 /* Suéter.m4a */,
+				6D6F388A1BD4919200BE1AA0 /* Sueter.m4a */,
 				6D6F38881BD4918100BE1AA0 /* Tacones.m4a */,
 				6D6F38861BD4916600BE1AA0 /* Tenis.m4a */,
 				6D6F38841BD4915200BE1AA0 /* Traje.m4a */,
@@ -1159,7 +1159,7 @@
 				6D6F36C41BD4582E00BE1AA0 /* koala.jpg in Resources */,
 				6D6F36D81BD458E400BE1AA0 /* tiburon.jpg in Resources */,
 				6D6F38301BD4888100BE1AA0 /* chaleco.jpg in Resources */,
-				6D6F37621BD4743500BE1AA0 /* Sillón.m4a in Resources */,
+				6D6F37621BD4743500BE1AA0 /* Sillon.m4a in Resources */,
 				6D6F37ED1BD4836100BE1AA0 /* cereal.jpg in Resources */,
 				6D6F370E1BD45A8100BE1AA0 /* puerta.jpg in Resources */,
 				6D6F36DE1BD4590F00BE1AA0 /* vaca.jpg in Resources */,
@@ -1167,7 +1167,7 @@
 				6D6F37951BD4797300BE1AA0 /* Venado.m4a in Resources */,
 				6D6F38DD1BD588B600BE1AA0 /* Nariz.m4a in Resources */,
 				6D6F37741BD4753400BE1AA0 /* Maceta.m4a in Resources */,
-				6D6F37D31BD47B8B00BE1AA0 /* Búho.m4a in Resources */,
+				6D6F37D31BD47B8B00BE1AA0 /* Buho.m4a in Resources */,
 				6D6F37C11BD47AF700BE1AA0 /* Koala.m4a in Resources */,
 				6D6F37A51BD47A0800BE1AA0 /* Pollo.m4a in Resources */,
 				6D6F389F1BD4926300BE1AA0 /* Corbata.m4a in Resources */,
@@ -1189,7 +1189,7 @@
 				6D6F37561BD4739B00BE1AA0 /* Microondas.m4a in Resources */,
 				6D6F38031BD483EC00BE1AA0 /* manzana.jpg in Resources */,
 				6D6F36D61BD458D500BE1AA0 /* rinocerontes.jpg in Resources */,
-				6D6F37BF1BD47AE900BE1AA0 /* León.m4a in Resources */,
+				6D6F37BF1BD47AE900BE1AA0 /* Leon.m4a in Resources */,
 				6D6F38891BD4918100BE1AA0 /* Tacones.m4a in Resources */,
 				6D6F38DF1BD588C300BE1AA0 /* Ojo.m4a in Resources */,
 				6D6F37B91BD47ABC00BE1AA0 /* Mapache.m4a in Resources */,
@@ -1199,14 +1199,14 @@
 				6D6F37931BD4795700BE1AA0 /* Avestruz.m4a in Resources */,
 				6D6F37BB1BD47ACA00BE1AA0 /* Lobo.m4a in Resources */,
 				6D6F38AF1BD492FE00BE1AA0 /* Calcetines.m4a in Resources */,
-				6D6F379F1BD479D000BE1AA0 /* Tiburón.m4a in Resources */,
+				6D6F379F1BD479D000BE1AA0 /* Tiburon.m4a in Resources */,
 				6D6F37241BD45B0E00BE1AA0 /* tenedor.jpg in Resources */,
 				6D3EE39A1BC9898500CFD061 /* info.png in Resources */,
 				6D6F38C21BD493DB00BE1AA0 /* Sandía.m4a in Resources */,
 				6D6F36F41BD459E600BE1AA0 /* cuchillo.jpg in Resources */,
 				6D6F38B31BD4932600BE1AA0 /* Botas.m4a in Resources */,
 				6D37948F1BC9F857001500EB /* lobo.jpeg in Resources */,
-				6D6F38A31BD4928500BE1AA0 /* Cinturón.m4a in Resources */,
+				6D6F38A31BD4928500BE1AA0 /* Cinturon.m4a in Resources */,
 				6D6F388D1BD491A600BE1AA0 /* Sudadera.m4a in Resources */,
 				6D6F375C1BD473F400BE1AA0 /* Tenedor.m4a in Resources */,
 				6D6F37E51BD4832B00BE1AA0 /* arroz.jpg in Resources */,
@@ -1220,7 +1220,7 @@
 				6D6F37FF1BD483D000BE1AA0 /* jitomate.jpg in Resources */,
 				6D6F36C01BD457F700BE1AA0 /* cisne.jpg in Resources */,
 				6D6F37B11BD47A6F00BE1AA0 /* Oso.m4a in Resources */,
-				6D6F37A71BD47A1900BE1AA0 /* Pingüino.m4a in Resources */,
+				6D6F37A71BD47A1900BE1AA0 /* Pinguino.m4a in Resources */,
 				6D6F387B1BD48CA200BE1AA0 /* pie.jpg in Resources */,
 				6D6F38071BD4840200BE1AA0 /* naranjas.jpg in Resources */,
 				6D6F38CF1BD5883000BE1AA0 /* Ceja.m4a in Resources */,
@@ -1249,7 +1249,7 @@
 				6D6F37AF1BD47A5C00BE1AA0 /* Pavo Real.m4a in Resources */,
 				6D6F389B1BD4923F00BE1AA0 /* Gorra.m4a in Resources */,
 				6D6F37CD1BD47B4F00BE1AA0 /* Cebra.m4a in Resources */,
-				6D6F36E61BD4598500BE1AA0 /* baño.jpg in Resources */,
+				6D6F36E61BD4598500BE1AA0 /* banio.jpg in Resources */,
 				6D6F38B51BD4933500BE1AA0 /* Blusa.m4a in Resources */,
 				6D6F38E11BD588D200BE1AA0 /* Oreja.m4a in Resources */,
 				6D6F38611BD48C4E00BE1AA0 /* cabello.jpg in Resources */,
@@ -1272,19 +1272,19 @@
 				6D6F36D01BD458A200BE1AA0 /* pez.jpg in Resources */,
 				6D6F36C81BD4584D00BE1AA0 /* leopardo.jpg in Resources */,
 				6D6F38011BD483DA00BE1AA0 /* leche.jpg in Resources */,
-				6D6F37601BD4742200BE1AA0 /* Teléfono.m4a in Resources */,
+				6D6F37601BD4742200BE1AA0 /* Telefono.m4a in Resources */,
 				6D6F37971BD4798700BE1AA0 /* Vaca.m4a in Resources */,
 				6D6F37C51BD47B1500BE1AA0 /* Iguana.m4a in Resources */,
 				6D6F37F71BD4839E00BE1AA0 /* frijoles.jpg in Resources */,
 				6D6F386D1BD48C7B00BE1AA0 /* dientes.jpg in Resources */,
 				6D6F385A1BD4894400BE1AA0 /* zapatos.jpg in Resources */,
-				6D6F380D1BD4842600BE1AA0 /* piña.jpg in Resources */,
+				6D6F380D1BD4842600BE1AA0 /* pinia.jpg in Resources */,
 				6D3794961BC9F857001500EB /* rana.jpg in Resources */,
 				6D6F38671BD48C6100BE1AA0 /* codo.jpg in Resources */,
 				6D6F38831BD4913C00BE1AA0 /* Vestido.m4a in Resources */,
 				6D6F37BD1BD47ADA00BE1AA0 /* Leopardo.m4a in Resources */,
 				6D6F38631BD48C5300BE1AA0 /* cabeza.jpg in Resources */,
-				6D6F37661BD4745C00BE1AA0 /* Sartén.m4a in Resources */,
+				6D6F37661BD4745C00BE1AA0 /* Sarten.m4a in Resources */,
 				6D6F37681BD4746F00BE1AA0 /* Silla.m4a in Resources */,
 				6D6F38241BD4885500BE1AA0 /* blusa.jpg in Resources */,
 				6D3794901BC9F857001500EB /* mono.jpg in Resources */,
@@ -1335,7 +1335,7 @@
 				6D6F38651BD48C5B00BE1AA0 /* ceja.jpg in Resources */,
 				6D6F38401BD488D100BE1AA0 /* guantes.jpg in Resources */,
 				6D6F37701BD4751600BE1AA0 /* Regadera.m4a in Resources */,
-				6D6F37DB1BD47C1F00BE1AA0 /* Baño.m4a in Resources */,
+				6D6F37DB1BD47C1F00BE1AA0 /* Banio.m4a in Resources */,
 				6D6F37C71BD47B2200BE1AA0 /* Gato.m4a in Resources */,
 				6D6F38151BD4844F00BE1AA0 /* salchichas.jpg in Resources */,
 				6D6F37FB1BD483BD00BE1AA0 /* huevo.jpg in Resources */,
@@ -1347,11 +1347,11 @@
 				6D6F37261BD45B1C00BE1AA0 /* tocador.jpg in Resources */,
 				6D6F37D71BD47BC600BE1AA0 /* Buey.m4a in Resources */,
 				6D6F37A31BD479F100BE1AA0 /* Rana.m4a in Resources */,
-				6D6F37721BD4752500BE1AA0 /* Recámara.m4a in Resources */,
+				6D6F37721BD4752500BE1AA0 /* Recamara.m4a in Resources */,
 				6D6F38051BD483F500BE1AA0 /* miel.jpg in Resources */,
 				6D6F377C1BD4757B00BE1AA0 /* Libro.m4a in Resources */,
 				6D6F38D91BD5889A00BE1AA0 /* Lengua.m4a in Resources */,
-				6D6F388B1BD4919200BE1AA0 /* Suéter.m4a in Resources */,
+				6D6F388B1BD4919200BE1AA0 /* Sueter.m4a in Resources */,
 				6D6F37B51BD47A9500BE1AA0 /* Mono.m4a in Resources */,
 				6D6F38D31BD5886900BE1AA0 /* Dedo.m4a in Resources */,
 				6D6F36BA1BD457C500BE1AA0 /* buey.jpg in Resources */,
@@ -1362,7 +1362,7 @@
 				6D6F379D1BD479BA00BE1AA0 /* Tigre.m4a in Resources */,
 				6D6F38731BD48C8C00BE1AA0 /* mano.jpg in Resources */,
 				6D6F38E91BD593D800BE1AA0 /* pollo.jpg in Resources */,
-				6D6F38951BD4920200BE1AA0 /* Pantalón.m4a in Resources */,
+				6D6F38951BD4920200BE1AA0 /* Pantalon.m4a in Resources */,
 				6D6F38A11BD4927300BE1AA0 /* Collar.m4a in Resources */,
 				6D6F37F51BD4839300BE1AA0 /* fresa.jpg in Resources */,
 				6D6F37991BD4799A00BE1AA0 /* Tortuga.m4a in Resources */,
@@ -1383,10 +1383,10 @@
 				6D6F38381BD4889D00BE1AA0 /* collar.jpg in Resources */,
 				6D6F38201BD4884700BE1AA0 /* abrigo.jpg in Resources */,
 				6D6F36B81BD4576F00BE1AA0 /* buho.jpg in Resources */,
-				6D6F375E1BD4740B00BE1AA0 /* Televisión.m4a in Resources */,
+				6D6F375E1BD4740B00BE1AA0 /* Television.m4a in Resources */,
 				6D6F36EE1BD459C200BE1AA0 /* cocina.jpg in Resources */,
 				6D6F38281BD4886600BE1AA0 /* bufanda.jpg in Resources */,
-				6D6F37D51BD47BB700BE1AA0 /* Borrego Cimarrón.m4a in Resources */,
+				6D6F37D51BD47BB700BE1AA0 /* Borrego Cimarron.m4a in Resources */,
 				6D6F37821BD475B200BE1AA0 /* Estufa.m4a in Resources */,
 				6D6F37F11BD4837900BE1AA0 /* chocolate.jpg in Resources */,
 				6D6F36EC1BD459B600BE1AA0 /* cochera.jpg in Resources */,
@@ -1426,7 +1426,7 @@
 				6D6F38691BD48C6600BE1AA0 /* cuello.jpg in Resources */,
 				6D6F38AD1BD492EE00BE1AA0 /* Camisa.m4a in Resources */,
 				6D6F386B1BD48C6D00BE1AA0 /* dedo.jpg in Resources */,
-				6D6F377E1BD4758B00BE1AA0 /* Lámpara.m4a in Resources */,
+				6D6F377E1BD4758B00BE1AA0 /* Lampara.m4a in Resources */,
 				6D6F38461BD488F400BE1AA0 /* pantuflas.jpg in Resources */,
 				6D6F38D11BD5884000BE1AA0 /* Codo.m4a in Resources */,
 			);
