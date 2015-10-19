@@ -51,7 +51,6 @@
 		6D6F36DC1BD4590300BE1AA0 /* tortuga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DB1BD4590300BE1AA0 /* tortuga.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36DE1BD4590F00BE1AA0 /* vaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DD1BD4590F00BE1AA0 /* vaca.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36E01BD4591E00BE1AA0 /* venado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DF1BD4591E00BE1AA0 /* venado.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D6F36E41BD4597100BE1AA0 /* pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E31BD4597100BE1AA0 /* pollo.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36E61BD4598500BE1AA0 /* baño.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E51BD4598500BE1AA0 /* baño.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36E81BD4599D00BE1AA0 /* basura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E71BD4599D00BE1AA0 /* basura.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D6F36EA1BD459AA00BE1AA0 /* closet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */; settings = {ASSET_TAGS = (); }; };
@@ -292,6 +291,7 @@
 		6D6F38E31BD588E000BE1AA0 /* Pie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E21BD588E000BE1AA0 /* Pie.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38E51BD588F500BE1AA0 /* Piernas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E41BD588F500BE1AA0 /* Piernas.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D6F38E71BD5890500BE1AA0 /* Torso.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E61BD5890500BE1AA0 /* Torso.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38E91BD593D800BE1AA0 /* pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E81BD593D800BE1AA0 /* pollo.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D8A97CE1BA7869E00E23C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */; };
 		6D8A97D01BA7869E00E23C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CF1BA7869E00E23C28 /* ViewController.swift */; };
 		6D8A97D31BA7869F00E23C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D11BA7869F00E23C28 /* Main.storyboard */; };
@@ -355,7 +355,6 @@
 		6D6F36DB1BD4590300BE1AA0 /* tortuga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tortuga.jpg; sourceTree = "<group>"; };
 		6D6F36DD1BD4590F00BE1AA0 /* vaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaca.jpg; sourceTree = "<group>"; };
 		6D6F36DF1BD4591E00BE1AA0 /* venado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venado.jpg; sourceTree = "<group>"; };
-		6D6F36E31BD4597100BE1AA0 /* pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo.jpg; sourceTree = "<group>"; };
 		6D6F36E51BD4598500BE1AA0 /* baño.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baño.jpg"; sourceTree = "<group>"; };
 		6D6F36E71BD4599D00BE1AA0 /* basura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basura.jpg; sourceTree = "<group>"; };
 		6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = closet.jpeg; sourceTree = "<group>"; };
@@ -597,6 +596,7 @@
 		6D6F38E21BD588E000BE1AA0 /* Pie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pie.m4a; sourceTree = "<group>"; };
 		6D6F38E41BD588F500BE1AA0 /* Piernas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piernas.m4a; sourceTree = "<group>"; };
 		6D6F38E61BD5890500BE1AA0 /* Torso.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Torso.m4a; sourceTree = "<group>"; };
+		6D6F38E81BD593D800BE1AA0 /* pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo.jpg; sourceTree = "<group>"; };
 		6D8A97C81BA7869E00E23C28 /* CEDAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEDAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8A97CC1BA7869E00E23C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -655,10 +655,10 @@
 				6D3794821BC9F857001500EB /* pato.jpg */,
 				6D6F36CD1BD4588B00BE1AA0 /* pavo_real.jpg */,
 				6D3794831BC9F857001500EB /* perico.jpg */,
+				6D6F38E81BD593D800BE1AA0 /* pollo.jpg */,
 				6D3794841BC9F857001500EB /* perro.jpg */,
 				6D6F36CF1BD458A200BE1AA0 /* pez.jpg */,
 				6D6F36D11BD458B200BE1AA0 /* pinguino.jpg */,
-				6D6F36E31BD4597100BE1AA0 /* pollo.jpg */,
 				6D3794861BC9F857001500EB /* rana.jpg */,
 				6D6F36D51BD458D500BE1AA0 /* rinocerontes.jpg */,
 				6D6F36D71BD458E400BE1AA0 /* tiburon.jpg */,
@@ -1179,7 +1179,6 @@
 				6D6F38E71BD5890500BE1AA0 /* Torso.m4a in Resources */,
 				6D6F38A51BD4929900BE1AA0 /* Chanclas.m4a in Resources */,
 				6D6F38E51BD588F500BE1AA0 /* Piernas.m4a in Resources */,
-				6D6F36E41BD4597100BE1AA0 /* pollo.jpg in Resources */,
 				6D6F389D1BD4924F00BE1AA0 /* Falda.m4a in Resources */,
 				6D6F388F1BD491B700BE1AA0 /* Sombrero.m4a in Resources */,
 				6D6F38C41BD493EE00BE1AA0 /* Yogur.m4a in Resources */,
@@ -1362,6 +1361,7 @@
 				6D6F380B1BD4841500BE1AA0 /* pescado.jpg in Resources */,
 				6D6F379D1BD479BA00BE1AA0 /* Tigre.m4a in Resources */,
 				6D6F38731BD48C8C00BE1AA0 /* mano.jpg in Resources */,
+				6D6F38E91BD593D800BE1AA0 /* pollo.jpg in Resources */,
 				6D6F38951BD4920200BE1AA0 /* Pantalón.m4a in Resources */,
 				6D6F38A11BD4927300BE1AA0 /* Collar.m4a in Resources */,
 				6D6F37F51BD4839300BE1AA0 /* fresa.jpg in Resources */,
