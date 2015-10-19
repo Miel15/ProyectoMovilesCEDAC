@@ -9,6 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+    var LabelText = String()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,11 +21,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+ 
     override func shouldAutorotate() -> Bool {
-        UIInterfaceOrientation.LandscapeRight.rawValue
         return false
     }
-    
 }
 

@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6D3794891BC9F857001500EB /* buey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794791BC9F857001500EB /* buey.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D37948A1BC9F857001500EB /* caballo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947A1BC9F857001500EB /* caballo.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D37948B1BC9F857001500EB /* canario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947B1BC9F857001500EB /* canario.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D37948C1BC9F857001500EB /* elefante.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947C1BC9F857001500EB /* elefante.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D37948D1BC9F857001500EB /* gato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947D1BC9F857001500EB /* gato.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D37948E1BC9F857001500EB /* jirafa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D37947E1BC9F857001500EB /* jirafa.jpg */; settings = {ASSET_TAGS = (); }; };
@@ -19,33 +17,281 @@
 		6D3794921BC9F857001500EB /* pato.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794821BC9F857001500EB /* pato.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D3794931BC9F857001500EB /* perico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794831BC9F857001500EB /* perico.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D3794941BC9F857001500EB /* perro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794841BC9F857001500EB /* perro.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D3794951BC9F857001500EB /* pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794851BC9F857001500EB /* pollo.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D3794961BC9F857001500EB /* rana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794861BC9F857001500EB /* rana.jpg */; settings = {ASSET_TAGS = (); }; };
 		6D3794971BC9F857001500EB /* tigre.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794871BC9F857001500EB /* tigre.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D3794981BC9F857001500EB /* zebra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3794881BC9F857001500EB /* zebra.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D37949A1BC9FC4C001500EB /* Niveles2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3794991BC9FC4C001500EB /* Niveles2.swift */; settings = {ASSET_TAGS = (); }; };
-		6D37949C1BCAE919001500EB /* Intermedio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D37949B1BCAE919001500EB /* Intermedio.swift */; settings = {ASSET_TAGS = (); }; };
+		6D37949A1BC9FC4C001500EB /* Nivel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3794991BC9FC4C001500EB /* Nivel2.swift */; settings = {ASSET_TAGS = (); }; };
 		6D3EE3971BC9892100CFD061 /* trofeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3961BC9892100CFD061 /* trofeo.png */; settings = {ASSET_TAGS = (); }; };
 		6D3EE39A1BC9898500CFD061 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3991BC9898500CFD061 /* info.png */; settings = {ASSET_TAGS = (); }; };
 		6D3EE39C1BC98A1B00CFD061 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE39B1BC98A1B00CFD061 /* play.png */; settings = {ASSET_TAGS = (); }; };
 		6D3EE3D81BC99D8100CFD061 /* Campos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3D71BC99D8100CFD061 /* Campos.swift */; settings = {ASSET_TAGS = (); }; };
 		6D3EE3DA1BC9A00C00CFD061 /* Niveles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3D91BC9A00C00CFD061 /* Niveles.swift */; settings = {ASSET_TAGS = (); }; };
 		6D3EE3DC1BC9B21000CFD061 /* Nivel1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3DF1BC9B38500CFD061 /* al.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3DE1BC9B38500CFD061 /* al.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3E11BC9B38A00CFD061 /* EUA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E01BC9B38A00CFD061 /* EUA.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3E31BC9B38F00CFD061 /* francia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E21BC9B38F00CFD061 /* francia.jpg */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3E51BC9B39400CFD061 /* mex.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E41BC9B39400CFD061 /* mex.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3E91BC9D03600CFD061 /* vi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3E81BC9D03600CFD061 /* vi.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3EB1BC9D03F00CFD061 /* grecia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3EA1BC9D03F00CFD061 /* grecia.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3ED1BC9D04400CFD061 /* can.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3EC1BC9D04400CFD061 /* can.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3EF1BC9D04900CFD061 /* ar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3EE1BC9D04900CFD061 /* ar.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3F11BC9D04F00CFD061 /* af.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F01BC9D04F00CFD061 /* af.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3F31BC9D08F00CFD061 /* uc.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F21BC9D08F00CFD061 /* uc.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3F51BC9D09600CFD061 /* togo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F41BC9D09600CFD061 /* togo.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3F71BC9D09D00CFD061 /* suecia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F61BC9D09D00CFD061 /* suecia.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3F91BC9D0A200CFD061 /* serbia.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3F81BC9D0A200CFD061 /* serbia.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3FB1BC9D0A700CFD061 /* reino.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3FA1BC9D0A700CFD061 /* reino.png */; settings = {ASSET_TAGS = (); }; };
-		6D3EE3FD1BC9D0AB00CFD061 /* palaos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3FC1BC9D0AB00CFD061 /* palaos.png */; settings = {ASSET_TAGS = (); }; };
+		6D6F367A1BD43B0900BE1AA0 /* Nivel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F36791BD43B0900BE1AA0 /* Nivel3.swift */; settings = {ASSET_TAGS = (); }; };
+		6D6F36AE1BD456BF00BE1AA0 /* copas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36AD1BD456BF00BE1AA0 /* copas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36B01BD4571400BE1AA0 /* ardilla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36AF1BD4571400BE1AA0 /* ardilla.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36B21BD4572600BE1AA0 /* avestruz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36B11BD4572600BE1AA0 /* avestruz.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36B41BD4573700BE1AA0 /* borrego.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36B31BD4573700BE1AA0 /* borrego.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36B81BD4576F00BE1AA0 /* buho.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36B71BD4576F00BE1AA0 /* buho.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36BA1BD457C500BE1AA0 /* buey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36B91BD457C500BE1AA0 /* buey.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36BC1BD457DA00BE1AA0 /* canario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36BB1BD457DA00BE1AA0 /* canario.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36BE1BD457E700BE1AA0 /* cebra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36BD1BD457E700BE1AA0 /* cebra.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36C01BD457F700BE1AA0 /* cisne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36BF1BD457F700BE1AA0 /* cisne.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36C21BD4581400BE1AA0 /* iguana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36C11BD4581400BE1AA0 /* iguana.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36C41BD4582E00BE1AA0 /* koala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36C31BD4582E00BE1AA0 /* koala.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36C61BD4583D00BE1AA0 /* leon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36C51BD4583D00BE1AA0 /* leon.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36C81BD4584D00BE1AA0 /* leopardo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36C71BD4584D00BE1AA0 /* leopardo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36CA1BD4586100BE1AA0 /* mapache.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36C91BD4586100BE1AA0 /* mapache.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36CC1BD4586E00BE1AA0 /* mariposa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36CB1BD4586E00BE1AA0 /* mariposa.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36CE1BD4588B00BE1AA0 /* pavo_real.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36CD1BD4588B00BE1AA0 /* pavo_real.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36D01BD458A200BE1AA0 /* pez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36CF1BD458A200BE1AA0 /* pez.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36D21BD458B200BE1AA0 /* pinguino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36D11BD458B200BE1AA0 /* pinguino.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36D61BD458D500BE1AA0 /* rinocerontes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36D51BD458D500BE1AA0 /* rinocerontes.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36D81BD458E400BE1AA0 /* tiburon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36D71BD458E400BE1AA0 /* tiburon.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36DA1BD458F500BE1AA0 /* toro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36D91BD458F500BE1AA0 /* toro.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36DC1BD4590300BE1AA0 /* tortuga.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DB1BD4590300BE1AA0 /* tortuga.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36DE1BD4590F00BE1AA0 /* vaca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DD1BD4590F00BE1AA0 /* vaca.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36E01BD4591E00BE1AA0 /* venado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36DF1BD4591E00BE1AA0 /* venado.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36E41BD4597100BE1AA0 /* pollo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E31BD4597100BE1AA0 /* pollo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36E61BD4598500BE1AA0 /* baño.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E51BD4598500BE1AA0 /* baño.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36E81BD4599D00BE1AA0 /* basura.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E71BD4599D00BE1AA0 /* basura.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36EA1BD459AA00BE1AA0 /* closet.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36EC1BD459B600BE1AA0 /* cochera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36EB1BD459B600BE1AA0 /* cochera.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36EE1BD459C200BE1AA0 /* cocina.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36ED1BD459C200BE1AA0 /* cocina.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36F01BD459CE00BE1AA0 /* comedor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36EF1BD459CE00BE1AA0 /* comedor.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36F21BD459DA00BE1AA0 /* cuchara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36F11BD459DA00BE1AA0 /* cuchara.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36F41BD459E600BE1AA0 /* cuchillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36F31BD459E600BE1AA0 /* cuchillo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36F61BD459F300BE1AA0 /* escalera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36F51BD459F300BE1AA0 /* escalera.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36F81BD459FD00BE1AA0 /* espejo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36F71BD459FD00BE1AA0 /* espejo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36FA1BD45A0B00BE1AA0 /* estufa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36F91BD45A0B00BE1AA0 /* estufa.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36FC1BD45A1600BE1AA0 /* impresora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36FB1BD45A1600BE1AA0 /* impresora.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F36FE1BD45A2200BE1AA0 /* lampara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36FD1BD45A2200BE1AA0 /* lampara.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37001BD45A2F00BE1AA0 /* laptop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F36FF1BD45A2F00BE1AA0 /* laptop.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37021BD45A3A00BE1AA0 /* lavabo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37011BD45A3A00BE1AA0 /* lavabo.jpeg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37041BD45A4500BE1AA0 /* lavadora.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37031BD45A4500BE1AA0 /* lavadora.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37061BD45A5100BE1AA0 /* libros.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37051BD45A5100BE1AA0 /* libros.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37081BD45A5D00BE1AA0 /* maceta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37071BD45A5D00BE1AA0 /* maceta.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F370A1BD45A6900BE1AA0 /* mesa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37091BD45A6900BE1AA0 /* mesa.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F370C1BD45A7700BE1AA0 /* microondas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F370B1BD45A7700BE1AA0 /* microondas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F370E1BD45A8100BE1AA0 /* puerta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F370D1BD45A8100BE1AA0 /* puerta.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37101BD45A8D00BE1AA0 /* recamara.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F370F1BD45A8D00BE1AA0 /* recamara.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37121BD45A9800BE1AA0 /* refrigerador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37111BD45A9800BE1AA0 /* refrigerador.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37141BD45AA400BE1AA0 /* regadera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37131BD45AA400BE1AA0 /* regadera.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37161BD45AB200BE1AA0 /* reloj.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37151BD45AB200BE1AA0 /* reloj.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37181BD45ABE00BE1AA0 /* sala.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37171BD45ABE00BE1AA0 /* sala.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F371A1BD45ACB00BE1AA0 /* sarten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37191BD45ACB00BE1AA0 /* sarten.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F371C1BD45ADA00BE1AA0 /* sillon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F371B1BD45ADA00BE1AA0 /* sillon.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F371E1BD45AE400BE1AA0 /* silla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F371D1BD45AE400BE1AA0 /* silla.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37201BD45AF100BE1AA0 /* telefono.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F371F1BD45AF100BE1AA0 /* telefono.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37221BD45B0100BE1AA0 /* television.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37211BD45B0100BE1AA0 /* television.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37241BD45B0E00BE1AA0 /* tenedor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37231BD45B0E00BE1AA0 /* tenedor.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37261BD45B1C00BE1AA0 /* tocador.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37251BD45B1C00BE1AA0 /* tocador.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37281BD45B2600BE1AA0 /* vaso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37271BD45B2600BE1AA0 /* vaso.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37431BD4642500BE1AA0 /* holi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37421BD4642500BE1AA0 /* holi.png */; settings = {ASSET_TAGS = (); }; };
+		6D6F37471BD464A600BE1AA0 /* miry.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37461BD464A600BE1AA0 /* miry.png */; settings = {ASSET_TAGS = (); }; };
+		6D6F37491BD464D400BE1AA0 /* karla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37481BD464D400BE1AA0 /* karla.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F374B1BD4656F00BE1AA0 /* itu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F374A1BD4656E00BE1AA0 /* itu.png */; settings = {ASSET_TAGS = (); }; };
+		6D6F374D1BD465AF00BE1AA0 /* vale.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F374C1BD465AF00BE1AA0 /* vale.png */; settings = {ASSET_TAGS = (); }; };
+		6D6F374F1BD46BBC00BE1AA0 /* Puntaje.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F374E1BD46BBC00BE1AA0 /* Puntaje.swift */; settings = {ASSET_TAGS = (); }; };
+		6D6F37521BD4720400BE1AA0 /* Mesa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37511BD4720400BE1AA0 /* Mesa.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37541BD472B900BE1AA0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D6F37531BD472B900BE1AA0 /* AVFoundation.framework */; };
+		6D6F37561BD4739B00BE1AA0 /* Microondas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37551BD4739B00BE1AA0 /* Microondas.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37581BD473BF00BE1AA0 /* Vaso.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37571BD473BF00BE1AA0 /* Vaso.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F375A1BD473DC00BE1AA0 /* Tocador.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37591BD473DC00BE1AA0 /* Tocador.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F375C1BD473F400BE1AA0 /* Tenedor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375B1BD473F400BE1AA0 /* Tenedor.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F375E1BD4740B00BE1AA0 /* Televisión.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375D1BD4740B00BE1AA0 /* Televisión.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37601BD4742200BE1AA0 /* Teléfono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F375F1BD4742200BE1AA0 /* Teléfono.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37621BD4743500BE1AA0 /* Sillón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37611BD4743500BE1AA0 /* Sillón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37641BD4744900BE1AA0 /* Sala.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37631BD4744900BE1AA0 /* Sala.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37661BD4745C00BE1AA0 /* Sartén.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37651BD4745C00BE1AA0 /* Sartén.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37681BD4746F00BE1AA0 /* Silla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37671BD4746F00BE1AA0 /* Silla.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F376A1BD4748800BE1AA0 /* Reloj.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37691BD4748800BE1AA0 /* Reloj.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F376C1BD4749900BE1AA0 /* Puerta.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F376B1BD4749900BE1AA0 /* Puerta.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F376E1BD474DE00BE1AA0 /* Refrigerador.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F376D1BD474DE00BE1AA0 /* Refrigerador.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37701BD4751600BE1AA0 /* Regadera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F376F1BD4751600BE1AA0 /* Regadera.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37721BD4752500BE1AA0 /* Recámara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37711BD4752500BE1AA0 /* Recámara.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37741BD4753400BE1AA0 /* Maceta.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37731BD4753400BE1AA0 /* Maceta.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37761BD4754600BE1AA0 /* Lavadora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37751BD4754600BE1AA0 /* Lavadora.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37781BD4755900BE1AA0 /* Lavabo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37771BD4755900BE1AA0 /* Lavabo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F377A1BD4756A00BE1AA0 /* Laptop.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37791BD4756A00BE1AA0 /* Laptop.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F377C1BD4757B00BE1AA0 /* Libro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F377B1BD4757B00BE1AA0 /* Libro.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F377E1BD4758B00BE1AA0 /* Lámpara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F377D1BD4758B00BE1AA0 /* Lámpara.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37801BD475A300BE1AA0 /* Impresora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F377F1BD475A300BE1AA0 /* Impresora.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37821BD475B200BE1AA0 /* Estufa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37811BD475B200BE1AA0 /* Estufa.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37841BD475CC00BE1AA0 /* Espejo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37831BD475CC00BE1AA0 /* Espejo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37861BD475E000BE1AA0 /* Escalera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37851BD475E000BE1AA0 /* Escalera.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37881BD4778300BE1AA0 /* Comedor.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37871BD4778300BE1AA0 /* Comedor.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F378A1BD4779800BE1AA0 /* Copa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37891BD4779800BE1AA0 /* Copa.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F378C1BD477AC00BE1AA0 /* Cuchara.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F378B1BD477AC00BE1AA0 /* Cuchara.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F378E1BD477BE00BE1AA0 /* Cuchillo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F378D1BD477BE00BE1AA0 /* Cuchillo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37911BD4793400BE1AA0 /* Ardilla.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37901BD4793400BE1AA0 /* Ardilla.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37931BD4795700BE1AA0 /* Avestruz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37921BD4795700BE1AA0 /* Avestruz.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37951BD4797300BE1AA0 /* Venado.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37941BD4797300BE1AA0 /* Venado.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37971BD4798700BE1AA0 /* Vaca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37961BD4798700BE1AA0 /* Vaca.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37991BD4799A00BE1AA0 /* Tortuga.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37981BD4799A00BE1AA0 /* Tortuga.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F379B1BD479AA00BE1AA0 /* Toro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F379A1BD479AA00BE1AA0 /* Toro.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F379D1BD479BA00BE1AA0 /* Tigre.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F379C1BD479BA00BE1AA0 /* Tigre.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F379F1BD479D000BE1AA0 /* Tiburón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F379E1BD479D000BE1AA0 /* Tiburón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37A11BD479E100BE1AA0 /* Rinoceronte.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A01BD479E100BE1AA0 /* Rinoceronte.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37A31BD479F100BE1AA0 /* Rana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A21BD479F100BE1AA0 /* Rana.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37A51BD47A0800BE1AA0 /* Pollo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A41BD47A0800BE1AA0 /* Pollo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37A71BD47A1900BE1AA0 /* Pingüino.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A61BD47A1900BE1AA0 /* Pingüino.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37A91BD47A2A00BE1AA0 /* Pez.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37A81BD47A2A00BE1AA0 /* Pez.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37AB1BD47A3900BE1AA0 /* Perro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37AA1BD47A3900BE1AA0 /* Perro.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37AD1BD47A4900BE1AA0 /* Perico.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37AC1BD47A4900BE1AA0 /* Perico.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37AF1BD47A5C00BE1AA0 /* Pavo Real.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37AE1BD47A5C00BE1AA0 /* Pavo Real.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37B11BD47A6F00BE1AA0 /* Oso.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37B01BD47A6F00BE1AA0 /* Oso.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37B31BD47A8500BE1AA0 /* Pato.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37B21BD47A8500BE1AA0 /* Pato.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37B51BD47A9500BE1AA0 /* Mono.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37B41BD47A9500BE1AA0 /* Mono.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37B71BD47AAF00BE1AA0 /* Mariposa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37B61BD47AAF00BE1AA0 /* Mariposa.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37B91BD47ABC00BE1AA0 /* Mapache.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37B81BD47ABC00BE1AA0 /* Mapache.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37BB1BD47ACA00BE1AA0 /* Lobo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37BA1BD47ACA00BE1AA0 /* Lobo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37BD1BD47ADA00BE1AA0 /* Leopardo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37BC1BD47ADA00BE1AA0 /* Leopardo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37BF1BD47AE900BE1AA0 /* León.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37BE1BD47AE900BE1AA0 /* León.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37C11BD47AF700BE1AA0 /* Koala.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C01BD47AF700BE1AA0 /* Koala.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37C31BD47B0700BE1AA0 /* Jirafa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C21BD47B0700BE1AA0 /* Jirafa.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37C51BD47B1500BE1AA0 /* Iguana.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C41BD47B1500BE1AA0 /* Iguana.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37C71BD47B2200BE1AA0 /* Gato.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C61BD47B2200BE1AA0 /* Gato.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37C91BD47B3200BE1AA0 /* Elefante.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37C81BD47B3200BE1AA0 /* Elefante.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37CB1BD47B4100BE1AA0 /* Cisne.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37CA1BD47B4100BE1AA0 /* Cisne.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37CD1BD47B4F00BE1AA0 /* Cebra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37CC1BD47B4F00BE1AA0 /* Cebra.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37CF1BD47B6100BE1AA0 /* Canario.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37CE1BD47B6100BE1AA0 /* Canario.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37D11BD47B7600BE1AA0 /* Caballo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D01BD47B7600BE1AA0 /* Caballo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37D31BD47B8B00BE1AA0 /* Búho.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D21BD47B8B00BE1AA0 /* Búho.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37D51BD47BB700BE1AA0 /* Borrego Cimarrón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarrón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37D71BD47BC600BE1AA0 /* Buey.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D61BD47BC600BE1AA0 /* Buey.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37D91BD47BF500BE1AA0 /* Bote de basura.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37D81BD47BF500BE1AA0 /* Bote de basura.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37DB1BD47C1F00BE1AA0 /* Baño.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37DA1BD47C1F00BE1AA0 /* Baño.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37DD1BD47C3F00BE1AA0 /* Cocina.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37DC1BD47C3F00BE1AA0 /* Cocina.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37DF1BD47C4E00BE1AA0 /* Cochera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37DE1BD47C4E00BE1AA0 /* Cochera.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37E11BD47C6500BE1AA0 /* Closet.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37E01BD47C6500BE1AA0 /* Closet.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F37E31BD4831B00BE1AA0 /* aguacate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37E21BD4831B00BE1AA0 /* aguacate.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37E51BD4832B00BE1AA0 /* arroz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37E41BD4832B00BE1AA0 /* arroz.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37E71BD4833600BE1AA0 /* cafe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37E61BD4833600BE1AA0 /* cafe.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37E91BD4834000BE1AA0 /* carne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37E81BD4834000BE1AA0 /* carne.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37EB1BD4835700BE1AA0 /* cebolla.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37EA1BD4835700BE1AA0 /* cebolla.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37ED1BD4836100BE1AA0 /* cereal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37EC1BD4836100BE1AA0 /* cereal.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37EF1BD4836900BE1AA0 /* chiles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37EE1BD4836900BE1AA0 /* chiles.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37F11BD4837900BE1AA0 /* chocolate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37F01BD4837900BE1AA0 /* chocolate.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37F31BD4838800BE1AA0 /* coco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37F21BD4838800BE1AA0 /* coco.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37F51BD4839300BE1AA0 /* fresa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37F41BD4839300BE1AA0 /* fresa.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37F71BD4839E00BE1AA0 /* frijoles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37F61BD4839E00BE1AA0 /* frijoles.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37F91BD483B200BE1AA0 /* helado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37F81BD483B200BE1AA0 /* helado.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37FB1BD483BD00BE1AA0 /* huevo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37FA1BD483BD00BE1AA0 /* huevo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37FD1BD483C600BE1AA0 /* jamon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37FC1BD483C600BE1AA0 /* jamon.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F37FF1BD483D000BE1AA0 /* jitomate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37FE1BD483D000BE1AA0 /* jitomate.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38011BD483DA00BE1AA0 /* leche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38001BD483DA00BE1AA0 /* leche.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38031BD483EC00BE1AA0 /* manzana.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38021BD483EC00BE1AA0 /* manzana.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38051BD483F500BE1AA0 /* miel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38041BD483F500BE1AA0 /* miel.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38071BD4840200BE1AA0 /* naranjas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38061BD4840200BE1AA0 /* naranjas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38091BD4840900BE1AA0 /* pan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38081BD4840900BE1AA0 /* pan.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F380B1BD4841500BE1AA0 /* pescado.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F380A1BD4841500BE1AA0 /* pescado.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F380D1BD4842600BE1AA0 /* piña.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F380C1BD4842600BE1AA0 /* piña.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F380F1BD4842F00BE1AA0 /* platano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F380E1BD4842F00BE1AA0 /* platano.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38111BD4843F00BE1AA0 /* pollo2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38101BD4843F00BE1AA0 /* pollo2.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38131BD4844600BE1AA0 /* queso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38121BD4844600BE1AA0 /* queso.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38151BD4844F00BE1AA0 /* salchichas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38141BD4844F00BE1AA0 /* salchichas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38171BD4845700BE1AA0 /* sandia.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38161BD4845700BE1AA0 /* sandia.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38191BD4846900BE1AA0 /* uvas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38181BD4846900BE1AA0 /* uvas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F381B1BD4847100BE1AA0 /* yogur.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F381A1BD4847100BE1AA0 /* yogur.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F381D1BD4847800BE1AA0 /* zanahorias.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F381C1BD4847800BE1AA0 /* zanahorias.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38201BD4884700BE1AA0 /* abrigo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F381F1BD4884700BE1AA0 /* abrigo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38221BD4884F00BE1AA0 /* anillo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38211BD4884F00BE1AA0 /* anillo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38241BD4885500BE1AA0 /* blusa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38231BD4885500BE1AA0 /* blusa.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38261BD4885E00BE1AA0 /* botas2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38251BD4885E00BE1AA0 /* botas2.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38281BD4886600BE1AA0 /* bufanda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38271BD4886600BE1AA0 /* bufanda.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F382A1BD4886C00BE1AA0 /* calcetines.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38291BD4886C00BE1AA0 /* calcetines.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F382C1BD4887500BE1AA0 /* camisa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F382B1BD4887500BE1AA0 /* camisa.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F382E1BD4887B00BE1AA0 /* camiseta.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F382D1BD4887B00BE1AA0 /* camiseta.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38301BD4888100BE1AA0 /* chaleco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F382F1BD4888100BE1AA0 /* chaleco.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38321BD4888700BE1AA0 /* chamarra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38311BD4888700BE1AA0 /* chamarra.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38341BD4888E00BE1AA0 /* chanclas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38331BD4888E00BE1AA0 /* chanclas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38361BD4889300BE1AA0 /* cinturon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38351BD4889300BE1AA0 /* cinturon.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38381BD4889D00BE1AA0 /* collar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38371BD4889D00BE1AA0 /* collar.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F383A1BD488A200BE1AA0 /* corbata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38391BD488A200BE1AA0 /* corbata.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F383C1BD488A800BE1AA0 /* falda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F383B1BD488A800BE1AA0 /* falda.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F383E1BD488C600BE1AA0 /* gorra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F383D1BD488C600BE1AA0 /* gorra.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38401BD488D100BE1AA0 /* guantes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F383F1BD488D100BE1AA0 /* guantes.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38421BD488DF00BE1AA0 /* lentes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38411BD488DF00BE1AA0 /* lentes.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38441BD488EC00BE1AA0 /* pantalon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38431BD488EC00BE1AA0 /* pantalon.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38461BD488F400BE1AA0 /* pantuflas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38451BD488F400BE1AA0 /* pantuflas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38481BD488FD00BE1AA0 /* pijama.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38471BD488FD00BE1AA0 /* pijama.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F384A1BD4891100BE1AA0 /* relojmano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38491BD4891100BE1AA0 /* relojmano.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F384C1BD4891800BE1AA0 /* sombrero.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F384B1BD4891800BE1AA0 /* sombrero.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F384E1BD4891D00BE1AA0 /* sudadera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F384D1BD4891D00BE1AA0 /* sudadera.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38501BD4892100BE1AA0 /* sueter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F384F1BD4892100BE1AA0 /* sueter.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38521BD4892700BE1AA0 /* tacones.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38511BD4892700BE1AA0 /* tacones.png */; settings = {ASSET_TAGS = (); }; };
+		6D6F38541BD4892D00BE1AA0 /* tenis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38531BD4892D00BE1AA0 /* tenis.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38561BD4893300BE1AA0 /* traje.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38551BD4893300BE1AA0 /* traje.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38581BD4893700BE1AA0 /* vestido.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38571BD4893700BE1AA0 /* vestido.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F385A1BD4894400BE1AA0 /* zapatos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38591BD4894400BE1AA0 /* zapatos.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F385D1BD48C4000BE1AA0 /* boca.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F385C1BD48C4000BE1AA0 /* boca.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F385F1BD48C4800BE1AA0 /* brazo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F385E1BD48C4800BE1AA0 /* brazo.png */; settings = {ASSET_TAGS = (); }; };
+		6D6F38611BD48C4E00BE1AA0 /* cabello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38601BD48C4E00BE1AA0 /* cabello.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38631BD48C5300BE1AA0 /* cabeza.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38621BD48C5300BE1AA0 /* cabeza.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38651BD48C5B00BE1AA0 /* ceja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38641BD48C5B00BE1AA0 /* ceja.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38671BD48C6100BE1AA0 /* codo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38661BD48C6100BE1AA0 /* codo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38691BD48C6600BE1AA0 /* cuello.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38681BD48C6600BE1AA0 /* cuello.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F386B1BD48C6D00BE1AA0 /* dedo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F386A1BD48C6D00BE1AA0 /* dedo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F386D1BD48C7B00BE1AA0 /* dientes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F386C1BD48C7B00BE1AA0 /* dientes.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F386F1BD48C8000BE1AA0 /* hombro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F386E1BD48C8000BE1AA0 /* hombro.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38711BD48C8600BE1AA0 /* lengua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38701BD48C8600BE1AA0 /* lengua.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38731BD48C8C00BE1AA0 /* mano.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38721BD48C8C00BE1AA0 /* mano.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38751BD48C9200BE1AA0 /* nariz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38741BD48C9200BE1AA0 /* nariz.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38771BD48C9800BE1AA0 /* ojo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38761BD48C9800BE1AA0 /* ojo.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38791BD48C9D00BE1AA0 /* oreja.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38781BD48C9D00BE1AA0 /* oreja.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F387B1BD48CA200BE1AA0 /* pie.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F387A1BD48CA200BE1AA0 /* pie.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F387D1BD48CA700BE1AA0 /* piernas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F387C1BD48CA700BE1AA0 /* piernas.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F387F1BD48CAD00BE1AA0 /* torso.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F387E1BD48CAD00BE1AA0 /* torso.jpg */; settings = {ASSET_TAGS = (); }; };
+		6D6F38831BD4913C00BE1AA0 /* Vestido.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38821BD4913C00BE1AA0 /* Vestido.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38851BD4915200BE1AA0 /* Traje.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38841BD4915200BE1AA0 /* Traje.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38871BD4916600BE1AA0 /* Tenis.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38861BD4916600BE1AA0 /* Tenis.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38891BD4918100BE1AA0 /* Tacones.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38881BD4918100BE1AA0 /* Tacones.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F388B1BD4919200BE1AA0 /* Suéter.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F388A1BD4919200BE1AA0 /* Suéter.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F388D1BD491A600BE1AA0 /* Sudadera.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F388C1BD491A600BE1AA0 /* Sudadera.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F388F1BD491B700BE1AA0 /* Sombrero.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F388E1BD491B700BE1AA0 /* Sombrero.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38911BD491D200BE1AA0 /* Pijama.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38901BD491D200BE1AA0 /* Pijama.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38931BD491EF00BE1AA0 /* Pantuflas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38921BD491EF00BE1AA0 /* Pantuflas.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38951BD4920200BE1AA0 /* Pantalón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38941BD4920200BE1AA0 /* Pantalón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38971BD4921C00BE1AA0 /* Lentes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38961BD4921C00BE1AA0 /* Lentes.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38991BD4922F00BE1AA0 /* Guantes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38981BD4922F00BE1AA0 /* Guantes.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F389B1BD4923F00BE1AA0 /* Gorra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F389A1BD4923F00BE1AA0 /* Gorra.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F389D1BD4924F00BE1AA0 /* Falda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F389C1BD4924F00BE1AA0 /* Falda.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F389F1BD4926300BE1AA0 /* Corbata.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F389E1BD4926300BE1AA0 /* Corbata.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38A11BD4927300BE1AA0 /* Collar.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A01BD4927300BE1AA0 /* Collar.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38A31BD4928500BE1AA0 /* Cinturón.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A21BD4928500BE1AA0 /* Cinturón.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38A51BD4929900BE1AA0 /* Chanclas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A41BD4929900BE1AA0 /* Chanclas.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38A71BD492BC00BE1AA0 /* Chamarra.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A61BD492BC00BE1AA0 /* Chamarra.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38A91BD492CD00BE1AA0 /* Chaleco.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38A81BD492CD00BE1AA0 /* Chaleco.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38AB1BD492DE00BE1AA0 /* Camiseta.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38AA1BD492DE00BE1AA0 /* Camiseta.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38AD1BD492EE00BE1AA0 /* Camisa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38AC1BD492EE00BE1AA0 /* Camisa.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38AF1BD492FE00BE1AA0 /* Calcetines.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38AE1BD492FE00BE1AA0 /* Calcetines.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38B11BD4931100BE1AA0 /* Bufanda.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38B01BD4931100BE1AA0 /* Bufanda.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38B31BD4932600BE1AA0 /* Botas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38B21BD4932600BE1AA0 /* Botas.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38B51BD4933500BE1AA0 /* Blusa.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38B41BD4933500BE1AA0 /* Blusa.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38B71BD4934B00BE1AA0 /* Anillo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38B61BD4934B00BE1AA0 /* Anillo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38B91BD4935C00BE1AA0 /* Abrigo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38B81BD4935C00BE1AA0 /* Abrigo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38BC1BD4938D00BE1AA0 /* Reloj de mano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38BB1BD4938D00BE1AA0 /* Reloj de mano.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38BE1BD493A800BE1AA0 /* Uvas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38BD1BD493A800BE1AA0 /* Uvas.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38C01BD493C700BE1AA0 /* Zanahorias.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38BF1BD493C700BE1AA0 /* Zanahorias.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38C21BD493DB00BE1AA0 /* Sandía.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C11BD493DB00BE1AA0 /* Sandía.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38C41BD493EE00BE1AA0 /* Yogur.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C31BD493EE00BE1AA0 /* Yogur.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38C71BD587D200BE1AA0 /* Boca.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C61BD587D200BE1AA0 /* Boca.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38C91BD587E900BE1AA0 /* Brazo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38C81BD587E900BE1AA0 /* Brazo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38CB1BD5880000BE1AA0 /* Cabello.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38CA1BD5880000BE1AA0 /* Cabello.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38CD1BD5881300BE1AA0 /* Cabeza.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38CC1BD5881300BE1AA0 /* Cabeza.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38CF1BD5883000BE1AA0 /* Ceja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38CE1BD5883000BE1AA0 /* Ceja.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38D11BD5884000BE1AA0 /* Codo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38D01BD5884000BE1AA0 /* Codo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38D31BD5886900BE1AA0 /* Dedo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38D21BD5886900BE1AA0 /* Dedo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38D51BD5887A00BE1AA0 /* Hombro.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38D41BD5887A00BE1AA0 /* Hombro.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38D71BD5888900BE1AA0 /* Dientes.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38D61BD5888900BE1AA0 /* Dientes.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38D91BD5889A00BE1AA0 /* Lengua.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38D81BD5889A00BE1AA0 /* Lengua.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38DB1BD588A800BE1AA0 /* Mano.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38DA1BD588A800BE1AA0 /* Mano.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38DD1BD588B600BE1AA0 /* Nariz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38DC1BD588B600BE1AA0 /* Nariz.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38DF1BD588C300BE1AA0 /* Ojo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38DE1BD588C300BE1AA0 /* Ojo.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38E11BD588D200BE1AA0 /* Oreja.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E01BD588D200BE1AA0 /* Oreja.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38E31BD588E000BE1AA0 /* Pie.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E21BD588E000BE1AA0 /* Pie.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38E51BD588F500BE1AA0 /* Piernas.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E41BD588F500BE1AA0 /* Piernas.m4a */; settings = {ASSET_TAGS = (); }; };
+		6D6F38E71BD5890500BE1AA0 /* Torso.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F38E61BD5890500BE1AA0 /* Torso.m4a */; settings = {ASSET_TAGS = (); }; };
 		6D8A97CE1BA7869E00E23C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */; };
 		6D8A97D01BA7869E00E23C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CF1BA7869E00E23C28 /* ViewController.swift */; };
 		6D8A97D31BA7869F00E23C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D11BA7869F00E23C28 /* Main.storyboard */; };
@@ -65,9 +311,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6D3794791BC9F857001500EB /* buey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buey.jpg; sourceTree = "<group>"; };
 		6D37947A1BC9F857001500EB /* caballo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = caballo.jpg; sourceTree = "<group>"; };
-		6D37947B1BC9F857001500EB /* canario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canario.jpg; sourceTree = "<group>"; };
 		6D37947C1BC9F857001500EB /* elefante.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = elefante.jpg; sourceTree = "<group>"; };
 		6D37947D1BC9F857001500EB /* gato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gato.jpg; sourceTree = "<group>"; };
 		6D37947E1BC9F857001500EB /* jirafa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jirafa.jpg; sourceTree = "<group>"; };
@@ -77,33 +321,282 @@
 		6D3794821BC9F857001500EB /* pato.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pato.jpg; sourceTree = "<group>"; };
 		6D3794831BC9F857001500EB /* perico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perico.jpg; sourceTree = "<group>"; };
 		6D3794841BC9F857001500EB /* perro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perro.jpg; sourceTree = "<group>"; };
-		6D3794851BC9F857001500EB /* pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo.jpg; sourceTree = "<group>"; };
 		6D3794861BC9F857001500EB /* rana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rana.jpg; sourceTree = "<group>"; };
 		6D3794871BC9F857001500EB /* tigre.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tigre.jpg; sourceTree = "<group>"; };
-		6D3794881BC9F857001500EB /* zebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zebra.jpg; sourceTree = "<group>"; };
-		6D3794991BC9FC4C001500EB /* Niveles2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Niveles2.swift; sourceTree = "<group>"; };
-		6D37949B1BCAE919001500EB /* Intermedio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Intermedio.swift; path = ../Intermedio.swift; sourceTree = "<group>"; };
+		6D3794991BC9FC4C001500EB /* Nivel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nivel2.swift; path = ../Nivel2.swift; sourceTree = "<group>"; };
 		6D3EE3961BC9892100CFD061 /* trofeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeo.png; sourceTree = "<group>"; };
 		6D3EE3991BC9898500CFD061 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		6D3EE39B1BC98A1B00CFD061 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		6D3EE3D71BC99D8100CFD061 /* Campos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Campos.swift; path = ../Campos.swift; sourceTree = "<group>"; };
 		6D3EE3D91BC9A00C00CFD061 /* Niveles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Niveles.swift; path = ../Niveles.swift; sourceTree = "<group>"; };
 		6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nivel1.swift; path = ../Nivel1.swift; sourceTree = "<group>"; };
-		6D3EE3DE1BC9B38500CFD061 /* al.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = al.jpg; sourceTree = "<group>"; };
-		6D3EE3E01BC9B38A00CFD061 /* EUA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = EUA.jpg; sourceTree = "<group>"; };
-		6D3EE3E21BC9B38F00CFD061 /* francia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = francia.jpg; sourceTree = "<group>"; };
-		6D3EE3E41BC9B39400CFD061 /* mex.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mex.png; sourceTree = "<group>"; };
-		6D3EE3E81BC9D03600CFD061 /* vi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vi.png; sourceTree = "<group>"; };
-		6D3EE3EA1BC9D03F00CFD061 /* grecia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grecia.png; sourceTree = "<group>"; };
-		6D3EE3EC1BC9D04400CFD061 /* can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = can.png; sourceTree = "<group>"; };
-		6D3EE3EE1BC9D04900CFD061 /* ar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ar.png; sourceTree = "<group>"; };
-		6D3EE3F01BC9D04F00CFD061 /* af.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = af.png; sourceTree = "<group>"; };
-		6D3EE3F21BC9D08F00CFD061 /* uc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uc.png; sourceTree = "<group>"; };
-		6D3EE3F41BC9D09600CFD061 /* togo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = togo.png; sourceTree = "<group>"; };
-		6D3EE3F61BC9D09D00CFD061 /* suecia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = suecia.png; sourceTree = "<group>"; };
-		6D3EE3F81BC9D0A200CFD061 /* serbia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = serbia.png; sourceTree = "<group>"; };
-		6D3EE3FA1BC9D0A700CFD061 /* reino.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reino.png; sourceTree = "<group>"; };
-		6D3EE3FC1BC9D0AB00CFD061 /* palaos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = palaos.png; sourceTree = "<group>"; };
+		6D6F36791BD43B0900BE1AA0 /* Nivel3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nivel3.swift; sourceTree = "<group>"; };
+		6D6F36AD1BD456BF00BE1AA0 /* copas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = copas.jpg; sourceTree = "<group>"; };
+		6D6F36AF1BD4571400BE1AA0 /* ardilla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ardilla.jpg; sourceTree = "<group>"; };
+		6D6F36B11BD4572600BE1AA0 /* avestruz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avestruz.jpg; sourceTree = "<group>"; };
+		6D6F36B31BD4573700BE1AA0 /* borrego.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = borrego.jpg; sourceTree = "<group>"; };
+		6D6F36B71BD4576F00BE1AA0 /* buho.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buho.jpg; sourceTree = "<group>"; };
+		6D6F36B91BD457C500BE1AA0 /* buey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = buey.jpg; sourceTree = "<group>"; };
+		6D6F36BB1BD457DA00BE1AA0 /* canario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = canario.jpg; sourceTree = "<group>"; };
+		6D6F36BD1BD457E700BE1AA0 /* cebra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cebra.jpg; sourceTree = "<group>"; };
+		6D6F36BF1BD457F700BE1AA0 /* cisne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cisne.jpg; sourceTree = "<group>"; };
+		6D6F36C11BD4581400BE1AA0 /* iguana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iguana.jpg; sourceTree = "<group>"; };
+		6D6F36C31BD4582E00BE1AA0 /* koala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koala.jpg; sourceTree = "<group>"; };
+		6D6F36C51BD4583D00BE1AA0 /* leon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leon.jpg; sourceTree = "<group>"; };
+		6D6F36C71BD4584D00BE1AA0 /* leopardo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leopardo.jpg; sourceTree = "<group>"; };
+		6D6F36C91BD4586100BE1AA0 /* mapache.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mapache.jpg; sourceTree = "<group>"; };
+		6D6F36CB1BD4586E00BE1AA0 /* mariposa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mariposa.jpg; sourceTree = "<group>"; };
+		6D6F36CD1BD4588B00BE1AA0 /* pavo_real.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pavo_real.jpg; sourceTree = "<group>"; };
+		6D6F36CF1BD458A200BE1AA0 /* pez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pez.jpg; sourceTree = "<group>"; };
+		6D6F36D11BD458B200BE1AA0 /* pinguino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pinguino.jpg; sourceTree = "<group>"; };
+		6D6F36D51BD458D500BE1AA0 /* rinocerontes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rinocerontes.jpg; sourceTree = "<group>"; };
+		6D6F36D71BD458E400BE1AA0 /* tiburon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tiburon.jpg; sourceTree = "<group>"; };
+		6D6F36D91BD458F500BE1AA0 /* toro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = toro.jpg; sourceTree = "<group>"; };
+		6D6F36DB1BD4590300BE1AA0 /* tortuga.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tortuga.jpg; sourceTree = "<group>"; };
+		6D6F36DD1BD4590F00BE1AA0 /* vaca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaca.jpg; sourceTree = "<group>"; };
+		6D6F36DF1BD4591E00BE1AA0 /* venado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = venado.jpg; sourceTree = "<group>"; };
+		6D6F36E31BD4597100BE1AA0 /* pollo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo.jpg; sourceTree = "<group>"; };
+		6D6F36E51BD4598500BE1AA0 /* baño.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "baño.jpg"; sourceTree = "<group>"; };
+		6D6F36E71BD4599D00BE1AA0 /* basura.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = basura.jpg; sourceTree = "<group>"; };
+		6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = closet.jpeg; sourceTree = "<group>"; };
+		6D6F36EB1BD459B600BE1AA0 /* cochera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cochera.jpg; sourceTree = "<group>"; };
+		6D6F36ED1BD459C200BE1AA0 /* cocina.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cocina.jpg; sourceTree = "<group>"; };
+		6D6F36EF1BD459CE00BE1AA0 /* comedor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = comedor.jpg; sourceTree = "<group>"; };
+		6D6F36F11BD459DA00BE1AA0 /* cuchara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuchara.jpg; sourceTree = "<group>"; };
+		6D6F36F31BD459E600BE1AA0 /* cuchillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuchillo.jpg; sourceTree = "<group>"; };
+		6D6F36F51BD459F300BE1AA0 /* escalera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = escalera.jpg; sourceTree = "<group>"; };
+		6D6F36F71BD459FD00BE1AA0 /* espejo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = espejo.jpg; sourceTree = "<group>"; };
+		6D6F36F91BD45A0B00BE1AA0 /* estufa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = estufa.jpg; sourceTree = "<group>"; };
+		6D6F36FB1BD45A1600BE1AA0 /* impresora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = impresora.jpg; sourceTree = "<group>"; };
+		6D6F36FD1BD45A2200BE1AA0 /* lampara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lampara.jpg; sourceTree = "<group>"; };
+		6D6F36FF1BD45A2F00BE1AA0 /* laptop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = laptop.jpg; sourceTree = "<group>"; };
+		6D6F37011BD45A3A00BE1AA0 /* lavabo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lavabo.jpeg; sourceTree = "<group>"; };
+		6D6F37031BD45A4500BE1AA0 /* lavadora.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lavadora.jpg; sourceTree = "<group>"; };
+		6D6F37051BD45A5100BE1AA0 /* libros.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = libros.jpg; sourceTree = "<group>"; };
+		6D6F37071BD45A5D00BE1AA0 /* maceta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = maceta.jpg; sourceTree = "<group>"; };
+		6D6F37091BD45A6900BE1AA0 /* mesa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mesa.jpg; sourceTree = "<group>"; };
+		6D6F370B1BD45A7700BE1AA0 /* microondas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = microondas.jpg; sourceTree = "<group>"; };
+		6D6F370D1BD45A8100BE1AA0 /* puerta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puerta.jpg; sourceTree = "<group>"; };
+		6D6F370F1BD45A8D00BE1AA0 /* recamara.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = recamara.jpg; sourceTree = "<group>"; };
+		6D6F37111BD45A9800BE1AA0 /* refrigerador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = refrigerador.jpg; sourceTree = "<group>"; };
+		6D6F37131BD45AA400BE1AA0 /* regadera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = regadera.jpg; sourceTree = "<group>"; };
+		6D6F37151BD45AB200BE1AA0 /* reloj.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = reloj.jpg; sourceTree = "<group>"; };
+		6D6F37171BD45ABE00BE1AA0 /* sala.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sala.jpg; sourceTree = "<group>"; };
+		6D6F37191BD45ACB00BE1AA0 /* sarten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sarten.jpg; sourceTree = "<group>"; };
+		6D6F371B1BD45ADA00BE1AA0 /* sillon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sillon.jpg; sourceTree = "<group>"; };
+		6D6F371D1BD45AE400BE1AA0 /* silla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = silla.jpg; sourceTree = "<group>"; };
+		6D6F371F1BD45AF100BE1AA0 /* telefono.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = telefono.jpg; sourceTree = "<group>"; };
+		6D6F37211BD45B0100BE1AA0 /* television.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = television.jpg; sourceTree = "<group>"; };
+		6D6F37231BD45B0E00BE1AA0 /* tenedor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tenedor.jpg; sourceTree = "<group>"; };
+		6D6F37251BD45B1C00BE1AA0 /* tocador.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tocador.jpg; sourceTree = "<group>"; };
+		6D6F37271BD45B2600BE1AA0 /* vaso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vaso.jpg; sourceTree = "<group>"; };
+		6D6F37421BD4642500BE1AA0 /* holi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holi.png; sourceTree = "<group>"; };
+		6D6F37461BD464A600BE1AA0 /* miry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miry.png; sourceTree = "<group>"; };
+		6D6F37481BD464D400BE1AA0 /* karla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = karla.jpg; sourceTree = "<group>"; };
+		6D6F374A1BD4656E00BE1AA0 /* itu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itu.png; sourceTree = "<group>"; };
+		6D6F374C1BD465AF00BE1AA0 /* vale.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vale.png; sourceTree = "<group>"; };
+		6D6F374E1BD46BBC00BE1AA0 /* Puntaje.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Puntaje.swift; path = ../Puntaje.swift; sourceTree = "<group>"; };
+		6D6F37511BD4720400BE1AA0 /* Mesa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mesa.m4a; sourceTree = "<group>"; };
+		6D6F37531BD472B900BE1AA0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		6D6F37551BD4739B00BE1AA0 /* Microondas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Microondas.m4a; sourceTree = "<group>"; };
+		6D6F37571BD473BF00BE1AA0 /* Vaso.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vaso.m4a; sourceTree = "<group>"; };
+		6D6F37591BD473DC00BE1AA0 /* Tocador.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tocador.m4a; sourceTree = "<group>"; };
+		6D6F375B1BD473F400BE1AA0 /* Tenedor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tenedor.m4a; sourceTree = "<group>"; };
+		6D6F375D1BD4740B00BE1AA0 /* Televisión.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Televisión.m4a"; sourceTree = "<group>"; };
+		6D6F375F1BD4742200BE1AA0 /* Teléfono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Teléfono.m4a"; sourceTree = "<group>"; };
+		6D6F37611BD4743500BE1AA0 /* Sillón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sillón.m4a"; sourceTree = "<group>"; };
+		6D6F37631BD4744900BE1AA0 /* Sala.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sala.m4a; sourceTree = "<group>"; };
+		6D6F37651BD4745C00BE1AA0 /* Sartén.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sartén.m4a"; sourceTree = "<group>"; };
+		6D6F37671BD4746F00BE1AA0 /* Silla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Silla.m4a; sourceTree = "<group>"; };
+		6D6F37691BD4748800BE1AA0 /* Reloj.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Reloj.m4a; sourceTree = "<group>"; };
+		6D6F376B1BD4749900BE1AA0 /* Puerta.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Puerta.m4a; sourceTree = "<group>"; };
+		6D6F376D1BD474DE00BE1AA0 /* Refrigerador.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Refrigerador.m4a; sourceTree = "<group>"; };
+		6D6F376F1BD4751600BE1AA0 /* Regadera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Regadera.m4a; sourceTree = "<group>"; };
+		6D6F37711BD4752500BE1AA0 /* Recámara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Recámara.m4a"; sourceTree = "<group>"; };
+		6D6F37731BD4753400BE1AA0 /* Maceta.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Maceta.m4a; sourceTree = "<group>"; };
+		6D6F37751BD4754600BE1AA0 /* Lavadora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lavadora.m4a; sourceTree = "<group>"; };
+		6D6F37771BD4755900BE1AA0 /* Lavabo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lavabo.m4a; sourceTree = "<group>"; };
+		6D6F37791BD4756A00BE1AA0 /* Laptop.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Laptop.m4a; sourceTree = "<group>"; };
+		6D6F377B1BD4757B00BE1AA0 /* Libro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Libro.m4a; sourceTree = "<group>"; };
+		6D6F377D1BD4758B00BE1AA0 /* Lámpara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lámpara.m4a"; sourceTree = "<group>"; };
+		6D6F377F1BD475A300BE1AA0 /* Impresora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Impresora.m4a; sourceTree = "<group>"; };
+		6D6F37811BD475B200BE1AA0 /* Estufa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Estufa.m4a; sourceTree = "<group>"; };
+		6D6F37831BD475CC00BE1AA0 /* Espejo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Espejo.m4a; sourceTree = "<group>"; };
+		6D6F37851BD475E000BE1AA0 /* Escalera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Escalera.m4a; sourceTree = "<group>"; };
+		6D6F37871BD4778300BE1AA0 /* Comedor.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comedor.m4a; sourceTree = "<group>"; };
+		6D6F37891BD4779800BE1AA0 /* Copa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Copa.m4a; sourceTree = "<group>"; };
+		6D6F378B1BD477AC00BE1AA0 /* Cuchara.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cuchara.m4a; sourceTree = "<group>"; };
+		6D6F378D1BD477BE00BE1AA0 /* Cuchillo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cuchillo.m4a; sourceTree = "<group>"; };
+		6D6F37901BD4793400BE1AA0 /* Ardilla.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ardilla.m4a; sourceTree = "<group>"; };
+		6D6F37921BD4795700BE1AA0 /* Avestruz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Avestruz.m4a; sourceTree = "<group>"; };
+		6D6F37941BD4797300BE1AA0 /* Venado.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Venado.m4a; sourceTree = "<group>"; };
+		6D6F37961BD4798700BE1AA0 /* Vaca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vaca.m4a; sourceTree = "<group>"; };
+		6D6F37981BD4799A00BE1AA0 /* Tortuga.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tortuga.m4a; sourceTree = "<group>"; };
+		6D6F379A1BD479AA00BE1AA0 /* Toro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Toro.m4a; sourceTree = "<group>"; };
+		6D6F379C1BD479BA00BE1AA0 /* Tigre.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tigre.m4a; sourceTree = "<group>"; };
+		6D6F379E1BD479D000BE1AA0 /* Tiburón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Tiburón.m4a"; sourceTree = "<group>"; };
+		6D6F37A01BD479E100BE1AA0 /* Rinoceronte.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rinoceronte.m4a; sourceTree = "<group>"; };
+		6D6F37A21BD479F100BE1AA0 /* Rana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rana.m4a; sourceTree = "<group>"; };
+		6D6F37A41BD47A0800BE1AA0 /* Pollo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pollo.m4a; sourceTree = "<group>"; };
+		6D6F37A61BD47A1900BE1AA0 /* Pingüino.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pingüino.m4a"; sourceTree = "<group>"; };
+		6D6F37A81BD47A2A00BE1AA0 /* Pez.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pez.m4a; sourceTree = "<group>"; };
+		6D6F37AA1BD47A3900BE1AA0 /* Perro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Perro.m4a; sourceTree = "<group>"; };
+		6D6F37AC1BD47A4900BE1AA0 /* Perico.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Perico.m4a; sourceTree = "<group>"; };
+		6D6F37AE1BD47A5C00BE1AA0 /* Pavo Real.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pavo Real.m4a"; sourceTree = "<group>"; };
+		6D6F37B01BD47A6F00BE1AA0 /* Oso.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oso.m4a; sourceTree = "<group>"; };
+		6D6F37B21BD47A8500BE1AA0 /* Pato.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pato.m4a; sourceTree = "<group>"; };
+		6D6F37B41BD47A9500BE1AA0 /* Mono.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mono.m4a; sourceTree = "<group>"; };
+		6D6F37B61BD47AAF00BE1AA0 /* Mariposa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mariposa.m4a; sourceTree = "<group>"; };
+		6D6F37B81BD47ABC00BE1AA0 /* Mapache.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mapache.m4a; sourceTree = "<group>"; };
+		6D6F37BA1BD47ACA00BE1AA0 /* Lobo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lobo.m4a; sourceTree = "<group>"; };
+		6D6F37BC1BD47ADA00BE1AA0 /* Leopardo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Leopardo.m4a; sourceTree = "<group>"; };
+		6D6F37BE1BD47AE900BE1AA0 /* León.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "León.m4a"; sourceTree = "<group>"; };
+		6D6F37C01BD47AF700BE1AA0 /* Koala.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Koala.m4a; sourceTree = "<group>"; };
+		6D6F37C21BD47B0700BE1AA0 /* Jirafa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jirafa.m4a; sourceTree = "<group>"; };
+		6D6F37C41BD47B1500BE1AA0 /* Iguana.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iguana.m4a; sourceTree = "<group>"; };
+		6D6F37C61BD47B2200BE1AA0 /* Gato.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gato.m4a; sourceTree = "<group>"; };
+		6D6F37C81BD47B3200BE1AA0 /* Elefante.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Elefante.m4a; sourceTree = "<group>"; };
+		6D6F37CA1BD47B4100BE1AA0 /* Cisne.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cisne.m4a; sourceTree = "<group>"; };
+		6D6F37CC1BD47B4F00BE1AA0 /* Cebra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cebra.m4a; sourceTree = "<group>"; };
+		6D6F37CE1BD47B6100BE1AA0 /* Canario.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Canario.m4a; sourceTree = "<group>"; };
+		6D6F37D01BD47B7600BE1AA0 /* Caballo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Caballo.m4a; sourceTree = "<group>"; };
+		6D6F37D21BD47B8B00BE1AA0 /* Búho.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Búho.m4a"; sourceTree = "<group>"; };
+		6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarrón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Borrego Cimarrón.m4a"; sourceTree = "<group>"; };
+		6D6F37D61BD47BC600BE1AA0 /* Buey.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buey.m4a; sourceTree = "<group>"; };
+		6D6F37D81BD47BF500BE1AA0 /* Bote de basura.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bote de basura.m4a"; sourceTree = "<group>"; };
+		6D6F37DA1BD47C1F00BE1AA0 /* Baño.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Baño.m4a"; sourceTree = "<group>"; };
+		6D6F37DC1BD47C3F00BE1AA0 /* Cocina.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cocina.m4a; sourceTree = "<group>"; };
+		6D6F37DE1BD47C4E00BE1AA0 /* Cochera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cochera.m4a; sourceTree = "<group>"; };
+		6D6F37E01BD47C6500BE1AA0 /* Closet.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Closet.m4a; sourceTree = "<group>"; };
+		6D6F37E21BD4831B00BE1AA0 /* aguacate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = aguacate.jpg; sourceTree = "<group>"; };
+		6D6F37E41BD4832B00BE1AA0 /* arroz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arroz.jpg; sourceTree = "<group>"; };
+		6D6F37E61BD4833600BE1AA0 /* cafe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cafe.jpg; sourceTree = "<group>"; };
+		6D6F37E81BD4834000BE1AA0 /* carne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = carne.jpg; sourceTree = "<group>"; };
+		6D6F37EA1BD4835700BE1AA0 /* cebolla.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cebolla.jpg; sourceTree = "<group>"; };
+		6D6F37EC1BD4836100BE1AA0 /* cereal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cereal.jpg; sourceTree = "<group>"; };
+		6D6F37EE1BD4836900BE1AA0 /* chiles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chiles.jpg; sourceTree = "<group>"; };
+		6D6F37F01BD4837900BE1AA0 /* chocolate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chocolate.jpg; sourceTree = "<group>"; };
+		6D6F37F21BD4838800BE1AA0 /* coco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coco.jpg; sourceTree = "<group>"; };
+		6D6F37F41BD4839300BE1AA0 /* fresa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fresa.jpg; sourceTree = "<group>"; };
+		6D6F37F61BD4839E00BE1AA0 /* frijoles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = frijoles.jpg; sourceTree = "<group>"; };
+		6D6F37F81BD483B200BE1AA0 /* helado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = helado.jpg; sourceTree = "<group>"; };
+		6D6F37FA1BD483BD00BE1AA0 /* huevo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huevo.jpg; sourceTree = "<group>"; };
+		6D6F37FC1BD483C600BE1AA0 /* jamon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jamon.jpg; sourceTree = "<group>"; };
+		6D6F37FE1BD483D000BE1AA0 /* jitomate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jitomate.jpg; sourceTree = "<group>"; };
+		6D6F38001BD483DA00BE1AA0 /* leche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = leche.jpg; sourceTree = "<group>"; };
+		6D6F38021BD483EC00BE1AA0 /* manzana.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = manzana.jpg; sourceTree = "<group>"; };
+		6D6F38041BD483F500BE1AA0 /* miel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = miel.jpg; sourceTree = "<group>"; };
+		6D6F38061BD4840200BE1AA0 /* naranjas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = naranjas.jpg; sourceTree = "<group>"; };
+		6D6F38081BD4840900BE1AA0 /* pan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pan.jpg; sourceTree = "<group>"; };
+		6D6F380A1BD4841500BE1AA0 /* pescado.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pescado.jpg; sourceTree = "<group>"; };
+		6D6F380C1BD4842600BE1AA0 /* piña.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "piña.jpg"; sourceTree = "<group>"; };
+		6D6F380E1BD4842F00BE1AA0 /* platano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = platano.jpg; sourceTree = "<group>"; };
+		6D6F38101BD4843F00BE1AA0 /* pollo2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pollo2.jpg; sourceTree = "<group>"; };
+		6D6F38121BD4844600BE1AA0 /* queso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = queso.jpg; sourceTree = "<group>"; };
+		6D6F38141BD4844F00BE1AA0 /* salchichas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = salchichas.jpg; sourceTree = "<group>"; };
+		6D6F38161BD4845700BE1AA0 /* sandia.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sandia.jpg; sourceTree = "<group>"; };
+		6D6F38181BD4846900BE1AA0 /* uvas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uvas.jpg; sourceTree = "<group>"; };
+		6D6F381A1BD4847100BE1AA0 /* yogur.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yogur.jpg; sourceTree = "<group>"; };
+		6D6F381C1BD4847800BE1AA0 /* zanahorias.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zanahorias.jpg; sourceTree = "<group>"; };
+		6D6F381F1BD4884700BE1AA0 /* abrigo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abrigo.jpg; sourceTree = "<group>"; };
+		6D6F38211BD4884F00BE1AA0 /* anillo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = anillo.jpg; sourceTree = "<group>"; };
+		6D6F38231BD4885500BE1AA0 /* blusa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blusa.jpg; sourceTree = "<group>"; };
+		6D6F38251BD4885E00BE1AA0 /* botas2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = botas2.jpg; sourceTree = "<group>"; };
+		6D6F38271BD4886600BE1AA0 /* bufanda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bufanda.jpg; sourceTree = "<group>"; };
+		6D6F38291BD4886C00BE1AA0 /* calcetines.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = calcetines.jpg; sourceTree = "<group>"; };
+		6D6F382B1BD4887500BE1AA0 /* camisa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camisa.jpg; sourceTree = "<group>"; };
+		6D6F382D1BD4887B00BE1AA0 /* camiseta.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = camiseta.jpg; sourceTree = "<group>"; };
+		6D6F382F1BD4888100BE1AA0 /* chaleco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chaleco.jpg; sourceTree = "<group>"; };
+		6D6F38311BD4888700BE1AA0 /* chamarra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chamarra.jpg; sourceTree = "<group>"; };
+		6D6F38331BD4888E00BE1AA0 /* chanclas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chanclas.jpg; sourceTree = "<group>"; };
+		6D6F38351BD4889300BE1AA0 /* cinturon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cinturon.jpg; sourceTree = "<group>"; };
+		6D6F38371BD4889D00BE1AA0 /* collar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = collar.jpg; sourceTree = "<group>"; };
+		6D6F38391BD488A200BE1AA0 /* corbata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = corbata.jpg; sourceTree = "<group>"; };
+		6D6F383B1BD488A800BE1AA0 /* falda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = falda.jpg; sourceTree = "<group>"; };
+		6D6F383D1BD488C600BE1AA0 /* gorra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gorra.jpg; sourceTree = "<group>"; };
+		6D6F383F1BD488D100BE1AA0 /* guantes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = guantes.jpg; sourceTree = "<group>"; };
+		6D6F38411BD488DF00BE1AA0 /* lentes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lentes.jpg; sourceTree = "<group>"; };
+		6D6F38431BD488EC00BE1AA0 /* pantalon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantalon.jpg; sourceTree = "<group>"; };
+		6D6F38451BD488F400BE1AA0 /* pantuflas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pantuflas.jpg; sourceTree = "<group>"; };
+		6D6F38471BD488FD00BE1AA0 /* pijama.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pijama.jpg; sourceTree = "<group>"; };
+		6D6F38491BD4891100BE1AA0 /* relojmano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = relojmano.jpg; sourceTree = "<group>"; };
+		6D6F384B1BD4891800BE1AA0 /* sombrero.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sombrero.jpg; sourceTree = "<group>"; };
+		6D6F384D1BD4891D00BE1AA0 /* sudadera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sudadera.jpg; sourceTree = "<group>"; };
+		6D6F384F1BD4892100BE1AA0 /* sueter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sueter.jpg; sourceTree = "<group>"; };
+		6D6F38511BD4892700BE1AA0 /* tacones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tacones.png; sourceTree = "<group>"; };
+		6D6F38531BD4892D00BE1AA0 /* tenis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tenis.jpg; sourceTree = "<group>"; };
+		6D6F38551BD4893300BE1AA0 /* traje.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = traje.jpg; sourceTree = "<group>"; };
+		6D6F38571BD4893700BE1AA0 /* vestido.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vestido.jpg; sourceTree = "<group>"; };
+		6D6F38591BD4894400BE1AA0 /* zapatos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zapatos.jpg; sourceTree = "<group>"; };
+		6D6F385C1BD48C4000BE1AA0 /* boca.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boca.jpg; sourceTree = "<group>"; };
+		6D6F385E1BD48C4800BE1AA0 /* brazo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brazo.png; sourceTree = "<group>"; };
+		6D6F38601BD48C4E00BE1AA0 /* cabello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabello.jpg; sourceTree = "<group>"; };
+		6D6F38621BD48C5300BE1AA0 /* cabeza.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cabeza.jpg; sourceTree = "<group>"; };
+		6D6F38641BD48C5B00BE1AA0 /* ceja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ceja.jpg; sourceTree = "<group>"; };
+		6D6F38661BD48C6100BE1AA0 /* codo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = codo.jpg; sourceTree = "<group>"; };
+		6D6F38681BD48C6600BE1AA0 /* cuello.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cuello.jpg; sourceTree = "<group>"; };
+		6D6F386A1BD48C6D00BE1AA0 /* dedo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dedo.jpg; sourceTree = "<group>"; };
+		6D6F386C1BD48C7B00BE1AA0 /* dientes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dientes.jpg; sourceTree = "<group>"; };
+		6D6F386E1BD48C8000BE1AA0 /* hombro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hombro.jpg; sourceTree = "<group>"; };
+		6D6F38701BD48C8600BE1AA0 /* lengua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lengua.jpg; sourceTree = "<group>"; };
+		6D6F38721BD48C8C00BE1AA0 /* mano.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mano.jpg; sourceTree = "<group>"; };
+		6D6F38741BD48C9200BE1AA0 /* nariz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nariz.jpg; sourceTree = "<group>"; };
+		6D6F38761BD48C9800BE1AA0 /* ojo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ojo.jpg; sourceTree = "<group>"; };
+		6D6F38781BD48C9D00BE1AA0 /* oreja.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = oreja.jpg; sourceTree = "<group>"; };
+		6D6F387A1BD48CA200BE1AA0 /* pie.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pie.jpg; sourceTree = "<group>"; };
+		6D6F387C1BD48CA700BE1AA0 /* piernas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piernas.jpg; sourceTree = "<group>"; };
+		6D6F387E1BD48CAD00BE1AA0 /* torso.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = torso.jpg; sourceTree = "<group>"; };
+		6D6F38811BD4912A00BE1AA0 /* Zapatos.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zapatos.m4a; sourceTree = "<group>"; };
+		6D6F38821BD4913C00BE1AA0 /* Vestido.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vestido.m4a; sourceTree = "<group>"; };
+		6D6F38841BD4915200BE1AA0 /* Traje.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Traje.m4a; sourceTree = "<group>"; };
+		6D6F38861BD4916600BE1AA0 /* Tenis.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tenis.m4a; sourceTree = "<group>"; };
+		6D6F38881BD4918100BE1AA0 /* Tacones.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tacones.m4a; sourceTree = "<group>"; };
+		6D6F388A1BD4919200BE1AA0 /* Suéter.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Suéter.m4a"; sourceTree = "<group>"; };
+		6D6F388C1BD491A600BE1AA0 /* Sudadera.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sudadera.m4a; sourceTree = "<group>"; };
+		6D6F388E1BD491B700BE1AA0 /* Sombrero.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sombrero.m4a; sourceTree = "<group>"; };
+		6D6F38901BD491D200BE1AA0 /* Pijama.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pijama.m4a; sourceTree = "<group>"; };
+		6D6F38921BD491EF00BE1AA0 /* Pantuflas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pantuflas.m4a; sourceTree = "<group>"; };
+		6D6F38941BD4920200BE1AA0 /* Pantalón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pantalón.m4a"; sourceTree = "<group>"; };
+		6D6F38961BD4921C00BE1AA0 /* Lentes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lentes.m4a; sourceTree = "<group>"; };
+		6D6F38981BD4922F00BE1AA0 /* Guantes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Guantes.m4a; sourceTree = "<group>"; };
+		6D6F389A1BD4923F00BE1AA0 /* Gorra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gorra.m4a; sourceTree = "<group>"; };
+		6D6F389C1BD4924F00BE1AA0 /* Falda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Falda.m4a; sourceTree = "<group>"; };
+		6D6F389E1BD4926300BE1AA0 /* Corbata.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Corbata.m4a; sourceTree = "<group>"; };
+		6D6F38A01BD4927300BE1AA0 /* Collar.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Collar.m4a; sourceTree = "<group>"; };
+		6D6F38A21BD4928500BE1AA0 /* Cinturón.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Cinturón.m4a"; sourceTree = "<group>"; };
+		6D6F38A41BD4929900BE1AA0 /* Chanclas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chanclas.m4a; sourceTree = "<group>"; };
+		6D6F38A61BD492BC00BE1AA0 /* Chamarra.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chamarra.m4a; sourceTree = "<group>"; };
+		6D6F38A81BD492CD00BE1AA0 /* Chaleco.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chaleco.m4a; sourceTree = "<group>"; };
+		6D6F38AA1BD492DE00BE1AA0 /* Camiseta.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camiseta.m4a; sourceTree = "<group>"; };
+		6D6F38AC1BD492EE00BE1AA0 /* Camisa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camisa.m4a; sourceTree = "<group>"; };
+		6D6F38AE1BD492FE00BE1AA0 /* Calcetines.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Calcetines.m4a; sourceTree = "<group>"; };
+		6D6F38B01BD4931100BE1AA0 /* Bufanda.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bufanda.m4a; sourceTree = "<group>"; };
+		6D6F38B21BD4932600BE1AA0 /* Botas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Botas.m4a; sourceTree = "<group>"; };
+		6D6F38B41BD4933500BE1AA0 /* Blusa.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blusa.m4a; sourceTree = "<group>"; };
+		6D6F38B61BD4934B00BE1AA0 /* Anillo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Anillo.m4a; sourceTree = "<group>"; };
+		6D6F38B81BD4935C00BE1AA0 /* Abrigo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Abrigo.m4a; sourceTree = "<group>"; };
+		6D6F38BB1BD4938D00BE1AA0 /* Reloj de mano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Reloj de mano.m4a"; sourceTree = "<group>"; };
+		6D6F38BD1BD493A800BE1AA0 /* Uvas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Uvas.m4a; sourceTree = "<group>"; };
+		6D6F38BF1BD493C700BE1AA0 /* Zanahorias.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zanahorias.m4a; sourceTree = "<group>"; };
+		6D6F38C11BD493DB00BE1AA0 /* Sandía.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sandía.m4a"; sourceTree = "<group>"; };
+		6D6F38C31BD493EE00BE1AA0 /* Yogur.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yogur.m4a; sourceTree = "<group>"; };
+		6D6F38C61BD587D200BE1AA0 /* Boca.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boca.m4a; sourceTree = "<group>"; };
+		6D6F38C81BD587E900BE1AA0 /* Brazo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brazo.m4a; sourceTree = "<group>"; };
+		6D6F38CA1BD5880000BE1AA0 /* Cabello.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cabello.m4a; sourceTree = "<group>"; };
+		6D6F38CC1BD5881300BE1AA0 /* Cabeza.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cabeza.m4a; sourceTree = "<group>"; };
+		6D6F38CE1BD5883000BE1AA0 /* Ceja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ceja.m4a; sourceTree = "<group>"; };
+		6D6F38D01BD5884000BE1AA0 /* Codo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Codo.m4a; sourceTree = "<group>"; };
+		6D6F38D21BD5886900BE1AA0 /* Dedo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dedo.m4a; sourceTree = "<group>"; };
+		6D6F38D41BD5887A00BE1AA0 /* Hombro.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hombro.m4a; sourceTree = "<group>"; };
+		6D6F38D61BD5888900BE1AA0 /* Dientes.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dientes.m4a; sourceTree = "<group>"; };
+		6D6F38D81BD5889A00BE1AA0 /* Lengua.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lengua.m4a; sourceTree = "<group>"; };
+		6D6F38DA1BD588A800BE1AA0 /* Mano.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mano.m4a; sourceTree = "<group>"; };
+		6D6F38DC1BD588B600BE1AA0 /* Nariz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nariz.m4a; sourceTree = "<group>"; };
+		6D6F38DE1BD588C300BE1AA0 /* Ojo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ojo.m4a; sourceTree = "<group>"; };
+		6D6F38E01BD588D200BE1AA0 /* Oreja.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oreja.m4a; sourceTree = "<group>"; };
+		6D6F38E21BD588E000BE1AA0 /* Pie.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pie.m4a; sourceTree = "<group>"; };
+		6D6F38E41BD588F500BE1AA0 /* Piernas.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Piernas.m4a; sourceTree = "<group>"; };
+		6D6F38E61BD5890500BE1AA0 /* Torso.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Torso.m4a; sourceTree = "<group>"; };
 		6D8A97C81BA7869E00E23C28 /* CEDAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEDAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8A97CC1BA7869E00E23C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +614,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D6F37541BD472B900BE1AA0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,22 +631,42 @@
 		6D3794781BC9F7F7001500EB /* Imgs Animales */ = {
 			isa = PBXGroup;
 			children = (
-				6D3794791BC9F857001500EB /* buey.jpg */,
+				6D6F36AF1BD4571400BE1AA0 /* ardilla.jpg */,
+				6D6F36B11BD4572600BE1AA0 /* avestruz.jpg */,
+				6D6F36B31BD4573700BE1AA0 /* borrego.jpg */,
+				6D6F36B91BD457C500BE1AA0 /* buey.jpg */,
+				6D6F36B71BD4576F00BE1AA0 /* buho.jpg */,
 				6D37947A1BC9F857001500EB /* caballo.jpg */,
-				6D37947B1BC9F857001500EB /* canario.jpg */,
+				6D6F36BB1BD457DA00BE1AA0 /* canario.jpg */,
+				6D6F36BD1BD457E700BE1AA0 /* cebra.jpg */,
+				6D6F36BF1BD457F700BE1AA0 /* cisne.jpg */,
 				6D37947C1BC9F857001500EB /* elefante.jpg */,
 				6D37947D1BC9F857001500EB /* gato.jpg */,
+				6D6F36C11BD4581400BE1AA0 /* iguana.jpg */,
 				6D37947E1BC9F857001500EB /* jirafa.jpg */,
+				6D6F36C31BD4582E00BE1AA0 /* koala.jpg */,
+				6D6F36C51BD4583D00BE1AA0 /* leon.jpg */,
+				6D6F36C71BD4584D00BE1AA0 /* leopardo.jpg */,
 				6D37947F1BC9F857001500EB /* lobo.jpeg */,
+				6D6F36C91BD4586100BE1AA0 /* mapache.jpg */,
+				6D6F36CB1BD4586E00BE1AA0 /* mariposa.jpg */,
 				6D3794801BC9F857001500EB /* mono.jpg */,
 				6D3794811BC9F857001500EB /* oso.jpg */,
 				6D3794821BC9F857001500EB /* pato.jpg */,
+				6D6F36CD1BD4588B00BE1AA0 /* pavo_real.jpg */,
 				6D3794831BC9F857001500EB /* perico.jpg */,
 				6D3794841BC9F857001500EB /* perro.jpg */,
-				6D3794851BC9F857001500EB /* pollo.jpg */,
+				6D6F36CF1BD458A200BE1AA0 /* pez.jpg */,
+				6D6F36D11BD458B200BE1AA0 /* pinguino.jpg */,
+				6D6F36E31BD4597100BE1AA0 /* pollo.jpg */,
 				6D3794861BC9F857001500EB /* rana.jpg */,
+				6D6F36D51BD458D500BE1AA0 /* rinocerontes.jpg */,
+				6D6F36D71BD458E400BE1AA0 /* tiburon.jpg */,
 				6D3794871BC9F857001500EB /* tigre.jpg */,
-				6D3794881BC9F857001500EB /* zebra.jpg */,
+				6D6F36D91BD458F500BE1AA0 /* toro.jpg */,
+				6D6F36DB1BD4590300BE1AA0 /* tortuga.jpg */,
+				6D6F36DD1BD4590F00BE1AA0 /* vaca.jpg */,
+				6D6F36DF1BD4591E00BE1AA0 /* venado.jpg */,
 			);
 			name = "Imgs Animales";
 			sourceTree = "<group>";
@@ -167,32 +681,320 @@
 			name = "Imgs Menú";
 			sourceTree = "<group>";
 		};
-		6D3EE3DD1BC9B37700CFD061 /* Banderas */ = {
+		6D4153271BD40EAA0095981C /* Casa */ = {
 			isa = PBXGroup;
 			children = (
-				6D3EE3DE1BC9B38500CFD061 /* al.jpg */,
-				6D3EE3E01BC9B38A00CFD061 /* EUA.jpg */,
-				6D3EE3E21BC9B38F00CFD061 /* francia.jpg */,
-				6D3EE3E41BC9B39400CFD061 /* mex.png */,
-				6D3EE3E81BC9D03600CFD061 /* vi.png */,
-				6D3EE3EE1BC9D04900CFD061 /* ar.png */,
-				6D3EE3F01BC9D04F00CFD061 /* af.png */,
-				6D3EE3FA1BC9D0A700CFD061 /* reino.png */,
-				6D3EE3F21BC9D08F00CFD061 /* uc.png */,
-				6D3EE3FC1BC9D0AB00CFD061 /* palaos.png */,
-				6D3EE3F81BC9D0A200CFD061 /* serbia.png */,
-				6D3EE3F61BC9D09D00CFD061 /* suecia.png */,
-				6D3EE3F41BC9D09600CFD061 /* togo.png */,
-				6D3EE3EA1BC9D03F00CFD061 /* grecia.png */,
-				6D3EE3EC1BC9D04400CFD061 /* can.png */,
+				6D6F36E51BD4598500BE1AA0 /* baño.jpg */,
+				6D6F36E71BD4599D00BE1AA0 /* basura.jpg */,
+				6D6F36E91BD459AA00BE1AA0 /* closet.jpeg */,
+				6D6F36EB1BD459B600BE1AA0 /* cochera.jpg */,
+				6D6F36ED1BD459C200BE1AA0 /* cocina.jpg */,
+				6D6F36EF1BD459CE00BE1AA0 /* comedor.jpg */,
+				6D6F36AD1BD456BF00BE1AA0 /* copas.jpg */,
+				6D6F36F11BD459DA00BE1AA0 /* cuchara.jpg */,
+				6D6F36F31BD459E600BE1AA0 /* cuchillo.jpg */,
+				6D6F36F51BD459F300BE1AA0 /* escalera.jpg */,
+				6D6F36F71BD459FD00BE1AA0 /* espejo.jpg */,
+				6D6F36F91BD45A0B00BE1AA0 /* estufa.jpg */,
+				6D6F36FB1BD45A1600BE1AA0 /* impresora.jpg */,
+				6D6F36FD1BD45A2200BE1AA0 /* lampara.jpg */,
+				6D6F36FF1BD45A2F00BE1AA0 /* laptop.jpg */,
+				6D6F37011BD45A3A00BE1AA0 /* lavabo.jpeg */,
+				6D6F37031BD45A4500BE1AA0 /* lavadora.jpg */,
+				6D6F37051BD45A5100BE1AA0 /* libros.jpg */,
+				6D6F37071BD45A5D00BE1AA0 /* maceta.jpg */,
+				6D6F37091BD45A6900BE1AA0 /* mesa.jpg */,
+				6D6F370B1BD45A7700BE1AA0 /* microondas.jpg */,
+				6D6F370D1BD45A8100BE1AA0 /* puerta.jpg */,
+				6D6F370F1BD45A8D00BE1AA0 /* recamara.jpg */,
+				6D6F37111BD45A9800BE1AA0 /* refrigerador.jpg */,
+				6D6F37131BD45AA400BE1AA0 /* regadera.jpg */,
+				6D6F37151BD45AB200BE1AA0 /* reloj.jpg */,
+				6D6F37171BD45ABE00BE1AA0 /* sala.jpg */,
+				6D6F37191BD45ACB00BE1AA0 /* sarten.jpg */,
+				6D6F371D1BD45AE400BE1AA0 /* silla.jpg */,
+				6D6F371B1BD45ADA00BE1AA0 /* sillon.jpg */,
+				6D6F371F1BD45AF100BE1AA0 /* telefono.jpg */,
+				6D6F37211BD45B0100BE1AA0 /* television.jpg */,
+				6D6F37231BD45B0E00BE1AA0 /* tenedor.jpg */,
+				6D6F37251BD45B1C00BE1AA0 /* tocador.jpg */,
+				6D6F37271BD45B2600BE1AA0 /* vaso.jpg */,
 			);
-			name = Banderas;
+			name = Casa;
+			sourceTree = "<group>";
+		};
+		6D4153481BD410E60095981C /* Supermercado */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F37E21BD4831B00BE1AA0 /* aguacate.jpg */,
+				6D6F37E61BD4833600BE1AA0 /* cafe.jpg */,
+				6D6F37E41BD4832B00BE1AA0 /* arroz.jpg */,
+				6D6F37EC1BD4836100BE1AA0 /* cereal.jpg */,
+				6D6F37EA1BD4835700BE1AA0 /* cebolla.jpg */,
+				6D6F37F21BD4838800BE1AA0 /* coco.jpg */,
+				6D6F37F41BD4839300BE1AA0 /* fresa.jpg */,
+				6D6F37EE1BD4836900BE1AA0 /* chiles.jpg */,
+				6D6F38021BD483EC00BE1AA0 /* manzana.jpg */,
+				6D6F38101BD4843F00BE1AA0 /* pollo2.jpg */,
+				6D6F37F61BD4839E00BE1AA0 /* frijoles.jpg */,
+				6D6F37F81BD483B200BE1AA0 /* helado.jpg */,
+				6D6F380A1BD4841500BE1AA0 /* pescado.jpg */,
+				6D6F38121BD4844600BE1AA0 /* queso.jpg */,
+				6D6F380C1BD4842600BE1AA0 /* piña.jpg */,
+				6D6F381A1BD4847100BE1AA0 /* yogur.jpg */,
+				6D6F38161BD4845700BE1AA0 /* sandia.jpg */,
+				6D6F38181BD4846900BE1AA0 /* uvas.jpg */,
+				6D6F38001BD483DA00BE1AA0 /* leche.jpg */,
+				6D6F38141BD4844F00BE1AA0 /* salchichas.jpg */,
+				6D6F381C1BD4847800BE1AA0 /* zanahorias.jpg */,
+				6D6F38061BD4840200BE1AA0 /* naranjas.jpg */,
+				6D6F38081BD4840900BE1AA0 /* pan.jpg */,
+				6D6F380E1BD4842F00BE1AA0 /* platano.jpg */,
+				6D6F38041BD483F500BE1AA0 /* miel.jpg */,
+				6D6F37FC1BD483C600BE1AA0 /* jamon.jpg */,
+				6D6F37FE1BD483D000BE1AA0 /* jitomate.jpg */,
+				6D6F37FA1BD483BD00BE1AA0 /* huevo.jpg */,
+				6D6F37E81BD4834000BE1AA0 /* carne.jpg */,
+				6D6F37F01BD4837900BE1AA0 /* chocolate.jpg */,
+			);
+			name = Supermercado;
+			sourceTree = "<group>";
+		};
+		6D6F37411BD4641000BE1AA0 /* Integrantes */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F37461BD464A600BE1AA0 /* miry.png */,
+				6D6F374C1BD465AF00BE1AA0 /* vale.png */,
+				6D6F374A1BD4656E00BE1AA0 /* itu.png */,
+				6D6F37481BD464D400BE1AA0 /* karla.jpg */,
+				6D6F37421BD4642500BE1AA0 /* holi.png */,
+			);
+			name = Integrantes;
+			sourceTree = "<group>";
+		};
+		6D6F37501BD471F400BE1AA0 /* Audios Casa */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F37DA1BD47C1F00BE1AA0 /* Baño.m4a */,
+				6D6F37D81BD47BF500BE1AA0 /* Bote de basura.m4a */,
+				6D6F37E01BD47C6500BE1AA0 /* Closet.m4a */,
+				6D6F37DE1BD47C4E00BE1AA0 /* Cochera.m4a */,
+				6D6F37DC1BD47C3F00BE1AA0 /* Cocina.m4a */,
+				6D6F37871BD4778300BE1AA0 /* Comedor.m4a */,
+				6D6F37891BD4779800BE1AA0 /* Copa.m4a */,
+				6D6F378B1BD477AC00BE1AA0 /* Cuchara.m4a */,
+				6D6F378D1BD477BE00BE1AA0 /* Cuchillo.m4a */,
+				6D6F37851BD475E000BE1AA0 /* Escalera.m4a */,
+				6D6F37831BD475CC00BE1AA0 /* Espejo.m4a */,
+				6D6F37811BD475B200BE1AA0 /* Estufa.m4a */,
+				6D6F377F1BD475A300BE1AA0 /* Impresora.m4a */,
+				6D6F377D1BD4758B00BE1AA0 /* Lámpara.m4a */,
+				6D6F37791BD4756A00BE1AA0 /* Laptop.m4a */,
+				6D6F37771BD4755900BE1AA0 /* Lavabo.m4a */,
+				6D6F37751BD4754600BE1AA0 /* Lavadora.m4a */,
+				6D6F377B1BD4757B00BE1AA0 /* Libro.m4a */,
+				6D6F37731BD4753400BE1AA0 /* Maceta.m4a */,
+				6D6F37511BD4720400BE1AA0 /* Mesa.m4a */,
+				6D6F37551BD4739B00BE1AA0 /* Microondas.m4a */,
+				6D6F376B1BD4749900BE1AA0 /* Puerta.m4a */,
+				6D6F37711BD4752500BE1AA0 /* Recámara.m4a */,
+				6D6F376D1BD474DE00BE1AA0 /* Refrigerador.m4a */,
+				6D6F376F1BD4751600BE1AA0 /* Regadera.m4a */,
+				6D6F37691BD4748800BE1AA0 /* Reloj.m4a */,
+				6D6F37631BD4744900BE1AA0 /* Sala.m4a */,
+				6D6F37651BD4745C00BE1AA0 /* Sartén.m4a */,
+				6D6F37671BD4746F00BE1AA0 /* Silla.m4a */,
+				6D6F37611BD4743500BE1AA0 /* Sillón.m4a */,
+				6D6F375F1BD4742200BE1AA0 /* Teléfono.m4a */,
+				6D6F375D1BD4740B00BE1AA0 /* Televisión.m4a */,
+				6D6F375B1BD473F400BE1AA0 /* Tenedor.m4a */,
+				6D6F37591BD473DC00BE1AA0 /* Tocador.m4a */,
+				6D6F37571BD473BF00BE1AA0 /* Vaso.m4a */,
+			);
+			name = "Audios Casa";
+			sourceTree = "<group>";
+		};
+		6D6F378F1BD4791100BE1AA0 /* Audios Animales */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F37901BD4793400BE1AA0 /* Ardilla.m4a */,
+				6D6F37921BD4795700BE1AA0 /* Avestruz.m4a */,
+				6D6F37D41BD47BB700BE1AA0 /* Borrego Cimarrón.m4a */,
+				6D6F37D61BD47BC600BE1AA0 /* Buey.m4a */,
+				6D6F37D21BD47B8B00BE1AA0 /* Búho.m4a */,
+				6D6F37D01BD47B7600BE1AA0 /* Caballo.m4a */,
+				6D6F37CE1BD47B6100BE1AA0 /* Canario.m4a */,
+				6D6F37CC1BD47B4F00BE1AA0 /* Cebra.m4a */,
+				6D6F37CA1BD47B4100BE1AA0 /* Cisne.m4a */,
+				6D6F37C81BD47B3200BE1AA0 /* Elefante.m4a */,
+				6D6F37C61BD47B2200BE1AA0 /* Gato.m4a */,
+				6D6F37C41BD47B1500BE1AA0 /* Iguana.m4a */,
+				6D6F37C21BD47B0700BE1AA0 /* Jirafa.m4a */,
+				6D6F37C01BD47AF700BE1AA0 /* Koala.m4a */,
+				6D6F37BE1BD47AE900BE1AA0 /* León.m4a */,
+				6D6F37BC1BD47ADA00BE1AA0 /* Leopardo.m4a */,
+				6D6F37BA1BD47ACA00BE1AA0 /* Lobo.m4a */,
+				6D6F37B81BD47ABC00BE1AA0 /* Mapache.m4a */,
+				6D6F37B61BD47AAF00BE1AA0 /* Mariposa.m4a */,
+				6D6F37B41BD47A9500BE1AA0 /* Mono.m4a */,
+				6D6F37B01BD47A6F00BE1AA0 /* Oso.m4a */,
+				6D6F37B21BD47A8500BE1AA0 /* Pato.m4a */,
+				6D6F37AE1BD47A5C00BE1AA0 /* Pavo Real.m4a */,
+				6D6F37AC1BD47A4900BE1AA0 /* Perico.m4a */,
+				6D6F37AA1BD47A3900BE1AA0 /* Perro.m4a */,
+				6D6F37A81BD47A2A00BE1AA0 /* Pez.m4a */,
+				6D6F37A61BD47A1900BE1AA0 /* Pingüino.m4a */,
+				6D6F37A41BD47A0800BE1AA0 /* Pollo.m4a */,
+				6D6F37A21BD479F100BE1AA0 /* Rana.m4a */,
+				6D6F37A01BD479E100BE1AA0 /* Rinoceronte.m4a */,
+				6D6F379E1BD479D000BE1AA0 /* Tiburón.m4a */,
+				6D6F379C1BD479BA00BE1AA0 /* Tigre.m4a */,
+				6D6F379A1BD479AA00BE1AA0 /* Toro.m4a */,
+				6D6F37981BD4799A00BE1AA0 /* Tortuga.m4a */,
+				6D6F37961BD4798700BE1AA0 /* Vaca.m4a */,
+				6D6F37941BD4797300BE1AA0 /* Venado.m4a */,
+			);
+			name = "Audios Animales";
+			sourceTree = "<group>";
+		};
+		6D6F381E1BD4882D00BE1AA0 /* Ropa */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F381F1BD4884700BE1AA0 /* abrigo.jpg */,
+				6D6F38211BD4884F00BE1AA0 /* anillo.jpg */,
+				6D6F38231BD4885500BE1AA0 /* blusa.jpg */,
+				6D6F38251BD4885E00BE1AA0 /* botas2.jpg */,
+				6D6F38271BD4886600BE1AA0 /* bufanda.jpg */,
+				6D6F38291BD4886C00BE1AA0 /* calcetines.jpg */,
+				6D6F382B1BD4887500BE1AA0 /* camisa.jpg */,
+				6D6F382D1BD4887B00BE1AA0 /* camiseta.jpg */,
+				6D6F382F1BD4888100BE1AA0 /* chaleco.jpg */,
+				6D6F38311BD4888700BE1AA0 /* chamarra.jpg */,
+				6D6F38331BD4888E00BE1AA0 /* chanclas.jpg */,
+				6D6F38351BD4889300BE1AA0 /* cinturon.jpg */,
+				6D6F38371BD4889D00BE1AA0 /* collar.jpg */,
+				6D6F38391BD488A200BE1AA0 /* corbata.jpg */,
+				6D6F383B1BD488A800BE1AA0 /* falda.jpg */,
+				6D6F383D1BD488C600BE1AA0 /* gorra.jpg */,
+				6D6F383F1BD488D100BE1AA0 /* guantes.jpg */,
+				6D6F38411BD488DF00BE1AA0 /* lentes.jpg */,
+				6D6F38431BD488EC00BE1AA0 /* pantalon.jpg */,
+				6D6F38451BD488F400BE1AA0 /* pantuflas.jpg */,
+				6D6F38471BD488FD00BE1AA0 /* pijama.jpg */,
+				6D6F38491BD4891100BE1AA0 /* relojmano.jpg */,
+				6D6F384B1BD4891800BE1AA0 /* sombrero.jpg */,
+				6D6F384D1BD4891D00BE1AA0 /* sudadera.jpg */,
+				6D6F384F1BD4892100BE1AA0 /* sueter.jpg */,
+				6D6F38511BD4892700BE1AA0 /* tacones.png */,
+				6D6F38531BD4892D00BE1AA0 /* tenis.jpg */,
+				6D6F38551BD4893300BE1AA0 /* traje.jpg */,
+				6D6F38571BD4893700BE1AA0 /* vestido.jpg */,
+				6D6F38591BD4894400BE1AA0 /* zapatos.jpg */,
+			);
+			name = Ropa;
+			sourceTree = "<group>";
+		};
+		6D6F385B1BD48C3400BE1AA0 /* Cuerpo */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F385E1BD48C4800BE1AA0 /* brazo.png */,
+				6D6F385C1BD48C4000BE1AA0 /* boca.jpg */,
+				6D6F38601BD48C4E00BE1AA0 /* cabello.jpg */,
+				6D6F38681BD48C6600BE1AA0 /* cuello.jpg */,
+				6D6F38661BD48C6100BE1AA0 /* codo.jpg */,
+				6D6F386C1BD48C7B00BE1AA0 /* dientes.jpg */,
+				6D6F386A1BD48C6D00BE1AA0 /* dedo.jpg */,
+				6D6F38621BD48C5300BE1AA0 /* cabeza.jpg */,
+				6D6F386E1BD48C8000BE1AA0 /* hombro.jpg */,
+				6D6F38781BD48C9D00BE1AA0 /* oreja.jpg */,
+				6D6F38741BD48C9200BE1AA0 /* nariz.jpg */,
+				6D6F387A1BD48CA200BE1AA0 /* pie.jpg */,
+				6D6F387E1BD48CAD00BE1AA0 /* torso.jpg */,
+				6D6F387C1BD48CA700BE1AA0 /* piernas.jpg */,
+				6D6F38701BD48C8600BE1AA0 /* lengua.jpg */,
+				6D6F38761BD48C9800BE1AA0 /* ojo.jpg */,
+				6D6F38721BD48C8C00BE1AA0 /* mano.jpg */,
+				6D6F38641BD48C5B00BE1AA0 /* ceja.jpg */,
+			);
+			name = Cuerpo;
+			sourceTree = "<group>";
+		};
+		6D6F38801BD4910900BE1AA0 /* Audios Ropa */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F38B81BD4935C00BE1AA0 /* Abrigo.m4a */,
+				6D6F38B61BD4934B00BE1AA0 /* Anillo.m4a */,
+				6D6F38B41BD4933500BE1AA0 /* Blusa.m4a */,
+				6D6F38B21BD4932600BE1AA0 /* Botas.m4a */,
+				6D6F38B01BD4931100BE1AA0 /* Bufanda.m4a */,
+				6D6F38AE1BD492FE00BE1AA0 /* Calcetines.m4a */,
+				6D6F38AC1BD492EE00BE1AA0 /* Camisa.m4a */,
+				6D6F38AA1BD492DE00BE1AA0 /* Camiseta.m4a */,
+				6D6F38A81BD492CD00BE1AA0 /* Chaleco.m4a */,
+				6D6F38A61BD492BC00BE1AA0 /* Chamarra.m4a */,
+				6D6F38A41BD4929900BE1AA0 /* Chanclas.m4a */,
+				6D6F38A21BD4928500BE1AA0 /* Cinturón.m4a */,
+				6D6F38A01BD4927300BE1AA0 /* Collar.m4a */,
+				6D6F389E1BD4926300BE1AA0 /* Corbata.m4a */,
+				6D6F389C1BD4924F00BE1AA0 /* Falda.m4a */,
+				6D6F389A1BD4923F00BE1AA0 /* Gorra.m4a */,
+				6D6F38981BD4922F00BE1AA0 /* Guantes.m4a */,
+				6D6F38961BD4921C00BE1AA0 /* Lentes.m4a */,
+				6D6F38941BD4920200BE1AA0 /* Pantalón.m4a */,
+				6D6F38921BD491EF00BE1AA0 /* Pantuflas.m4a */,
+				6D6F38901BD491D200BE1AA0 /* Pijama.m4a */,
+				6D6F38BB1BD4938D00BE1AA0 /* Reloj de mano.m4a */,
+				6D6F388E1BD491B700BE1AA0 /* Sombrero.m4a */,
+				6D6F388C1BD491A600BE1AA0 /* Sudadera.m4a */,
+				6D6F388A1BD4919200BE1AA0 /* Suéter.m4a */,
+				6D6F38881BD4918100BE1AA0 /* Tacones.m4a */,
+				6D6F38861BD4916600BE1AA0 /* Tenis.m4a */,
+				6D6F38841BD4915200BE1AA0 /* Traje.m4a */,
+				6D6F38821BD4913C00BE1AA0 /* Vestido.m4a */,
+				6D6F38811BD4912A00BE1AA0 /* Zapatos.m4a */,
+			);
+			name = "Audios Ropa";
+			sourceTree = "<group>";
+		};
+		6D6F38BA1BD4936400BE1AA0 /* Audios Alimentos */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F38BF1BD493C700BE1AA0 /* Zanahorias.m4a */,
+				6D6F38C11BD493DB00BE1AA0 /* Sandía.m4a */,
+				6D6F38BD1BD493A800BE1AA0 /* Uvas.m4a */,
+				6D6F38C31BD493EE00BE1AA0 /* Yogur.m4a */,
+			);
+			name = "Audios Alimentos";
+			sourceTree = "<group>";
+		};
+		6D6F38C51BD587BA00BE1AA0 /* Audios Cuerpo */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F38C61BD587D200BE1AA0 /* Boca.m4a */,
+				6D6F38D21BD5886900BE1AA0 /* Dedo.m4a */,
+				6D6F38CC1BD5881300BE1AA0 /* Cabeza.m4a */,
+				6D6F38CA1BD5880000BE1AA0 /* Cabello.m4a */,
+				6D6F38CE1BD5883000BE1AA0 /* Ceja.m4a */,
+				6D6F38DE1BD588C300BE1AA0 /* Ojo.m4a */,
+				6D6F38E01BD588D200BE1AA0 /* Oreja.m4a */,
+				6D6F38E21BD588E000BE1AA0 /* Pie.m4a */,
+				6D6F38E61BD5890500BE1AA0 /* Torso.m4a */,
+				6D6F38DA1BD588A800BE1AA0 /* Mano.m4a */,
+				6D6F38E41BD588F500BE1AA0 /* Piernas.m4a */,
+				6D6F38D61BD5888900BE1AA0 /* Dientes.m4a */,
+				6D6F38D41BD5887A00BE1AA0 /* Hombro.m4a */,
+				6D6F38D01BD5884000BE1AA0 /* Codo.m4a */,
+				6D6F38DC1BD588B600BE1AA0 /* Nariz.m4a */,
+				6D6F38D81BD5889A00BE1AA0 /* Lengua.m4a */,
+				6D6F38C81BD587E900BE1AA0 /* Brazo.m4a */,
+			);
+			name = "Audios Cuerpo";
 			sourceTree = "<group>";
 		};
 		6D8A97BF1BA7869E00E23C28 = {
 			isa = PBXGroup;
 			children = (
-				6D3794991BC9FC4C001500EB /* Niveles2.swift */,
+				6D6F37531BD472B900BE1AA0 /* AVFoundation.framework */,
 				6D8A97CA1BA7869E00E23C28 /* CEDAC */,
 				6D8A97E01BA7869F00E23C28 /* CEDACTests */,
 				6D8A97C91BA7869E00E23C28 /* Products */,
@@ -211,19 +1013,30 @@
 		6D8A97CA1BA7869E00E23C28 /* CEDAC */ = {
 			isa = PBXGroup;
 			children = (
-				6D3794781BC9F7F7001500EB /* Imgs Animales */,
-				6D3EE3DD1BC9B37700CFD061 /* Banderas */,
-				6D3EE3981BC9892700CFD061 /* Imgs Menú */,
+				6D6F38C51BD587BA00BE1AA0 /* Audios Cuerpo */,
 				6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */,
-				6D8A97CF1BA7869E00E23C28 /* ViewController.swift */,
+				6D6F38BA1BD4936400BE1AA0 /* Audios Alimentos */,
+				6D6F378F1BD4791100BE1AA0 /* Audios Animales */,
+				6D6F37501BD471F400BE1AA0 /* Audios Casa */,
+				6D6F38801BD4910900BE1AA0 /* Audios Ropa */,
 				6D3EE3D71BC99D8100CFD061 /* Campos.swift */,
-				6D3EE3D91BC9A00C00CFD061 /* Niveles.swift */,
-				6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */,
-				6D37949B1BCAE919001500EB /* Intermedio.swift */,
-				6D8A97D11BA7869F00E23C28 /* Main.storyboard */,
+				6D4153271BD40EAA0095981C /* Casa */,
+				6D6F385B1BD48C3400BE1AA0 /* Cuerpo */,
 				6D8A97D41BA7869F00E23C28 /* Images.xcassets */,
+				6D3794781BC9F7F7001500EB /* Imgs Animales */,
+				6D3EE3981BC9892700CFD061 /* Imgs Menú */,
+				6D6F37411BD4641000BE1AA0 /* Integrantes */,
 				6D8A97D61BA7869F00E23C28 /* LaunchScreen.xib */,
+				6D8A97D11BA7869F00E23C28 /* Main.storyboard */,
+				6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */,
+				6D3794991BC9FC4C001500EB /* Nivel2.swift */,
+				6D6F36791BD43B0900BE1AA0 /* Nivel3.swift */,
+				6D3EE3D91BC9A00C00CFD061 /* Niveles.swift */,
+				6D6F374E1BD46BBC00BE1AA0 /* Puntaje.swift */,
+				6D6F381E1BD4882D00BE1AA0 /* Ropa */,
+				6D4153481BD410E60095981C /* Supermercado */,
 				6D8A97CB1BA7869E00E23C28 /* Supporting Files */,
+				6D8A97CF1BA7869E00E23C28 /* ViewController.swift */,
 			);
 			path = CEDAC;
 			sourceTree = "<group>";
@@ -298,7 +1111,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Carlos Sebastián Loredo Gómez";
 				TargetAttributes = {
 					6D8A97C71BA7869E00E23C28 = {
@@ -335,43 +1148,287 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D3EE3F11BC9D04F00CFD061 /* af.png in Resources */,
 				6D3EE3971BC9892100CFD061 /* trofeo.png in Resources */,
-				6D3794891BC9F857001500EB /* buey.jpg in Resources */,
-				6D37948B1BC9F857001500EB /* canario.jpg in Resources */,
-				6D3EE3F51BC9D09600CFD061 /* togo.png in Resources */,
-				6D3EE3E11BC9B38A00CFD061 /* EUA.jpg in Resources */,
-				6D3794981BC9F857001500EB /* zebra.jpg in Resources */,
-				6D3EE3F71BC9D09D00CFD061 /* suecia.png in Resources */,
+				6D6F382E1BD4887B00BE1AA0 /* camiseta.jpg in Resources */,
+				6D6F36C61BD4583D00BE1AA0 /* leon.jpg in Resources */,
+				6D6F38221BD4884F00BE1AA0 /* anillo.jpg in Resources */,
+				6D6F36B41BD4573700BE1AA0 /* borrego.jpg in Resources */,
+				6D6F36CA1BD4586100BE1AA0 /* mapache.jpg in Resources */,
+				6D6F38871BD4916600BE1AA0 /* Tenis.m4a in Resources */,
+				6D6F37521BD4720400BE1AA0 /* Mesa.m4a in Resources */,
+				6D6F36C41BD4582E00BE1AA0 /* koala.jpg in Resources */,
+				6D6F36D81BD458E400BE1AA0 /* tiburon.jpg in Resources */,
+				6D6F38301BD4888100BE1AA0 /* chaleco.jpg in Resources */,
+				6D6F37621BD4743500BE1AA0 /* Sillón.m4a in Resources */,
+				6D6F37ED1BD4836100BE1AA0 /* cereal.jpg in Resources */,
+				6D6F370E1BD45A8100BE1AA0 /* puerta.jpg in Resources */,
+				6D6F36DE1BD4590F00BE1AA0 /* vaca.jpg in Resources */,
+				6D6F38091BD4840900BE1AA0 /* pan.jpg in Resources */,
+				6D6F37951BD4797300BE1AA0 /* Venado.m4a in Resources */,
+				6D6F38DD1BD588B600BE1AA0 /* Nariz.m4a in Resources */,
+				6D6F37741BD4753400BE1AA0 /* Maceta.m4a in Resources */,
+				6D6F37D31BD47B8B00BE1AA0 /* Búho.m4a in Resources */,
+				6D6F37C11BD47AF700BE1AA0 /* Koala.m4a in Resources */,
+				6D6F37A51BD47A0800BE1AA0 /* Pollo.m4a in Resources */,
+				6D6F389F1BD4926300BE1AA0 /* Corbata.m4a in Resources */,
+				6D6F36BE1BD457E700BE1AA0 /* cebra.jpg in Resources */,
+				6D6F36EA1BD459AA00BE1AA0 /* closet.jpeg in Resources */,
+				6D6F38111BD4843F00BE1AA0 /* pollo2.jpg in Resources */,
+				6D6F37E91BD4834000BE1AA0 /* carne.jpg in Resources */,
+				6D6F385D1BD48C4000BE1AA0 /* boca.jpg in Resources */,
+				6D6F38E71BD5890500BE1AA0 /* Torso.m4a in Resources */,
+				6D6F38A51BD4929900BE1AA0 /* Chanclas.m4a in Resources */,
+				6D6F38E51BD588F500BE1AA0 /* Piernas.m4a in Resources */,
+				6D6F36E41BD4597100BE1AA0 /* pollo.jpg in Resources */,
+				6D6F389D1BD4924F00BE1AA0 /* Falda.m4a in Resources */,
+				6D6F388F1BD491B700BE1AA0 /* Sombrero.m4a in Resources */,
+				6D6F38C41BD493EE00BE1AA0 /* Yogur.m4a in Resources */,
+				6D6F38AB1BD492DE00BE1AA0 /* Camiseta.m4a in Resources */,
+				6D6F38B91BD4935C00BE1AA0 /* Abrigo.m4a in Resources */,
+				6D6F37431BD4642500BE1AA0 /* holi.png in Resources */,
+				6D6F38191BD4846900BE1AA0 /* uvas.jpg in Resources */,
+				6D6F37561BD4739B00BE1AA0 /* Microondas.m4a in Resources */,
+				6D6F38031BD483EC00BE1AA0 /* manzana.jpg in Resources */,
+				6D6F36D61BD458D500BE1AA0 /* rinocerontes.jpg in Resources */,
+				6D6F37BF1BD47AE900BE1AA0 /* León.m4a in Resources */,
+				6D6F38891BD4918100BE1AA0 /* Tacones.m4a in Resources */,
+				6D6F38DF1BD588C300BE1AA0 /* Ojo.m4a in Resources */,
+				6D6F37B91BD47ABC00BE1AA0 /* Mapache.m4a in Resources */,
+				6D6F37DD1BD47C3F00BE1AA0 /* Cocina.m4a in Resources */,
+				6D6F38171BD4845700BE1AA0 /* sandia.jpg in Resources */,
+				6D6F387F1BD48CAD00BE1AA0 /* torso.jpg in Resources */,
+				6D6F37931BD4795700BE1AA0 /* Avestruz.m4a in Resources */,
+				6D6F37BB1BD47ACA00BE1AA0 /* Lobo.m4a in Resources */,
+				6D6F38AF1BD492FE00BE1AA0 /* Calcetines.m4a in Resources */,
+				6D6F379F1BD479D000BE1AA0 /* Tiburón.m4a in Resources */,
+				6D6F37241BD45B0E00BE1AA0 /* tenedor.jpg in Resources */,
 				6D3EE39A1BC9898500CFD061 /* info.png in Resources */,
+				6D6F38C21BD493DB00BE1AA0 /* Sandía.m4a in Resources */,
+				6D6F36F41BD459E600BE1AA0 /* cuchillo.jpg in Resources */,
+				6D6F38B31BD4932600BE1AA0 /* Botas.m4a in Resources */,
 				6D37948F1BC9F857001500EB /* lobo.jpeg in Resources */,
-				6D3EE3F31BC9D08F00CFD061 /* uc.png in Resources */,
+				6D6F38A31BD4928500BE1AA0 /* Cinturón.m4a in Resources */,
+				6D6F388D1BD491A600BE1AA0 /* Sudadera.m4a in Resources */,
+				6D6F375C1BD473F400BE1AA0 /* Tenedor.m4a in Resources */,
+				6D6F37E51BD4832B00BE1AA0 /* arroz.jpg in Resources */,
+				6D6F37CB1BD47B4100BE1AA0 /* Cisne.m4a in Resources */,
+				6D6F383E1BD488C600BE1AA0 /* gorra.jpg in Resources */,
+				6D6F37FD1BD483C600BE1AA0 /* jamon.jpg in Resources */,
+				6D6F37CF1BD47B6100BE1AA0 /* Canario.m4a in Resources */,
+				6D6F36C21BD4581400BE1AA0 /* iguana.jpg in Resources */,
+				6D6F370C1BD45A7700BE1AA0 /* microondas.jpg in Resources */,
+				6D6F38501BD4892100BE1AA0 /* sueter.jpg in Resources */,
+				6D6F37FF1BD483D000BE1AA0 /* jitomate.jpg in Resources */,
+				6D6F36C01BD457F700BE1AA0 /* cisne.jpg in Resources */,
+				6D6F37B11BD47A6F00BE1AA0 /* Oso.m4a in Resources */,
+				6D6F37A71BD47A1900BE1AA0 /* Pingüino.m4a in Resources */,
+				6D6F387B1BD48CA200BE1AA0 /* pie.jpg in Resources */,
+				6D6F38071BD4840200BE1AA0 /* naranjas.jpg in Resources */,
+				6D6F38CF1BD5883000BE1AA0 /* Ceja.m4a in Resources */,
+				6D6F37D91BD47BF500BE1AA0 /* Bote de basura.m4a in Resources */,
+				6D6F37EB1BD4835700BE1AA0 /* cebolla.jpg in Resources */,
+				6D6F37201BD45AF100BE1AA0 /* telefono.jpg in Resources */,
+				6D6F38991BD4922F00BE1AA0 /* Guantes.m4a in Resources */,
+				6D6F36AE1BD456BF00BE1AA0 /* copas.jpg in Resources */,
+				6D6F384C1BD4891800BE1AA0 /* sombrero.jpg in Resources */,
+				6D6F37081BD45A5D00BE1AA0 /* maceta.jpg in Resources */,
+				6D6F38911BD491D200BE1AA0 /* Pijama.m4a in Resources */,
+				6D6F37C31BD47B0700BE1AA0 /* Jirafa.m4a in Resources */,
+				6D6F378C1BD477AC00BE1AA0 /* Cuchara.m4a in Resources */,
+				6D6F386F1BD48C8000BE1AA0 /* hombro.jpg in Resources */,
+				6D6F37EF1BD4836900BE1AA0 /* chiles.jpg in Resources */,
+				6D6F36FA1BD45A0B00BE1AA0 /* estufa.jpg in Resources */,
+				6D6F36CC1BD4586E00BE1AA0 /* mariposa.jpg in Resources */,
+				6D6F36F61BD459F300BE1AA0 /* escalera.jpg in Resources */,
+				6D6F36B21BD4572600BE1AA0 /* avestruz.jpg in Resources */,
+				6D6F383A1BD488A200BE1AA0 /* corbata.jpg in Resources */,
+				6D6F37221BD45B0100BE1AA0 /* television.jpg in Resources */,
+				6D6F36FC1BD45A1600BE1AA0 /* impresora.jpg in Resources */,
+				6D6F38BE1BD493A800BE1AA0 /* Uvas.m4a in Resources */,
+				6D6F38791BD48C9D00BE1AA0 /* oreja.jpg in Resources */,
+				6D6F37861BD475E000BE1AA0 /* Escalera.m4a in Resources */,
+				6D6F37AF1BD47A5C00BE1AA0 /* Pavo Real.m4a in Resources */,
+				6D6F389B1BD4923F00BE1AA0 /* Gorra.m4a in Resources */,
+				6D6F37CD1BD47B4F00BE1AA0 /* Cebra.m4a in Resources */,
+				6D6F36E61BD4598500BE1AA0 /* baño.jpg in Resources */,
+				6D6F38B51BD4933500BE1AA0 /* Blusa.m4a in Resources */,
+				6D6F38E11BD588D200BE1AA0 /* Oreja.m4a in Resources */,
+				6D6F38611BD48C4E00BE1AA0 /* cabello.jpg in Resources */,
+				6D6F38321BD4888700BE1AA0 /* chamarra.jpg in Resources */,
+				6D6F370A1BD45A6900BE1AA0 /* mesa.jpg in Resources */,
+				6D6F37041BD45A4500BE1AA0 /* lavadora.jpg in Resources */,
 				6D37948A1BC9F857001500EB /* caballo.jpg in Resources */,
+				6D6F38C71BD587D200BE1AA0 /* Boca.m4a in Resources */,
+				6D6F37D11BD47B7600BE1AA0 /* Caballo.m4a in Resources */,
+				6D6F38971BD4921C00BE1AA0 /* Lentes.m4a in Resources */,
+				6D6F38C01BD493C700BE1AA0 /* Zanahorias.m4a in Resources */,
+				6D6F38361BD4889300BE1AA0 /* cinturon.jpg in Resources */,
+				6D6F38CB1BD5880000BE1AA0 /* Cabello.m4a in Resources */,
+				6D6F38771BD48C9800BE1AA0 /* ojo.jpg in Resources */,
+				6D6F38751BD48C9200BE1AA0 /* nariz.jpg in Resources */,
+				6D6F375A1BD473DC00BE1AA0 /* Tocador.m4a in Resources */,
+				6D6F37A11BD479E100BE1AA0 /* Rinoceronte.m4a in Resources */,
 				6D3794921BC9F857001500EB /* pato.jpg in Resources */,
-				6D3794951BC9F857001500EB /* pollo.jpg in Resources */,
+				6D6F36DC1BD4590300BE1AA0 /* tortuga.jpg in Resources */,
+				6D6F36D01BD458A200BE1AA0 /* pez.jpg in Resources */,
+				6D6F36C81BD4584D00BE1AA0 /* leopardo.jpg in Resources */,
+				6D6F38011BD483DA00BE1AA0 /* leche.jpg in Resources */,
+				6D6F37601BD4742200BE1AA0 /* Teléfono.m4a in Resources */,
+				6D6F37971BD4798700BE1AA0 /* Vaca.m4a in Resources */,
+				6D6F37C51BD47B1500BE1AA0 /* Iguana.m4a in Resources */,
+				6D6F37F71BD4839E00BE1AA0 /* frijoles.jpg in Resources */,
+				6D6F386D1BD48C7B00BE1AA0 /* dientes.jpg in Resources */,
+				6D6F385A1BD4894400BE1AA0 /* zapatos.jpg in Resources */,
+				6D6F380D1BD4842600BE1AA0 /* piña.jpg in Resources */,
 				6D3794961BC9F857001500EB /* rana.jpg in Resources */,
-				6D3EE3FD1BC9D0AB00CFD061 /* palaos.png in Resources */,
-				6D3EE3ED1BC9D04400CFD061 /* can.png in Resources */,
-				6D3EE3EF1BC9D04900CFD061 /* ar.png in Resources */,
-				6D3EE3E31BC9B38F00CFD061 /* francia.jpg in Resources */,
+				6D6F38671BD48C6100BE1AA0 /* codo.jpg in Resources */,
+				6D6F38831BD4913C00BE1AA0 /* Vestido.m4a in Resources */,
+				6D6F37BD1BD47ADA00BE1AA0 /* Leopardo.m4a in Resources */,
+				6D6F38631BD48C5300BE1AA0 /* cabeza.jpg in Resources */,
+				6D6F37661BD4745C00BE1AA0 /* Sartén.m4a in Resources */,
+				6D6F37681BD4746F00BE1AA0 /* Silla.m4a in Resources */,
+				6D6F38241BD4885500BE1AA0 /* blusa.jpg in Resources */,
 				6D3794901BC9F857001500EB /* mono.jpg in Resources */,
+				6D6F38BC1BD4938D00BE1AA0 /* Reloj de mano.m4a in Resources */,
+				6D6F37841BD475CC00BE1AA0 /* Espejo.m4a in Resources */,
+				6D6F378A1BD4779800BE1AA0 /* Copa.m4a in Resources */,
+				6D6F37911BD4793400BE1AA0 /* Ardilla.m4a in Resources */,
+				6D6F36F01BD459CE00BE1AA0 /* comedor.jpg in Resources */,
+				6D6F38341BD4888E00BE1AA0 /* chanclas.jpg in Resources */,
+				6D6F36B01BD4571400BE1AA0 /* ardilla.jpg in Resources */,
+				6D6F36BC1BD457DA00BE1AA0 /* canario.jpg in Resources */,
+				6D6F37AB1BD47A3900BE1AA0 /* Perro.m4a in Resources */,
+				6D6F38D51BD5887A00BE1AA0 /* Hombro.m4a in Resources */,
+				6D6F37281BD45B2600BE1AA0 /* vaso.jpg in Resources */,
+				6D6F382C1BD4887500BE1AA0 /* camisa.jpg in Resources */,
+				6D6F374D1BD465AF00BE1AA0 /* vale.png in Resources */,
+				6D6F38711BD48C8600BE1AA0 /* lengua.jpg in Resources */,
+				6D6F36FE1BD45A2200BE1AA0 /* lampara.jpg in Resources */,
+				6D6F38521BD4892700BE1AA0 /* tacones.png in Resources */,
+				6D6F377A1BD4756A00BE1AA0 /* Laptop.m4a in Resources */,
+				6D6F37E31BD4831B00BE1AA0 /* aguacate.jpg in Resources */,
+				6D6F38131BD4844600BE1AA0 /* queso.jpg in Resources */,
 				6D8A97D31BA7869F00E23C28 /* Main.storyboard in Resources */,
+				6D6F37141BD45AA400BE1AA0 /* regadera.jpg in Resources */,
+				6D6F36D21BD458B200BE1AA0 /* pinguino.jpg in Resources */,
+				6D6F376A1BD4748800BE1AA0 /* Reloj.m4a in Resources */,
+				6D6F37801BD475A300BE1AA0 /* Impresora.m4a in Resources */,
+				6D6F38931BD491EF00BE1AA0 /* Pantuflas.m4a in Resources */,
+				6D6F38421BD488DF00BE1AA0 /* lentes.jpg in Resources */,
+				6D6F38E31BD588E000BE1AA0 /* Pie.m4a in Resources */,
+				6D6F37101BD45A8D00BE1AA0 /* recamara.jpg in Resources */,
+				6D6F38A71BD492BC00BE1AA0 /* Chamarra.m4a in Resources */,
+				6D6F387D1BD48CA700BE1AA0 /* piernas.jpg in Resources */,
+				6D6F37021BD45A3A00BE1AA0 /* lavabo.jpeg in Resources */,
+				6D6F380F1BD4842F00BE1AA0 /* platano.jpg in Resources */,
+				6D6F37C91BD47B3200BE1AA0 /* Elefante.m4a in Resources */,
+				6D6F383C1BD488A800BE1AA0 /* falda.jpg in Resources */,
+				6D6F38DB1BD588A800BE1AA0 /* Mano.m4a in Resources */,
+				6D6F371E1BD45AE400BE1AA0 /* silla.jpg in Resources */,
 				6D8A97D81BA7869F00E23C28 /* LaunchScreen.xib in Resources */,
+				6D6F376E1BD474DE00BE1AA0 /* Refrigerador.m4a in Resources */,
+				6D6F37761BD4754600BE1AA0 /* Lavadora.m4a in Resources */,
+				6D6F38561BD4893300BE1AA0 /* traje.jpg in Resources */,
+				6D6F371C1BD45ADA00BE1AA0 /* sillon.jpg in Resources */,
+				6D6F376C1BD4749900BE1AA0 /* Puerta.m4a in Resources */,
+				6D6F38A91BD492CD00BE1AA0 /* Chaleco.m4a in Resources */,
+				6D6F37471BD464A600BE1AA0 /* miry.png in Resources */,
+				6D6F38651BD48C5B00BE1AA0 /* ceja.jpg in Resources */,
+				6D6F38401BD488D100BE1AA0 /* guantes.jpg in Resources */,
+				6D6F37701BD4751600BE1AA0 /* Regadera.m4a in Resources */,
+				6D6F37DB1BD47C1F00BE1AA0 /* Baño.m4a in Resources */,
+				6D6F37C71BD47B2200BE1AA0 /* Gato.m4a in Resources */,
+				6D6F38151BD4844F00BE1AA0 /* salchichas.jpg in Resources */,
+				6D6F37FB1BD483BD00BE1AA0 /* huevo.jpg in Resources */,
 				6D3794941BC9F857001500EB /* perro.jpg in Resources */,
-				6D3EE3DF1BC9B38500CFD061 /* al.jpg in Resources */,
-				6D3EE3E91BC9D03600CFD061 /* vi.png in Resources */,
+				6D6F38B11BD4931100BE1AA0 /* Bufanda.m4a in Resources */,
+				6D6F36DA1BD458F500BE1AA0 /* toro.jpg in Resources */,
+				6D6F37E71BD4833600BE1AA0 /* cafe.jpg in Resources */,
+				6D6F382A1BD4886C00BE1AA0 /* calcetines.jpg in Resources */,
+				6D6F37261BD45B1C00BE1AA0 /* tocador.jpg in Resources */,
+				6D6F37D71BD47BC600BE1AA0 /* Buey.m4a in Resources */,
+				6D6F37A31BD479F100BE1AA0 /* Rana.m4a in Resources */,
+				6D6F37721BD4752500BE1AA0 /* Recámara.m4a in Resources */,
+				6D6F38051BD483F500BE1AA0 /* miel.jpg in Resources */,
+				6D6F377C1BD4757B00BE1AA0 /* Libro.m4a in Resources */,
+				6D6F38D91BD5889A00BE1AA0 /* Lengua.m4a in Resources */,
+				6D6F388B1BD4919200BE1AA0 /* Suéter.m4a in Resources */,
+				6D6F37B51BD47A9500BE1AA0 /* Mono.m4a in Resources */,
+				6D6F38D31BD5886900BE1AA0 /* Dedo.m4a in Resources */,
+				6D6F36BA1BD457C500BE1AA0 /* buey.jpg in Resources */,
+				6D6F37161BD45AB200BE1AA0 /* reloj.jpg in Resources */,
+				6D6F36E81BD4599D00BE1AA0 /* basura.jpg in Resources */,
+				6D6F385F1BD48C4800BE1AA0 /* brazo.png in Resources */,
+				6D6F380B1BD4841500BE1AA0 /* pescado.jpg in Resources */,
+				6D6F379D1BD479BA00BE1AA0 /* Tigre.m4a in Resources */,
+				6D6F38731BD48C8C00BE1AA0 /* mano.jpg in Resources */,
+				6D6F38951BD4920200BE1AA0 /* Pantalón.m4a in Resources */,
+				6D6F38A11BD4927300BE1AA0 /* Collar.m4a in Resources */,
+				6D6F37F51BD4839300BE1AA0 /* fresa.jpg in Resources */,
+				6D6F37991BD4799A00BE1AA0 /* Tortuga.m4a in Resources */,
+				6D6F37B71BD47AAF00BE1AA0 /* Mariposa.m4a in Resources */,
+				6D6F38481BD488FD00BE1AA0 /* pijama.jpg in Resources */,
+				6D6F38B71BD4934B00BE1AA0 /* Anillo.m4a in Resources */,
+				6D6F384E1BD4891D00BE1AA0 /* sudadera.jpg in Resources */,
+				6D6F379B1BD479AA00BE1AA0 /* Toro.m4a in Resources */,
+				6D6F38CD1BD5881300BE1AA0 /* Cabeza.m4a in Resources */,
+				6D6F38851BD4915200BE1AA0 /* Traje.m4a in Resources */,
 				6D3794931BC9F857001500EB /* perico.jpg in Resources */,
+				6D6F37AD1BD47A4900BE1AA0 /* Perico.m4a in Resources */,
+				6D6F37881BD4778300BE1AA0 /* Comedor.m4a in Resources */,
+				6D6F378E1BD477BE00BE1AA0 /* Cuchillo.m4a in Resources */,
+				6D6F37DF1BD47C4E00BE1AA0 /* Cochera.m4a in Resources */,
+				6D6F37491BD464D400BE1AA0 /* karla.jpg in Resources */,
+				6D6F37F91BD483B200BE1AA0 /* helado.jpg in Resources */,
+				6D6F38381BD4889D00BE1AA0 /* collar.jpg in Resources */,
+				6D6F38201BD4884700BE1AA0 /* abrigo.jpg in Resources */,
+				6D6F36B81BD4576F00BE1AA0 /* buho.jpg in Resources */,
+				6D6F375E1BD4740B00BE1AA0 /* Televisión.m4a in Resources */,
+				6D6F36EE1BD459C200BE1AA0 /* cocina.jpg in Resources */,
+				6D6F38281BD4886600BE1AA0 /* bufanda.jpg in Resources */,
+				6D6F37D51BD47BB700BE1AA0 /* Borrego Cimarrón.m4a in Resources */,
+				6D6F37821BD475B200BE1AA0 /* Estufa.m4a in Resources */,
+				6D6F37F11BD4837900BE1AA0 /* chocolate.jpg in Resources */,
+				6D6F36EC1BD459B600BE1AA0 /* cochera.jpg in Resources */,
+				6D6F37B31BD47A8500BE1AA0 /* Pato.m4a in Resources */,
+				6D6F38581BD4893700BE1AA0 /* vestido.jpg in Resources */,
+				6D6F37001BD45A2F00BE1AA0 /* laptop.jpg in Resources */,
 				6D37948C1BC9F857001500EB /* elefante.jpg in Resources */,
-				6D3EE3EB1BC9D03F00CFD061 /* grecia.png in Resources */,
-				6D3EE3FB1BC9D0A700CFD061 /* reino.png in Resources */,
 				6D3794911BC9F857001500EB /* oso.jpg in Resources */,
+				6D6F37A91BD47A2A00BE1AA0 /* Pez.m4a in Resources */,
 				6D37948D1BC9F857001500EB /* gato.jpg in Resources */,
 				6D8A97D51BA7869F00E23C28 /* Images.xcassets in Resources */,
+				6D6F38261BD4885E00BE1AA0 /* botas2.jpg in Resources */,
+				6D6F37181BD45ABE00BE1AA0 /* sala.jpg in Resources */,
+				6D6F37121BD45A9800BE1AA0 /* refrigerador.jpg in Resources */,
+				6D6F37641BD4744900BE1AA0 /* Sala.m4a in Resources */,
+				6D6F37061BD45A5100BE1AA0 /* libros.jpg in Resources */,
 				6D3794971BC9F857001500EB /* tigre.jpg in Resources */,
-				6D3EE3E51BC9B39400CFD061 /* mex.png in Resources */,
+				6D6F38541BD4892D00BE1AA0 /* tenis.jpg in Resources */,
+				6D6F38441BD488EC00BE1AA0 /* pantalon.jpg in Resources */,
+				6D6F36F21BD459DA00BE1AA0 /* cuchara.jpg in Resources */,
+				6D6F36E01BD4591E00BE1AA0 /* venado.jpg in Resources */,
+				6D6F36CE1BD4588B00BE1AA0 /* pavo_real.jpg in Resources */,
+				6D6F36F81BD459FD00BE1AA0 /* espejo.jpg in Resources */,
+				6D6F38C91BD587E900BE1AA0 /* Brazo.m4a in Resources */,
+				6D6F384A1BD4891100BE1AA0 /* relojmano.jpg in Resources */,
+				6D6F371A1BD45ACB00BE1AA0 /* sarten.jpg in Resources */,
+				6D6F37E11BD47C6500BE1AA0 /* Closet.m4a in Resources */,
+				6D6F37781BD4755900BE1AA0 /* Lavabo.m4a in Resources */,
+				6D6F381D1BD4847800BE1AA0 /* zanahorias.jpg in Resources */,
+				6D6F374B1BD4656F00BE1AA0 /* itu.png in Resources */,
+				6D6F37F31BD4838800BE1AA0 /* coco.jpg in Resources */,
+				6D6F38D71BD5888900BE1AA0 /* Dientes.m4a in Resources */,
 				6D3EE39C1BC98A1B00CFD061 /* play.png in Resources */,
+				6D6F37581BD473BF00BE1AA0 /* Vaso.m4a in Resources */,
 				6D37948E1BC9F857001500EB /* jirafa.jpg in Resources */,
-				6D3EE3F91BC9D0A200CFD061 /* serbia.png in Resources */,
+				6D6F381B1BD4847100BE1AA0 /* yogur.jpg in Resources */,
+				6D6F38691BD48C6600BE1AA0 /* cuello.jpg in Resources */,
+				6D6F38AD1BD492EE00BE1AA0 /* Camisa.m4a in Resources */,
+				6D6F386B1BD48C6D00BE1AA0 /* dedo.jpg in Resources */,
+				6D6F377E1BD4758B00BE1AA0 /* Lámpara.m4a in Resources */,
+				6D6F38461BD488F400BE1AA0 /* pantuflas.jpg in Resources */,
+				6D6F38D11BD5884000BE1AA0 /* Codo.m4a in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,12 +1447,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D8A97D01BA7869E00E23C28 /* ViewController.swift in Sources */,
-				6D37949C1BCAE919001500EB /* Intermedio.swift in Sources */,
-				6D37949A1BC9FC4C001500EB /* Niveles2.swift in Sources */,
+				6D6F367A1BD43B0900BE1AA0 /* Nivel3.swift in Sources */,
+				6D37949A1BC9FC4C001500EB /* Nivel2.swift in Sources */,
 				6D3EE3D81BC99D8100CFD061 /* Campos.swift in Sources */,
 				6D3EE3DA1BC9A00C00CFD061 /* Niveles.swift in Sources */,
 				6D3EE3DC1BC9B21000CFD061 /* Nivel1.swift in Sources */,
 				6D8A97CE1BA7869E00E23C28 /* AppDelegate.swift in Sources */,
+				6D6F374F1BD46BBC00BE1AA0 /* Puntaje.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,6 +1516,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -528,6 +1587,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CEDAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.rmr.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -541,6 +1602,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = CEDAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				New_Setting = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.rmr.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -560,6 +1623,7 @@
 				);
 				INFOPLIST_FILE = CEDACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.rmr.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDAC.app/CEDAC";
 			};
@@ -575,6 +1639,7 @@
 				);
 				INFOPLIST_FILE = CEDACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.rmr.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDAC.app/CEDAC";
 			};

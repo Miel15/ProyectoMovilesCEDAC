@@ -41,7 +41,19 @@ class Campos: UIViewController {
     }
     
     @IBAction func btnCampo6(sender: UIButton) {
-        opcion = 6
+        let alert =  UIAlertController(title: "Campo no disponible",
+            message: "Estamos trabajando para ti",
+            preferredStyle: UIAlertControllerStyle.Alert)
+        
+        alert.addAction(UIAlertAction(title: "Aceptar",
+            style: UIAlertActionStyle.Default,
+            handler: nil))
+        
+        self.presentViewController(alert,
+            animated: true,
+            completion:nil
+        )
+        //opcion = 6
     }
     
     override func viewDidLoad() {
@@ -51,52 +63,26 @@ class Campos: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let DestViewController: Niveles = segue.destinationViewController as! Niveles
         if (opcion == 1) {
-            var s: String {
-                get{
-                    return btnCampo1.titleLabel!.text!
-                }
-            }
-            DestViewController.LabelText = s
+            DestViewController.LabelText = btnCampo1.titleLabel!.text!
         }
         if (opcion == 2) {
-            var s: String {
-                get{
-                    return btnCampo2.titleLabel!.text!
-                }
-            }
-            DestViewController.LabelText = s
+            DestViewController.LabelText = btnCampo2.titleLabel!.text!
         }
         if (opcion == 3) {
-            var s: String {
-                get{
-                    return btnCampo3.titleLabel!.text!
-                }
-            }
-            DestViewController.LabelText = s
+            DestViewController.LabelText = btnCampo3.titleLabel!.text!
         }
         if (opcion == 4) {
-            var s: String {
-                get{
-                    return btnCampo4.titleLabel!.text!
-                }
-            }
-            DestViewController.LabelText = s
+            DestViewController.LabelText = btnCampo4.titleLabel!.text!
         }
         if (opcion == 5) {
-            var s: String {
-                get{
-                    return btnCampo5.titleLabel!.text!
-                }
-            }
-            DestViewController.LabelText = s
+            DestViewController.LabelText = btnCampo5.titleLabel!.text!
         }
         if (opcion == 6) {
-            var s: String {
-                get{
-                    return btnCampo6.titleLabel!.text!
-                }
-            }
-            DestViewController.LabelText = s
+            DestViewController.LabelText = btnCampo6.titleLabel!.text!
         }
+    }
+    
+    override func shouldAutorotate() -> Bool {
+        return false
     }
 }
