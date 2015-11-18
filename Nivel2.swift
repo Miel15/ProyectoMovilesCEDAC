@@ -21,10 +21,25 @@ class Nivel2: UIViewController {
     var d:Int = 0
     var puntaje:Int = 0
     var errores:Int = 0
+    var aciertos = 0
     var vidas:Int = 3
     var arrOpciones:[Int] = []
     var LabelText = String()
     var dicBanderas = ["":""]
+    
+    var aciertos1 = 0
+    var aciertos2 = 0
+    var aciertos3 = 0
+    var aciertos4 = 0
+    var aciertos5 = 0
+    var aciertos6 = 0
+    
+    var errores1 = 0
+    var errores2 = 0
+    var errores3 = 0
+    var errores4 = 0
+    var errores5 = 0
+    var errores6 = 0
     
     @IBOutlet weak var viewGanaste: UIView!
     @IBOutlet weak var viewPerdiste: UIView!
@@ -38,33 +53,41 @@ class Nivel2: UIViewController {
     @IBOutlet weak var lblVidas: UILabel!
     @IBOutlet weak var lblrepetir: UIButton!
     
+    @IBOutlet weak var vidas1: UIImageView!
+    @IBOutlet weak var vidas2: UIImageView!
+    @IBOutlet weak var vidas3: UIImageView!
+    
     private var player:AVAudioPlayer = AVAudioPlayer()
 
     override func viewDidLoad() {
+        lblVidas.hidden = true
         super.viewDidLoad()
         
         lblVidas.text = String(vidas)
         if LabelText == "Casa" {
-            //35 elementos
-            dicBanderas = ["Baño" : "banio.jpg", "Bote de basura" : "basura.jpg", "Closet" : "closet.jpeg", "Cochera" : "cochera.jpg", "Cocina" : "cocina.jpg", "Comedor" : "comedor.jpg", "Copa" : "copas.jpg", "Cuchara" : "cuchara.jpg", "Cuchillo" : "cuchillo.jpg", "Escalera" : "escalera.jpg", "Espejo" : "espejo.jpg", "Estufa" : "estufa.jpg", "Impresora" : "impresora.jpg", "Lámpara" : "lampara.jpg", "Laptop" : "laptop.jpg", "Lavabo" : "lavabo.jpeg", "Lavadora" : "lavadora.jpg", "Libro" : "libros.jpg", "Maceta" : "maceta.jpg", "Mesa" : "mesa.jpg", "Microondas" : "microondas.jpg", "Puerta" : "puerta.jpg", "Recamara" : "recamara.jpg", "Refrigerador" : "refrigerador.jpg", "Regadera" : "regadera.jpg", "Reloj" : "reloj.jpg", "Sala" : "sala.jpg", "Sartén" : "sarten.jpg", "Silla" : "silla.jpg", "Sillón" : "sillon.jpg", "Teléfono" : "telefono.jpg", "Tenedor" : "tenedor.jpg", "Television" : "television.jpg", "Tocador" : "tocador.jpg", "Vaso" : "vaso.jpg"]
+            //40 elementos
+            dicBanderas = ["Alfombra" : "alfombra.jpg", "Banco" : "banco.jpg", "Baño" : "banio.jpg", "Cama" : "cama.jpg", "Chimenea" : "chimenea.jpg", "Clóset" : "closet.jpg", "Cochera" : "cochera.jpg", "Cocina" : "cocina.jpg", "Cojín" : "cojin.jpg", "Comedor" : "comedor.jpg", "Computadora" : "computadora.jpg", "Cuadros" : "cuadros.jpg", "Escalera" : "escalera.jpg", "Escoba" : "escoba.jpg", "Espejo" : "espejo.jpg", "Florero" : "florero.jpg", "Foco" : "foco.jpg", "Jardín" : "jardin.jpg", "Jarra" : "jarra.jpg", "Lavabo" : "lavabo.jpg", "Lavadora" : "lavadora.jpg", "Librero" : "librero.jpg", "Maceta" : "maceta.jpg", "Microondas" : "microondas.jpg", "Perchero" : "perchero.jpg", "Puerta" : "puerta.jpg", "Recámara" : "recamara.jpg", "Refrigerador" : "refrigerador.jpg", "Regadera" : "regadera.jpg", "Reloj" : "reloj.jpg", "Sala" : "sala.jpg", "Sartén" : "sarten.jpg", "Sillas" : "sillas.jpg", "Sillón" : "sillon.jpg", "Teléfono" : "telefono.jpg", "Televisión" : "television.jpg", "Telescopio" : "telescopio.jpg", "Toallas" : "toallas.jpg", "Tocador" : "tocador.jpg", "Ventana" : "ventana.jpg"]
         }
         if LabelText == "Animales" {
-            //36 elementos
-            dicBanderas = ["Ardilla" : "ardilla.jpg", "Avestruz" : "avestruz.jpg", "Borrego Cimarrón" : "borrego.jpg", "Buey" : "buey.jpg", "Búho" : "buho.jpg", "Caballo" : "caballo.jpg", "Canario" : "canario.jpg", "Cebra" : "cebra.jpg", "Cisne" : "cisne.jpg", "Elefante" : "elefante.jpg", "Gato" : "gato.jpg", "Iguana" : "iguana.jpg", "Jirafa" : "jirafa.jpg", "Koala" : "koala.jpg", "León" : "leon.jpg", "Leopardo" : "leopardo.jpg", "Lobo" : "lobo.jpeg", "Mapache" : "mapache.jpg", "Mariposa" : "mariposa.jpg", "Mono" : "mono.jpg", "Oso" : "oso.jpg", "Pato" : "pato.jpg", "Pavo Real" : "pavo_real.jpg", "Perico" : "perico.jpg", "Perro" : "perro.jpg", "Pez" : "pez.jpg", "Pingüino" : "pinguino.jpg", "Pollo" : "pollo.jpg", "Rana" : "rana.jpg", "Rinoceronte" : "rinocerontes.jpg", "Tiburón" : "tiburon.jpg", "Tigre" : "tigre.jpg", "Toro" : "toro.jpg", "Tortuga" : "tortuga.jpg", "Vaca" : "vaca.jpg", "Venado" : "venado.jpg"]
+            //40 elementos
+            dicBanderas = ["Águila" : "aguila.jpg", "Ardilla" : "ardilla.jpg", "Armadillo" : "armadillo.jpg", "Ballena" : "ballena.jpg", "Búho" : "buho.jpg", "Caballo" : "caballo.jpg", "Caracol" : "caracol.jpg", "Catarina" : "catarina.jpg", "Cebra" : "cebra.jpg", "Cisne" : "cisne.jpg", "Conejo" : "conejo.jpg", "Delfín" : "delfin.jpg", "Elefante" : "elefante.jpg", "Foca" : "foca.jpg", "Gallina" : "gallina.jpg", "Gallo" : "gallo.jpg", "Iguana" : "iguana.jpg", "Jirafa" : "jirafa.jpg", "Koala" : "koala.jpg", "León" : "leon.jpg", "Leopardo" : "leopardo.jpg", "Lobo" : "lobo.jpg", "Loro" : "loro.jpg", "Mapache" : "mapache.jpg", "Mariposa" : "mariposa.jpg", "Mono" : "mono.jpg", "Oso" : "oso.jpg", "Oso panda" : "panda.jpg", "Pato" : "pato.jpg", "Perro" : "perro.jpg", "Pez" : "pez.jpg", "Pingüino" : "pinguino.jpg", "Pollo" : "pollo.jpg", "Rana" : "rana.jpg", "Ratón" : "raton.jpg", "Rinoceronte" : "rinoceronte.jpg", "Tigre" : "tigre.jpg", "Tortuga" : "tortuga.jpg", "Vaca" : "vaca.jpg", "Venado" : "venado.jpg"]
         }
         if LabelText == "Alimentos" {
-            //30 elementos
-            dicBanderas = ["Aguacate" : "aguacate.jpg", "Café" : "cafe.jpg", "Arroz" : "arroz.jpg", "Cereal" : "cereal.jpg", "Cebolla" : "cebolla.jpg", "Coco" : "coco.jpg", "Fresa" : "fresa.jpg", "Chile" : "chiles.jpg", "Manzana" : "manzana.jpg", "Pollo" : "pollo2.jpg", "Frijoles" : "frijoles.jpg", "Helado" : "helado.jpg", "Pescado" : "pescado.jpg", "Queso" : "queso.jpg", "Piña" : "pinia.jpg", "Yogur" : "yogur.jpg", "Sandía" : "sandia.jpg", "Uvas" : "uvas.jpg", "Leche" : "leche.jpg", "Salchicha" : "salchichas.jpg", "Zanahoria" : "zanahorias.jpg", "Naranja" : "naranjas.jpg", "Pan" : "pan.jpg", "Plátano" : "platano.jpg", "Miel" : "miel.jpg", "Jamón"  : "jamon.jpg", "Jitomate" : "jitomate.jpg", "Huevo" : "huevo.jpg", "Carne" : "carne.jpg", "Chocolate" : "chocolate.jpg"]
+            //40 elementos
+            dicBanderas = ["Aguacate" : "aguacate.jpg", "Café" : "cafe.jpg", "Arroz" : "arroz.jpg", "Calabaza" : "calabaza.jpg", "Carne" : "carne.jpg", "Cebolla" : "cebolla.jpg", "Cereal" : "cereal.jpg", "Chícharos" : "chicharos.jpg", "Chiles" : "chiles.jpg", "Chocolate" : "chocolate.jpg", "Coco" : "coco.jpg", "Ensalada" : "ensalada.jpg", "Fresa" : "fresa.jpg", "Frijoles" : "frijoles.jpg", "Hamburguesa" : "hamburguesa.jpg", "Helado" : "helado.jpg", "Hot Cakes" : "hotcakes.jpg", "Huevo" : "huevo.jpg", "Jamón" : "jamon.jpg", "Jitomate" : "jitomate.jpg", "Leche" : "leche.jpg", "Lechuga" : "lechuga.jpg", "Manzana" : "manzana.jpg", "Miel" : "miel.jpg", "Naranja" : "naranja.jpg", "Pan" : "pan.jpg", "Papaya" : "papaya.jpg", "Pera" : "pera.jpg", "Pescado" : "pescado.jpg", "Piña" : "pinia.jpg", "Pizza" : "pizza.jpg", "Plátano" : "platano.jpg", "Pollo" : "pollo2.jpg", "Queso" : "queso.jpg", "Refresco" : "refresco.jpg", "Salchichas" : "salchichas.jpg", "Sandía" : "sandia.jpg", "Sopa" : "sopa.jpg", "Uvas" : "uvas.jpg", "Zanahoria" : "zanahoria.jpg"]
         }
         if LabelText == "Ropa" {
-            //30 elementos
-            dicBanderas = ["Abrigo" : "abrigo.jpg", "Anillo" : "anillo.jpg", "Blusa" : "blusa.jpg", "Botas" : "botas2.jpg", "Bufanda" : "bufanda.jpg", "Calcetines" : "calcetines.jpg", "Camisa" : "camisa.jpg", "Camiseta" : "camiseta.jpg", "Chaleco" : "chaleco.jpg", "Chamarra" : "chamarra.jpg", "Chanclas" : "chanclas.jpg", "Cinturón" : "cinturon.jpg", "Collar" : "collar.jpg", "Corbata" : "corbata.jpg", "Falda" : "falda.jpg", "Gorra" : "gorra.jpg", "Guantes" : "guantes.jpg", "Lentes" : "lentes.jpg", "Pantalón" : "pantalon.jpg", "Pantuflas" : "pantuflas.jpg", "Pijama" : "pijama.jpg", "Reloj de mano" : "relojmano.jpg", "Sombrero" : "sombrero.jpg", "Sudadera" : "sudadera.jpg", "Suéter" : "sueter.jpg", "Tacones" : "tacones.png", "Tenis" : "tenis.jpg", "Traje" : "traje.jpg", "Vestido" : "vestido.jpg", "Zapatos" : "zapatos.jpg"]
+            //40 elementos
+            dicBanderas = ["Abrigo" : "abrigo.jpg", "Anillo" : "anillo.jpg", "Bata" : "bata.jpg", "Blusa" : "blusajpg", "Bolsa" : "bolsa.jpg", "Botas" : "botas.jpg", "Bufanda" : "bufanda.jpg", "Calcetines" : "calcetines.jpg", "Camisa" : "camisa.jpg", "Camiseta" : "camiseta.jpg", "Chaleco" : "chaleco.jpg", "Chamarra" : "chamarra.jpg", "Chanclas" : "chanclas.jpg", "Cinturón" : "cinturon.jpg", "Collar" : "collar.jpg", "Corbata" : "corbata.jpg", "Falda" : "falda.jpg", "Gorra" : "gorra.jpg", "Gorro" : "gorro.jpg", "Guantes" : "guantes.jpg", "Impermeable" : "impermeable.jpg", "Lentes" : "lentes.jpg", "Mameluco" : "mameluco.jpg", "Moño" : "monio.jpg", "Pantalón" : "pantalon.jpg", "Pantuflas" : "pantuflas.jpg", "Pijama" : "pijama.jpg", "Pulseras" : "pulseras.jpg", "Reloj" : "reloj2.jpg", "Saco" : "saco.jpg", "Short" : "short.jpg", "Sombrero" : "sombrero.jpg", "Sudadera" : "sudadera.jpg", "Suéter" : "sueter.jpg", "Tacones" : "tacones.jpg", "Tenis" : "tenis.jpg", "Traje de baño" : "traje_de_banio.jpg", "Traje" : "traje.jpg", "Vestido" : "vestido.jpg", "Zapatos" : "zapatos.jpg"]
         }
         if LabelText == "Partes del cuerpo" {
-            //18 elementos
-            dicBanderas = ["Brazo" : "brazo.png", "Boca" : "boca.jpg", "Cabello" : "cabello.jpg", "Cuello" : "cuello.jpg", "Codo" : "codo.jpg", "Dientes" : "dientes.jpg", "Dedo" : "dedo.jpg", "Cabeza" : "cabeza.jpg", "Hombro" : "hombro.jpg", "Oreja" : "oreja.jpg", "Nariz" : "nariz.jpg", "Pie" : "pie.jpg", "Torso" : "torso.jpg", "Piernas" : "piernas.jpg", "Lengua" : "lengua.jpg", "Ojo" : "ojo.jpg", "Mano" : "mano.jpg", "Ceja" : "ceja.jpg"]
+            //26 elementos
+            dicBanderas = ["Axila" : "axila.png", "Boca" : "boca.jpg", "Brazo" : "brazo.jpg", "Cabello" : "cabello.jpg", "Cabeza" : "cabeza.jpg", "Ceja" : "ceja.jpg", "Codo" : "codo.jpg", "Cuello" : "cuello.jpg", "Dedo" : "dedo.jpg", "Dientes" : "dientes.jpg", "Espalda" : "espalda.jpg", "Frente" : "frente.jpg", "Hombro" : "hombro.jpg", "Lengua" : "lengua.jpg", "Mano" : "mano.jpg", "Mejilla" : "mejilla.jpg", "Nariz" : "nariz.jpg", "Ojo" : "ojo.jpg", "Ombligo" : "ombligo.jpg", "Oreja" : "oreja.jpg", "Pestaña" : "pestania.jpg", "Pies" : "pies.jpg", "Piernas" : "piernas.jpg", "Rodilla" : "rodilla.jpg", "Torso" : "torso.jpg", "Uñas" : "unias.jpg"]
         }
-        
+        if LabelText == "Instrumentos" {
+            //23 elementos
+            dicBanderas = ["Acordeón" : "acordeon.jpg", "Armónica" : "armonica.jpg", "Arpa" : "arpa.jpg", "Batería" : "bateria.jpg", "Castañuelas" : "castanuelas.jpg", "Claves" : "claves.jpg", "Flauta" : "flauta.jpg", "Guitarra" : "guitarra.jpg", "Mandolina" : "mandolina.jpg", "Maracas" : "maracas.jpg", "Marimba" : "marimba.jpg", "Organillo" : "organillo.jpg", "Pandero" : "pandero.jpg", "Piano" : "piano.jpg", "Platillos" : "platillos.jpg", "Saxofón" : "saxofon.jpg", "Silbato" : "silbato.jpg", "Tambor" : "tambor.jpg", "Triángulo" : "triangulo.jpg", "Trompeta" : "trompeta.jpg", "Violín" : "violin.jpg", "Violoncello" : "violoncello.jpg", "Xilófono" : "xilofono.jpg"]
+        }
         escoger()
         
     }
@@ -116,11 +139,12 @@ class Nivel2: UIViewController {
     
     func imageTapped(img: AnyObject) {
         if Array(dicBanderas.keys)[arrOpciones[0]] == lblPalabra.text {
+            aciertos++
             respuestaCorrecta()
             escoger()
         }else{
             errores = errores + 1
-            if(vidas == 0){
+            if(vidas == 1){
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -130,11 +154,12 @@ class Nivel2: UIViewController {
     
     func imageTapped1(img: AnyObject) {
         if Array(dicBanderas.keys)[arrOpciones[1]] == lblPalabra.text {
+            aciertos++
             respuestaCorrecta()
             escoger()
         }else{
             errores = errores + 1
-            if(vidas == 0){
+            if(vidas == 1){
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -144,11 +169,12 @@ class Nivel2: UIViewController {
     
     func imageTapped2(img: AnyObject) {
         if Array(dicBanderas.keys)[arrOpciones[2]] == lblPalabra.text {
+            aciertos++
             respuestaCorrecta()
             escoger()
         }else{
             errores = errores + 1
-            if(vidas == 0){
+            if(vidas == 1){
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -158,11 +184,12 @@ class Nivel2: UIViewController {
     
     func imageTapped3(img: AnyObject) {
         if Array(dicBanderas.keys)[arrOpciones[3]] == lblPalabra.text {
+            aciertos++
             respuestaCorrecta()
             escoger()
         }else{
             errores = errores + 1
-            if(vidas == 0){
+            if(vidas == 1){
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -172,11 +199,12 @@ class Nivel2: UIViewController {
     
     func imageTapped4(img: AnyObject) {
         if Array(dicBanderas.keys)[arrOpciones[4]] == lblPalabra.text {
+            aciertos++
             respuestaCorrecta()
             escoger()
         }else{
             errores = errores + 1
-            if(vidas == 0){
+            if(vidas == 1){
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -186,6 +214,14 @@ class Nivel2: UIViewController {
     
     func respuestaCorrecta(){
         puntaje+=1
+        if LabelText == "Casa" {aciertos1++}
+        if LabelText == "Animales" {aciertos2++}
+        if LabelText == "Alimentos" {aciertos3++}
+        if LabelText == "Ropa" {aciertos4++}
+        if LabelText == "Partes del cuerpo" {aciertos5++}
+        if LabelText == "Instrumentos" {aciertos6++}
+
+        /*
         let alert =  UIAlertController(title: "Respuesta correcta",
             message: "",
             preferredStyle: UIAlertControllerStyle.Alert)
@@ -198,10 +234,19 @@ class Nivel2: UIViewController {
             animated: true,
             completion:nil
         )
+        */
+        
         lblPuntaje.text = String(puntaje)
     }
     
     func respuestaIncorrecta(){
+        if LabelText == "Casa" {errores1++}
+        if LabelText == "Animales" {errores2++}
+        if LabelText == "Alimentos" {errores3++}
+        if LabelText == "Ropa" {errores4++}
+        if LabelText == "Partes del cuerpo" {errores5++}
+        if LabelText == "Instrumentos" {errores6++}
+
         let alert =  UIAlertController(title: "Respuesta incorrecta",
             message: "Inténtalo de nuevo",
             preferredStyle: UIAlertControllerStyle.Alert)
@@ -216,6 +261,18 @@ class Nivel2: UIViewController {
         )
         
         vidas = vidas - 1
+        if vidas == 2 {
+            vidas1.alpha = 0.5
+            vidas1.image = UIImage(named: "vidasMenos.png")
+        }
+        if vidas == 1 {
+            vidas2.alpha = 0.5
+            vidas2.image = UIImage(named: "vidasMenos.png")
+        }
+        if vidas == 0 {
+            vidas3.alpha = 0.5
+            vidas3.image = UIImage(named: "vidasMenos.png")
+        }
         lblVidas.text = String(vidas)
     }
     
@@ -235,122 +292,146 @@ class Nivel2: UIViewController {
         lblPuntaje.text = String(puntaje)
         if LabelText == "Casa" {
             if d == 0 {
-                num1 = randomNumber(0...6)
-                num2 = randomNumber(7...14)
-                num3 = randomNumber(15...21)
-                num4 = randomNumber(22...29)
-                num5 = randomNumber(30...34)
+                num1 = randomNumber(0...7)
+                num2 = randomNumber(8...16)
+                num3 = randomNumber(17...24)
+                num4 = randomNumber(25...32)
+                num5 = randomNumber(33...39)
                 d = d + 1
             } else if d == 1 {
-                num2 = randomNumber(0...6)
-                num3 = randomNumber(7...14)
-                num4 = randomNumber(15...21)
-                num5 = randomNumber(22...29)
-                num1 = randomNumber(30...34)
+                num2 = randomNumber(0...7)
+                num3 = randomNumber(8...16)
+                num4 = randomNumber(17...24)
+                num5 = randomNumber(25...32)
+                num1 = randomNumber(33...39)
                 d = d + 1
             } else if d == 2 {
-                num3 = randomNumber(0...6)
-                num4 = randomNumber(7...14)
-                num5 = randomNumber(15...21)
-                num1 = randomNumber(22...29)
-                num2 = randomNumber(30...34)
+                num3 = randomNumber(0...7)
+                num4 = randomNumber(8...16)
+                num5 = randomNumber(17...24)
+                num1 = randomNumber(25...32)
+                num2 = randomNumber(33...39)
                 d = 0
             }
         }
         if LabelText == "Animales" {
             if d == 0 {
-                num1 = randomNumber(0...6)
-                num2 = randomNumber(7...14)
-                num3 = randomNumber(15...21)
-                num4 = randomNumber(22...29)
-                num5 = randomNumber(30...35)
+                num1 = randomNumber(0...7)
+                num2 = randomNumber(8...16)
+                num3 = randomNumber(17...24)
+                num4 = randomNumber(25...32)
+                num5 = randomNumber(33...39)
                 d = d + 1
             } else if d == 1 {
-                num2 = randomNumber(0...6)
-                num3 = randomNumber(7...14)
-                num4 = randomNumber(15...21)
-                num5 = randomNumber(22...29)
-                num1 = randomNumber(30...35)
+                num2 = randomNumber(0...7)
+                num3 = randomNumber(8...16)
+                num4 = randomNumber(17...24)
+                num5 = randomNumber(25...32)
+                num1 = randomNumber(33...39)
                 d = d + 1
             } else if d == 2 {
-                num3 = randomNumber(0...6)
-                num4 = randomNumber(7...14)
-                num5 = randomNumber(15...21)
-                num1 = randomNumber(22...29)
-                num2 = randomNumber(30...35)
+                num3 = randomNumber(0...7)
+                num4 = randomNumber(8...16)
+                num5 = randomNumber(17...24)
+                num1 = randomNumber(25...32)
+                num2 = randomNumber(33...39)
                 d = 0
             }
         }
         if LabelText == "Alimentos" {
             if d == 0 {
-                num1 = randomNumber(0...5)
-                num2 = randomNumber(6...11)
-                num3 = randomNumber(12...18)
-                num4 = randomNumber(19...25)
-                num5 = randomNumber(26...29)
+                num1 = randomNumber(0...7)
+                num2 = randomNumber(8...16)
+                num3 = randomNumber(17...24)
+                num4 = randomNumber(25...32)
+                num5 = randomNumber(33...39)
                 d = d + 1
             } else if d == 1 {
-                num2 = randomNumber(0...5)
-                num3 = randomNumber(6...11)
-                num4 = randomNumber(12...18)
-                num5 = randomNumber(19...25)
-                num1 = randomNumber(26...29)
+                num2 = randomNumber(0...7)
+                num3 = randomNumber(8...16)
+                num4 = randomNumber(17...24)
+                num5 = randomNumber(25...32)
+                num1 = randomNumber(33...39)
                 d = d + 1
             } else if d == 2 {
-                num3 = randomNumber(0...5)
-                num4 = randomNumber(6...11)
-                num5 = randomNumber(12...18)
-                num1 = randomNumber(19...25)
-                num2 = randomNumber(26...29)
+                num3 = randomNumber(0...7)
+                num4 = randomNumber(8...16)
+                num5 = randomNumber(17...24)
+                num1 = randomNumber(25...32)
+                num2 = randomNumber(33...39)
                 d = 0
             }
         }
         if LabelText == "Ropa" {
             if d == 0 {
-                num1 = randomNumber(0...5)
-                num2 = randomNumber(6...11)
-                num3 = randomNumber(12...18)
-                num4 = randomNumber(19...25)
-                num5 = randomNumber(26...29)
+                num1 = randomNumber(0...7)
+                num2 = randomNumber(8...16)
+                num3 = randomNumber(17...24)
+                num4 = randomNumber(25...32)
+                num5 = randomNumber(33...39)
                 d = d + 1
             } else if d == 1 {
-                num2 = randomNumber(0...5)
-                num3 = randomNumber(6...11)
-                num4 = randomNumber(12...18)
-                num5 = randomNumber(19...25)
-                num1 = randomNumber(26...29)
+                num2 = randomNumber(0...7)
+                num3 = randomNumber(8...16)
+                num4 = randomNumber(17...24)
+                num5 = randomNumber(25...32)
+                num1 = randomNumber(33...39)
                 d = d + 1
             } else if d == 2 {
-                num3 = randomNumber(0...5)
-                num4 = randomNumber(6...11)
-                num5 = randomNumber(12...18)
-                num1 = randomNumber(19...25)
-                num2 = randomNumber(26...29)
+                num3 = randomNumber(0...7)
+                num4 = randomNumber(8...16)
+                num5 = randomNumber(17...24)
+                num1 = randomNumber(25...32)
+                num2 = randomNumber(33...39)
                 d = 0
             }
         }
         
         if LabelText == "Partes del cuerpo" {
             if d == 0 {
+                num1 = randomNumber(0...4)
+                num2 = randomNumber(5...9)
+                num3 = randomNumber(10...14)
+                num4 = randomNumber(15...19)
+                num5 = randomNumber(20...25)
+                d = d + 1
+            } else if d == 1 {
+                num2 = randomNumber(0...4)
+                num3 = randomNumber(5...9)
+                num4 = randomNumber(10...14)
+                num5 = randomNumber(15...19)
+                num1 = randomNumber(20...25)
+                d = d + 1
+            } else if d == 2 {
+                num3 = randomNumber(0...4)
+                num4 = randomNumber(5...9)
+                num5 = randomNumber(10...14)
+                num1 = randomNumber(15...19)
+                num2 = randomNumber(20...25)
+                d = 0
+            }
+        }
+        if LabelText == "Instrumentos" {
+            if d == 0 {
                 num1 = randomNumber(0...3)
-                num2 = randomNumber(4...7)
-                num3 = randomNumber(8...11)
-                num4 = randomNumber(12...15)
-                num5 = randomNumber(16...17)
+                num2 = randomNumber(4...8)
+                num3 = randomNumber(9...13)
+                num4 = randomNumber(14...18)
+                num5 = randomNumber(19...22)
                 d = d + 1
             } else if d == 1 {
                 num2 = randomNumber(0...3)
-                num3 = randomNumber(4...7)
-                num4 = randomNumber(8...11)
-                num5 = randomNumber(12...15)
-                num1 = randomNumber(16...17)
+                num3 = randomNumber(4...8)
+                num4 = randomNumber(9...13)
+                num5 = randomNumber(14...18)
+                num1 = randomNumber(19...22)
                 d = d + 1
             } else if d == 2 {
                 num3 = randomNumber(0...3)
-                num4 = randomNumber(4...7)
-                num5 = randomNumber(8...11)
-                num1 = randomNumber(12...15)
-                num2 = randomNumber(16...17)
+                num4 = randomNumber(4...8)
+                num5 = randomNumber(9...13)
+                num1 = randomNumber(14...18)
+                num2 = randomNumber(19...22)
                 d = 0
             }
         }
@@ -386,12 +467,129 @@ class Nivel2: UIViewController {
         vidas = 3
         lblVidas.text = String(vidas)
         puntaje = 0
+        vidas1.alpha = 1
+        vidas1.image = UIImage(named: "vidasNivel2.png")
+        vidas2.alpha = 1
+        vidas2.image = UIImage(named: "vidasNivel2.png")
+        vidas3.alpha = 1
+        vidas3.image = UIImage(named: "vidasNivel2.png")
         escoger()
     }
 
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let DestViewController: Nivel3 = segue.destinationViewController as! Nivel3
-        DestViewController.LabelText = LabelText
+        if aciertos == 5 {
+            let DestViewController: Nivel3 = segue.destinationViewController as! Nivel3
+            DestViewController.LabelText = LabelText
+            terminando()
+        } else {
+            terminando()
+        }
+    }
+    
+    private func registrarNotificaciones() {
+        //Para iniciar
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "iniciando", name: UIApplicationDidBecomeActiveNotification, object: nil)
+        //Para terminar
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "terminando", name: UIApplicationWillResignActiveNotification, object: nil)
+    }
+    
+    func terminando() {
+        let preferencias = NSUserDefaults.standardUserDefaults()
+        preferencias.synchronize()
+        var t1 = 0
+        var t2 = 0
+        var t3 = 0
+        var t4 = 0
+        var t5 = 0
+        var t6 = 0
+        var e1 = 0
+        var e2 = 0
+        var e3 = 0
+        var e4 = 0
+        var e5 = 0
+        var e6 = 0
+        
+        //Recuperar los datos
+        if LabelText == "Casa" {
+            if let strTitulo = preferencias.stringForKey("prefaciertos27") {
+                t1 = Int(strTitulo)!
+            }
+            t1 = t1 + aciertos;
+            if let strTitulo1 = preferencias.stringForKey("preferrores21") {
+                e1 = Int(strTitulo1)!
+            }
+            e1 = e1 + errores;
+            
+            preferencias.setObject(String(t1), forKey: "prefaciertos27")
+            preferencias.setObject(String(e1), forKey: "preferrores21")
+            preferencias.synchronize()
+        }
+        
+        if LabelText == "Animales" {
+            if let strTitulo = preferencias.stringForKey("prefaciertos28") {
+                t2 = Int(strTitulo)!
+            }
+            t2 = t2 + aciertos;
+            if let strTitulo1 = preferencias.stringForKey("preferrores22") {
+                e1 = Int(strTitulo1)!
+            }
+            e2 = e2 + errores;
+            preferencias.setObject(String(t2), forKey: "prefaciertos28")
+            preferencias.setObject(String(e2), forKey: "preferrores22")
+            preferencias.synchronize()
+        }
+        if LabelText == "Alimentos" {
+            if let strTitulo = preferencias.stringForKey("prefaciertos29") {
+                t3 = Int(strTitulo)!
+            }
+            t3 = t3 + aciertos;
+            if let strTitulo1 = preferencias.stringForKey("preferrores23") {
+                e3 = Int(strTitulo1)!
+            }
+            e3 = e3 + errores;
+            preferencias.setObject(String(t3), forKey: "prefaciertos29")
+            preferencias.setObject(String(e3), forKey: "preferrores23")
+            preferencias.synchronize()
+        }
+        if LabelText == "Ropa" {
+            if let strTitulo = preferencias.stringForKey("prefaciertos30") {
+                t4 = Int(strTitulo)!
+            }
+            t4 = t4 + aciertos;
+            if let strTitulo1 = preferencias.stringForKey("preferrores24") {
+                e4 = Int(strTitulo1)!
+            }
+            e4 = e4 + errores;
+            preferencias.setObject(String(t4), forKey: "prefaciertos30")
+            preferencias.setObject(String(e4), forKey: "preferrores24")
+            preferencias.synchronize()
+        }
+        if LabelText == "Partes del cuerpo" {
+            if let strTitulo = preferencias.stringForKey("prefaciertos31") {
+                t5 = Int(strTitulo)!
+            }
+            t5 = t5 + aciertos;
+            if let strTitulo1 = preferencias.stringForKey("preferrores25") {
+                e5 = Int(strTitulo1)!
+            }
+            e5 = e5 + errores;
+            preferencias.setObject(String(t5), forKey: "prefaciertos31")
+            preferencias.setObject(String(e5), forKey: "preferrores25")
+            preferencias.synchronize()
+        }
+        if LabelText == "Instrumentos" {
+            if let strTitulo = preferencias.stringForKey("prefaciertos32") {
+                t6 = Int(strTitulo)!
+            }
+            t6 = t6 + aciertos;
+            if let strTitulo1 = preferencias.stringForKey("preferrores26") {
+                e6 = Int(strTitulo1)!
+            }
+            e6 = e6 + errores;
+            preferencias.setObject(String(t6), forKey: "prefaciertos32")
+            preferencias.setObject(String(e6), forKey: "preferrores26")
+            preferencias.synchronize()
+        }
     }
     
     override func shouldAutorotate() -> Bool {

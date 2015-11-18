@@ -11,6 +11,12 @@ import UIKit
 class ViewController: UIViewController {
     var LabelText = String()
 
+    @IBOutlet weak var viewSesion: UIView!
+    
+    @IBAction func entrar(sender: AnyObject) {
+        viewSesion.hidden = true
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         UIInterfaceOrientation.LandscapeRight.rawValue

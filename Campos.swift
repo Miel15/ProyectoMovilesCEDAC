@@ -12,6 +12,7 @@ import UIKit
 class Campos: UIViewController {
     
     var opcion: Int = 0
+    var campo = ""
     
     @IBOutlet weak var btnCampo1: UIButton!
     @IBOutlet weak var btnCampo2: UIButton!
@@ -22,38 +23,32 @@ class Campos: UIViewController {
     
     @IBAction func btnCampo1(sender: UIButton) {
         opcion = 1
+        campo = "Casa"
     }
     
     @IBAction func btnCampo2(sender: UIButton) {
         opcion = 2
+        campo = "Animales"
     }
     
     @IBAction func btnCampo3(sender: UIButton) {
         opcion = 3
+        campo = "Alimentos"
     }
     
     @IBAction func btnCampo4(sender: UIButton) {
         opcion = 4
+        campo = "Ropa"
     }
     
     @IBAction func btnCampo5(sender: UIButton) {
         opcion = 5
+        campo = "Partes del cuerpo"
     }
     
     @IBAction func btnCampo6(sender: UIButton) {
-        let alert =  UIAlertController(title: "Campo no disponible",
-            message: "Estamos trabajando para ti",
-            preferredStyle: UIAlertControllerStyle.Alert)
-        
-        alert.addAction(UIAlertAction(title: "Aceptar",
-            style: UIAlertActionStyle.Default,
-            handler: nil))
-        
-        self.presentViewController(alert,
-            animated: true,
-            completion:nil
-        )
-        //opcion = 6
+        opcion = 6
+        campo = "Instrumentos"
     }
     
     override func viewDidLoad() {
@@ -63,22 +58,22 @@ class Campos: UIViewController {
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         let DestViewController: Niveles = segue.destinationViewController as! Niveles
         if (opcion == 1) {
-            DestViewController.LabelText = btnCampo1.titleLabel!.text!
+            DestViewController.LabelText = campo
         }
         if (opcion == 2) {
-            DestViewController.LabelText = btnCampo2.titleLabel!.text!
+            DestViewController.LabelText = campo
         }
         if (opcion == 3) {
-            DestViewController.LabelText = btnCampo3.titleLabel!.text!
+            DestViewController.LabelText = campo
         }
         if (opcion == 4) {
-            DestViewController.LabelText = btnCampo4.titleLabel!.text!
+            DestViewController.LabelText = campo
         }
         if (opcion == 5) {
-            DestViewController.LabelText = btnCampo5.titleLabel!.text!
+            DestViewController.LabelText = campo
         }
         if (opcion == 6) {
-            DestViewController.LabelText = btnCampo6.titleLabel!.text!
+            DestViewController.LabelText = campo
         }
     }
     
