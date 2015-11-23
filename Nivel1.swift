@@ -120,18 +120,143 @@ class Nivel1: UIViewController {
     }
     
     private func reproducirMP3(a:String) {
+        var palabra = a
+        //Casa
+        if palabra == "Baño" {
+            palabra = "Banio"
+        }
+        if palabra == "Clóset" {
+            palabra = "Closet"
+        }
+        if palabra == "Cojín" {
+            palabra = "Cojin"
+        }
+        if palabra == "Jardín" {
+            palabra = "Jardin"
+        }
+        if palabra == "Recámara" {
+            palabra = "Recamara"
+        }
+        if palabra == "Sartén" {
+            palabra = "Sarten"
+        }
+        if palabra == "Sillón" {
+            palabra = "Sillon"
+        }
+        if palabra == "Teléfono" {
+            palabra = "Telefono"
+        }
+        if palabra == "Televisión" {
+            palabra = "Television"
+        }
+        
+        //Alimentos
+        if palabra == "Café" {
+            palabra = "Cafe"
+        }
+        if palabra == "Chícharos" {
+            palabra = "Chicharos"
+        }
+        if palabra == "Jamón" {
+            palabra = "Jamon"
+        }
+        if palabra == "Piña" {
+            palabra = "Pinia"
+        }
+        if palabra == "Plátano" {
+            palabra = "Platano"
+        }
+        if palabra == "Sandía" {
+            palabra = "Sandia"
+        }
+        
+        //Animales
+        if palabra == "Águila" {
+            palabra = "Aguila"
+        }
+        if palabra == "Búho" {
+            palabra = "Buho"
+        }
+        if palabra == "Delfín" {
+            palabra = "Delfin"
+        }
+        if palabra == "León" {
+            palabra = "Leon"
+        }
+        if palabra == "Pingüino" {
+            palabra = "Pinguino"
+        }
+        if palabra == "Ratón" {
+            palabra = "Raton"
+        }
+        
+        //Ropa
+        if palabra == "Cinturón" {
+            palabra = "Cinturon"
+        }
+        if palabra == "Moño" {
+            palabra = "Monio"
+        }
+        if palabra == "Pantalón" {
+            palabra = "Pantalon"
+        }
+        if palabra == "Suéter" {
+            palabra = "Sueter"
+        }
+        if palabra == "Traje de baño" {
+            palabra = "Traje de banio"
+        }
+        
+        //Cuerpo
+        if palabra == "Pestaña" {
+            palabra = "Pestania"
+        }
+        if palabra == "Uñas" {
+            palabra = "Unias"
+        }
+        
+        
+        //Instrumentos
+        if palabra == "Acordeón" {
+            palabra = "Acordeon"
+        }
+        if palabra == "Armónica" {
+            palabra = "Armonica"
+        }
+        if palabra == "Batería" {
+            palabra = "Bateria"
+        }
+        if palabra == "Castañuelas" {
+            palabra = "Castanuelas"
+        }
+        if palabra == "Saxofón" {
+            palabra = "Saxofon"
+        }
+        if palabra == "Triángulo" {
+            palabra = "Triangulo"
+        }
+        if palabra == "Violín" {
+            palabra = "Violin"
+        }
+        if palabra == "Xilófono" {
+            palabra = "Xilofono"
+        }
+        
         if entrar == 0{
         
-            if let url = NSBundle.mainBundle().URLForResource(a, withExtension: "m4a") {
+            if let url = NSBundle.mainBundle().URLForResource(palabra, withExtension: "m4a") {
                 if let player = try? AVAudioPlayer(contentsOfURL: url) {
                     self.player = player
                     self.player.prepareToPlay()
                 }
-            
+                
+                
                 if self.player.playing {
                     self.player.stop()
                 }
+                
                 self.player.play()
+                
             } else {
                 lblrepetir.setTitle("Audio no disponible", forState: UIControlState.Normal)
                 lblrepetir.enabled = false
@@ -385,6 +510,7 @@ class Nivel1: UIViewController {
         let t:Int = arrOpciones[c2]
         lblPalabra.text = Array(dicBanderas.keys)[t]
         reproducirMP3((lblPalabra.text)!)
+
         tap()
     }
     
@@ -438,9 +564,8 @@ class Nivel1: UIViewController {
         //boton = 2
     }
     
-    
     @IBAction func repetir(sender: AnyObject) {
-        reproducirMP3((lblPalabra.text)!)
+            reproducirMP3((lblPalabra.text)!)
     }
     
     @IBAction func btnMenu(sender: AnyObject) {

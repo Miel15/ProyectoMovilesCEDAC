@@ -93,9 +93,50 @@ class Nivel2: UIViewController {
     }
     
     private func reproducirMP3(a:String) {
+        var palabra = a
+        if palabra == "Café" {
+            palabra = "Cafe"
+        }
+        if palabra == "Chícharos" {
+            palabra = "Chicharos"
+        }
+        if palabra == "Jamón" {
+            palabra = "Jamon"
+        }
+        if palabra == "Piña" {
+            palabra = "Pinia"
+        }
+        if palabra == "Plátano" {
+            palabra = "Platano"
+        }
+        if palabra == "Sandía" {
+            palabra = "Sandia"
+        }
+        if palabra == "Águila" {
+            palabra = "Aguila"
+        }
+        if palabra == "Búho" {
+            palabra = "Buho"
+        }
+        if palabra == "Delfín" {
+            palabra = "Delfin"
+        }
+        if palabra == "León" {
+            palabra = "Leon"
+        }
+        if palabra == "Pingüino" {
+            palabra = "Pinguino"
+        }
+        if palabra == "Ratón" {
+            palabra = "Raton"
+        }
+        if palabra == "Cinturón" {
+            palabra = "Cinturon"
+        }
+        
         if entrar == 0{
             
-            if let url = NSBundle.mainBundle().URLForResource(a, withExtension: "m4a") {
+            if let url = NSBundle.mainBundle().URLForResource(palabra, withExtension: "m4a") {
                 if let player = try? AVAudioPlayer(contentsOfURL: url) {
                     self.player = player
                     self.player.prepareToPlay()
@@ -105,13 +146,10 @@ class Nivel2: UIViewController {
                     self.player.stop()
                 }
                 self.player.play()
-                
             } else {
                 lblrepetir.setTitle("Audio no disponible", forState: UIControlState.Normal)
                 lblrepetir.enabled = false
             }
-            
-            
         }
     }
 

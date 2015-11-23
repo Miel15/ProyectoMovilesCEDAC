@@ -20,6 +20,7 @@ class Nivel3: UIViewController {
     var num6:Int = 0
     var num7:Int = 0
     var num8:Int = 0
+    
     var entrar = 0
     var d:Int = 0
     var puntaje:Int = 0
@@ -98,9 +99,50 @@ class Nivel3: UIViewController {
     }
     
     private func reproducirMP3(a:String) {
+        var palabra = a
+        if palabra == "Café" {
+            palabra = "Cafe"
+        }
+        if palabra == "Chícharos" {
+            palabra = "Chicharos"
+        }
+        if palabra == "Jamón" {
+            palabra = "Jamon"
+        }
+        if palabra == "Piña" {
+            palabra = "Pinia"
+        }
+        if palabra == "Plátano" {
+            palabra = "Platano"
+        }
+        if palabra == "Sandía" {
+            palabra = "Sandia"
+        }
+        if palabra == "Águila" {
+            palabra = "Aguila"
+        }
+        if palabra == "Búho" {
+            palabra = "Buho"
+        }
+        if palabra == "Delfín" {
+            palabra = "Delfin"
+        }
+        if palabra == "León" {
+            palabra = "Leon"
+        }
+        if palabra == "Pingüino" {
+            palabra = "Pinguino"
+        }
+        if palabra == "Ratón" {
+            palabra = "Raton"
+        }
+        if palabra == "Cinturón" {
+            palabra = "Cinturon"
+        }
+        
         if entrar == 0{
             
-            if let url = NSBundle.mainBundle().URLForResource(a, withExtension: "m4a") {
+            if let url = NSBundle.mainBundle().URLForResource(palabra, withExtension: "m4a") {
                 if let player = try? AVAudioPlayer(contentsOfURL: url) {
                     self.player = player
                     self.player.prepareToPlay()
@@ -110,7 +152,6 @@ class Nivel3: UIViewController {
                     self.player.stop()
                 }
                 self.player.play()
-                
             } else {
                 lblAudio.setTitle("Audio no disponible", forState: UIControlState.Normal)
                 lblAudio.enabled = false
@@ -336,14 +377,6 @@ class Nivel3: UIViewController {
         }
         
         arrOpciones.removeAll()
-        num1 = 0
-        num2 = 0
-        num3 = 0
-        num4 = 0
-        num5 = 0
-        num6 = 0
-        num7 = 0
-        num8 = 0
         
         lblPuntaje.text = String(puntaje)
         if LabelText == "Casa" {

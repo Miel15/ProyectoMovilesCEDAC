@@ -228,7 +228,7 @@ class Puntaje: UIViewController {
         siguiente5.hidden = true
 
         
-        campo.text = "Campo 2"
+        campo.text = "Campo: Animales"
     }
     
     @IBAction func anterior1(sender: AnyObject) {
@@ -253,7 +253,7 @@ class Puntaje: UIViewController {
         aciertos13.hidden = true
         siguiente2.hidden = true
         
-        campo.text = "Campo 1"
+        campo.text = "Campo: Casa"
     }
     
     @IBAction func siguiente2(sender: AnyObject) {
@@ -280,7 +280,7 @@ class Puntaje: UIViewController {
         siguiente5.hidden = true
 
         
-        campo.text = "Campo 3"
+        campo.text = "Campo: Alimentos"
     }
     
     @IBAction func anterior2(sender: AnyObject) {
@@ -302,7 +302,7 @@ class Puntaje: UIViewController {
         aciertos23.hidden = true
         siguiente3.hidden = true
         
-        campo.text = "Campo 2"
+        campo.text = "Campo: Animales"
     }
     
     @IBAction func siguiente3(sender: AnyObject) {
@@ -328,7 +328,7 @@ class Puntaje: UIViewController {
         aciertos32.hidden = false
         aciertos33.hidden = false
         
-        campo.text = "Campo 4"
+        campo.text = "Campo: Ropa"
 
     }
     
@@ -355,7 +355,7 @@ class Puntaje: UIViewController {
         aciertos32.hidden = true
         aciertos33.hidden = true
         
-        campo.text = "Campo 3"
+        campo.text = "Campo: Alimentos"
     }
     
     @IBAction func siguiente4(sender: AnyObject) {
@@ -374,7 +374,7 @@ class Puntaje: UIViewController {
         aciertos41.hidden = false
         aciertos42.hidden = false
         aciertos43.hidden = false
-        campo.text = "Campo 5"
+        campo.text = "Campo: Partes del cuerpo"
 
         siguiente4.hidden = true
         siguiente5.hidden = false
@@ -409,7 +409,7 @@ class Puntaje: UIViewController {
         aciertos42.hidden = true
         aciertos43.hidden = true
         
-        campo.text = "Campo 4"
+        campo.text = "Campo: Ropa"
     }
     
     @IBAction func siguiente5(sender: AnyObject) {
@@ -435,7 +435,7 @@ class Puntaje: UIViewController {
         errores53.hidden = false
         anterior5.hidden = false
         
-        campo.text = "Campo 6"
+        campo.text = "Campo: Instrumentos musicales"
     }
     
     @IBAction func anterior5(sender: AnyObject) {
@@ -461,7 +461,7 @@ class Puntaje: UIViewController {
         aciertos41.hidden = false
         aciertos42.hidden = false
         aciertos43.hidden = false
-        campo.text = "Campo 5"
+        campo.text = "Campo: Partes del cuerpo"
     }
     
     
