@@ -241,7 +241,6 @@ class Nivel1: UIViewController {
         if palabra == "Xilófono" {
             palabra = "Xilofono"
         }
-        
         if entrar == 0{
         
             if let url = NSBundle.mainBundle().URLForResource(palabra, withExtension: "m4a") {
@@ -325,7 +324,6 @@ class Nivel1: UIViewController {
 
     func respuestaCorrecta(){
         puntaje+=1
-        print(LabelText)
         if LabelText == "Casa" {aciertos1++}
         if LabelText == "Animales" {aciertos2++}
         if LabelText == "Alimentos" {aciertos3++}
@@ -399,6 +397,20 @@ class Nivel1: UIViewController {
     func escoger() {
         if puntaje == 5 {
             entrar = 1
+            if let url = NSBundle.mainBundle().URLForResource("tada", withExtension: "m4a") {
+                if let player = try? AVAudioPlayer(contentsOfURL: url) {
+                    self.player = player
+                    self.player.prepareToPlay()
+                }
+                
+                
+                if self.player.playing {
+                    self.player.stop()
+                }
+                
+                self.player.play()
+                
+            }
             viewGanaste.hidden = false
         }
         arrOpciones.removeAll()

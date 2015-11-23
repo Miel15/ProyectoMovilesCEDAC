@@ -100,6 +100,36 @@ class Nivel3: UIViewController {
     
     private func reproducirMP3(a:String) {
         var palabra = a
+        //Casa
+        if palabra == "Baño" {
+            palabra = "Banio"
+        }
+        if palabra == "Clóset" {
+            palabra = "Closet"
+        }
+        if palabra == "Cojín" {
+            palabra = "Cojin"
+        }
+        if palabra == "Jardín" {
+            palabra = "Jardin"
+        }
+        if palabra == "Recámara" {
+            palabra = "Recamara"
+        }
+        if palabra == "Sartén" {
+            palabra = "Sarten"
+        }
+        if palabra == "Sillón" {
+            palabra = "Sillon"
+        }
+        if palabra == "Teléfono" {
+            palabra = "Telefono"
+        }
+        if palabra == "Televisión" {
+            palabra = "Television"
+        }
+        
+        //Alimentos
         if palabra == "Café" {
             palabra = "Cafe"
         }
@@ -118,6 +148,8 @@ class Nivel3: UIViewController {
         if palabra == "Sandía" {
             palabra = "Sandia"
         }
+        
+        //Animales
         if palabra == "Águila" {
             palabra = "Aguila"
         }
@@ -136,8 +168,57 @@ class Nivel3: UIViewController {
         if palabra == "Ratón" {
             palabra = "Raton"
         }
+        
+        //Ropa
         if palabra == "Cinturón" {
             palabra = "Cinturon"
+        }
+        if palabra == "Moño" {
+            palabra = "Monio"
+        }
+        if palabra == "Pantalón" {
+            palabra = "Pantalon"
+        }
+        if palabra == "Suéter" {
+            palabra = "Sueter"
+        }
+        if palabra == "Traje de baño" {
+            palabra = "Traje de banio"
+        }
+        
+        //Cuerpo
+        if palabra == "Pestaña" {
+            palabra = "Pestania"
+        }
+        if palabra == "Uñas" {
+            palabra = "Unias"
+        }
+        
+        
+        //Instrumentos
+        if palabra == "Acordeón" {
+            palabra = "Acordeon"
+        }
+        if palabra == "Armónica" {
+            palabra = "Armonica"
+        }
+        if palabra == "Batería" {
+            palabra = "Bateria"
+        }
+        if palabra == "Castañuelas" {
+            palabra = "Castanuelas"
+        }
+        if palabra == "Saxofón" {
+            palabra = "Saxofon"
+        }
+        if palabra == "Triángulo" {
+            palabra = "Triangulo"
+        }
+        if palabra == "Violín" {
+            palabra = "Violin"
+        }
+        if palabra == "Xilófono" {
+            palabra = "Xilofono"
         }
         
         if entrar == 0{
@@ -373,6 +454,20 @@ class Nivel3: UIViewController {
     func escoger() {
         if puntaje == 5 {
             entrar = 1
+            if let url = NSBundle.mainBundle().URLForResource("tada", withExtension: "m4a") {
+                if let player = try? AVAudioPlayer(contentsOfURL: url) {
+                    self.player = player
+                    self.player.prepareToPlay()
+                }
+                
+                
+                if self.player.playing {
+                    self.player.stop()
+                }
+                
+                self.player.play()
+                
+            }
             viewGanaste.hidden = false
         }
         
