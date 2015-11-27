@@ -566,8 +566,6 @@ class Nivel1: UIViewController {
     }
     
     private func registrarNotificaciones() {
-        //Para iniciar
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "iniciando", name: UIApplicationDidBecomeActiveNotification, object: nil)
         //Para terminar
         NSNotificationCenter.defaultCenter().addObserver(self, selector: "terminando", name: UIApplicationWillResignActiveNotification, object: nil)
     }

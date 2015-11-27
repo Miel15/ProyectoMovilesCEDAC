@@ -17,6 +17,7 @@ class Registrarse: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    
     }
 
     override func shouldAutorotate() -> Bool {

@@ -8,8 +8,9 @@
 
 import Foundation
 import UIKit
+import MessageUI
 
-class Puntaje: UIViewController {
+class Puntaje: UIViewController, MFMailComposeViewControllerDelegate {
     
     @IBOutlet weak var lblPuntaje: UILabel!
     var LabelText = String()
@@ -77,7 +78,6 @@ class Puntaje: UIViewController {
     }
     
     func iniciando() {
-        print("Iniciando")
         let preferencias = NSUserDefaults.standardUserDefaults()
         preferencias.synchronize()
         //Recuperar los datos
@@ -465,12 +465,157 @@ class Puntaje: UIViewController {
     }
     
     
+    @IBAction func borrar(sender: AnyObject) {
+        let alert =  UIAlertController(title: "",
+            message: "Los registros se borrarán de manera permanente",
+            preferredStyle: UIAlertControllerStyle.Alert)
+        
+        alert.addAction(UIAlertAction(title: "Aceptar",
+            style: UIAlertActionStyle.Default,
+            handler: { (action: UIAlertAction!) in
+                self.borrado()
+        }))
+        
+        alert.addAction(UIAlertAction(title: "Cancelar",
+            style: UIAlertActionStyle.Default,
+            handler: nil))
+        
+        self.presentViewController(alert,
+            animated: true,
+            completion:nil
+        )
+    }
+    
+    func borrado(){
+        let preferencias = NSUserDefaults.standardUserDefaults()
+        preferencias.synchronize()
+        let cero = 0
+        
+        aciertos1.text = "0"
+        errores1.text = "0"
+        aciertos2.text = "0"
+        errores2.text = "0"
+        aciertos3.text = "0"
+        errores3.text = "0"
+        
+        aciertos11.text = "0"
+        aciertos12.text = "0"
+        aciertos13.text = "0"
+        errores11.text = "0"
+        errores12.text = "0"
+        errores13.text = "0"
+        
+        aciertos21.text = "0"
+        aciertos22.text = "0"
+        aciertos23.text = "0"
+        errores21.text = "0"
+        errores22.text = "0"
+        errores23.text = "0"
+        
+        aciertos31.text = "0"
+        aciertos32.text = "0"
+        aciertos33.text = "0"
+        errores31.text = "0"
+        errores32.text = "0"
+        errores33.text = "0"
+        
+        aciertos41.text = "0"
+        aciertos42.text = "0"
+        aciertos43.text = "0"
+        errores41.text = "0"
+        errores42.text = "0"
+        errores43.text = "0"
+        
+        aciertos51.text = "0"
+        aciertos52.text = "0"
+        aciertos53.text = "0"
+        errores51.text = "0"
+        errores52.text = "0"
+        errores53.text = "0"
+        
+        preferencias.setObject(String(cero), forKey: "prefaciertos1")
+        preferencias.setObject(String(cero), forKey: "preferrores1")
+        preferencias.setObject(String(cero), forKey: "prefaciertos2")
+        preferencias.setObject(String(cero), forKey: "preferrores2")
+        preferencias.setObject(String(cero), forKey: "prefaciertos3")
+        preferencias.setObject(String(cero), forKey: "preferrores3")
+        preferencias.setObject(String(cero), forKey: "prefaciertos4")
+        preferencias.setObject(String(cero), forKey: "preferrores4")
+        preferencias.setObject(String(cero), forKey: "prefaciertos5")
+        preferencias.setObject(String(cero), forKey: "preferrores5")
+        preferencias.setObject(String(cero), forKey: "prefaciertos6")
+        preferencias.setObject(String(cero), forKey: "preferrores6")
+        
+        preferencias.setObject(String(cero), forKey: "prefaciertos27")
+        preferencias.setObject(String(cero), forKey: "preferrores21")
+        preferencias.setObject(String(cero), forKey: "prefaciertos28")
+        preferencias.setObject(String(cero), forKey: "preferrores22")
+        preferencias.setObject(String(cero), forKey: "prefaciertos29")
+        preferencias.setObject(String(cero), forKey: "preferrores23")
+        preferencias.setObject(String(cero), forKey: "prefaciertos30")
+        preferencias.setObject(String(cero), forKey: "preferrores24")
+        preferencias.setObject(String(cero), forKey: "prefaciertos31")
+        preferencias.setObject(String(cero), forKey: "preferrores25")
+        preferencias.setObject(String(cero), forKey: "prefaciertos32")
+        preferencias.setObject(String(cero), forKey: "preferrores26")
+        
+        preferencias.setObject(String(cero), forKey: "prefaciertos31")
+        preferencias.setObject(String(cero), forKey: "preferrores31")
+        preferencias.setObject(String(cero), forKey: "prefaciertos32")
+        preferencias.setObject(String(cero), forKey: "preferrores32")
+        preferencias.setObject(String(cero), forKey: "prefaciertos33")
+        preferencias.setObject(String(cero), forKey: "preferrores33")
+        preferencias.setObject(String(cero), forKey: "prefaciertos34")
+        preferencias.setObject(String(cero), forKey: "preferrores34")
+        preferencias.setObject(String(cero), forKey: "prefaciertos35")
+        preferencias.setObject(String(cero), forKey: "preferrores35")
+        preferencias.setObject(String(cero), forKey: "prefaciertos36")
+        preferencias.setObject(String(cero), forKey: "preferrores36")
+        preferencias.synchronize()
+    
+        
+    }
+    
+    @IBOutlet weak var tfCorreo: UITextField!
+    
+    @IBAction func enviarCorreo(sender: AnyObject) {
+        let mailComposeViewController = configuredMailComposeViewController()
+        if MFMailComposeViewController.canSendMail() {
+            self.presentViewController(mailComposeViewController, animated: true, completion: nil)
+        } else {
+            self.showSendMailErrorAlert()
+        }
+    }
+    
+    func configuredMailComposeViewController() -> MFMailComposeViewController {
+        let mailComposerVC = MFMailComposeViewController()
+        mailComposerVC.mailComposeDelegate = self // Extremely important to set the --mailComposeDelegate-- property, NOT the --delegate-- property
+        
+        mailComposerVC.setToRecipients([tfCorreo.text!])
+        mailComposerVC.setSubject("Resultados ¡A Jugar!")
+        mailComposerVC.setMessageBody("Campo 1: Casa \n Nivel:  Nivel 1 Nivel 2 Nivel 3 \n Aciertos: '\(aciertos1.text!)' '\(aciertos2.text!)' '\(aciertos3.text!)' \n Errores: '\(errores1.text!)' '\(errores2.text!)' '\(errores3.text!)' \n \nCampo 2: Animales \n Nivel:  Nivel 1 Nivel 2 Nivel 3 \n Aciertos: '\(aciertos11.text!)' '\(aciertos12.text!)' '\(aciertos13.text!)' \n Errores: '\(errores11.text!)' '\(errores12.text!)' '\(errores13.text!)' \n \nCampo 3: Alimentos \n Nivel:  Nivel 1 Nivel 2 Nivel 3 \n Aciertos: '\(aciertos21.text!)' '\(aciertos22.text!)' '\(aciertos23.text!)' \n Errores: '\(errores21.text!)' '\(errores22.text!)' '\(errores23.text!)' \n \nCampo 4: Ropa \n Nivel:  Nivel 1 Nivel 2 Nivel 3 \n Aciertos: '\(aciertos31.text!)' '\(aciertos32.text!)' '\(aciertos33.text!)' \n Errores: '\(errores31.text!)' '\(errores32.text!)' '\(errores33.text!)' \n \nCampo 5: Partes del cuerpo \n Nivel:  Nivel 1 Nivel 2 Nivel 3 \n Aciertos: '\(aciertos41.text!)' '\(aciertos42.text!)' '\(aciertos43.text!)' \n Errores: '\(errores41.text!)' '\(errores42.text!)' '\(errores43.text!)' \n \nCampo 6: Instrumentos musicales \n Nivel:  Nivel 1 Nivel 2 Nivel 3 \n Aciertos: '\(aciertos51.text!)' '\(aciertos52.text!)' '\(aciertos53.text!)' \n Errores: '\(errores51.text!)' '\(errores52.text!)' '\(errores53.text!)'", isHTML: false)
+        
+        return mailComposerVC
+    }
+    
+    func showSendMailErrorAlert() {
+        let sendMailErrorAlert = UIAlertView(title: "Could Not Send Email", message: "Your device could not send e-mail.  Please check e-mail configuration and try again.", delegate: self, cancelButtonTitle: "OK")
+        sendMailErrorAlert.show()
+    }
+    
+    // MARK: MFMailComposeViewControllerDelegate Method
+    func mailComposeController(controller: MFMailComposeViewController!, didFinishWithResult result: MFMailComposeResult, error: NSError!) {
+        controller.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     override func shouldAutorotate() -> Bool {
         return false
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBarHidden = true
+
         iniciando()
     }
 }

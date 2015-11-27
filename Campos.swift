@@ -54,26 +54,33 @@ class Campos: UIViewController {
     override func viewDidLoad() {
         
     }
+
+    @IBAction func regMenu(sender: AnyObject) {
+
+    }
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        let DestViewController: Niveles = segue.destinationViewController as! Niveles
-        if (opcion == 1) {
-            DestViewController.LabelText = campo
-        }
-        if (opcion == 2) {
-            DestViewController.LabelText = campo
-        }
-        if (opcion == 3) {
-            DestViewController.LabelText = campo
-        }
-        if (opcion == 4) {
-            DestViewController.LabelText = campo
-        }
-        if (opcion == 5) {
-            DestViewController.LabelText = campo
-        }
-        if (opcion == 6) {
-            DestViewController.LabelText = campo
+        if (segue.identifier == "volver") {
+        }else {
+            let DestViewController: Niveles = segue.destinationViewController as! Niveles
+            if (opcion == 1) {
+                DestViewController.LabelText = campo
+            }
+            if (opcion == 2) {
+                DestViewController.LabelText = campo
+            }
+            if (opcion == 3) {
+                DestViewController.LabelText = campo
+            }
+            if (opcion == 4) {
+                DestViewController.LabelText = campo
+            }
+            if (opcion == 5) {
+                DestViewController.LabelText = campo
+            }
+            if (opcion == 6) {
+                DestViewController.LabelText = campo
+            }
         }
     }
     

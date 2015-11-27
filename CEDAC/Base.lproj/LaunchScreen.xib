@@ -11,20 +11,20 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Zu-aL-OPi">
-                    <rect key="frame" x="166" y="266" width="692" height="236"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logotec.png" translatesAutoresizingMaskIntoConstraints="NO" id="0Zu-aL-OPi">
+                    <rect key="frame" x="291" y="176" width="442" height="415"/>
                     <animations/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="236" id="LW5-ie-aoG"/>
-                        <constraint firstAttribute="width" constant="692" id="wBm-z1-Mhx"/>
+                        <constraint firstAttribute="width" constant="442" id="R2p-Tl-mV6"/>
+                        <constraint firstAttribute="height" constant="415" id="p4X-h9-OMu"/>
                     </constraints>
                 </imageView>
             </subviews>
             <animations/>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
-                <constraint firstItem="0Zu-aL-OPi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="9iX-05-few"/>
-                <constraint firstItem="0Zu-aL-OPi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Ldl-Bh-D26"/>
+                <constraint firstItem="0Zu-aL-OPi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="5u7-Ht-BpS"/>
+                <constraint firstItem="0Zu-aL-OPi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="Nmk-lx-xdB"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
@@ -33,6 +33,6 @@
         </view>
     </objects>
     <resources>
-        <image name="logo.png" width="799" height="165"/>
+        <image name="logotec.png" width="2008" height="2008"/>
     </resources>
 </document>

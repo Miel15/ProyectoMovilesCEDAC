@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D228BDE1C03EC3E008A723A /* logotec.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D228BDD1C03EC3E008A723A /* logotec.png */; };
+		6D228BE01C041262008A723A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D228BDF1C041262008A723A /* MessageUI.framework */; };
+		6D228BE21C04226B008A723A /* puntajePantalla.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D228BE11C04226B008A723A /* puntajePantalla.png */; };
+		6D228BE41C0426EB008A723A /* Instrucciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D228BE31C0426EB008A723A /* Instrucciones.swift */; };
 		6D37949A1BC9FC4C001500EB /* Nivel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3794991BC9FC4C001500EB /* Nivel2.swift */; };
 		6D3EE39A1BC9898500CFD061 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3991BC9898500CFD061 /* info.png */; };
 		6D3EE3D81BC99D8100CFD061 /* Campos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3EE3D71BC99D8100CFD061 /* Campos.swift */; };
@@ -257,7 +261,6 @@
 		6DBCF4FC1C03C52C00D790B2 /* Chimenea.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCF4FB1C03C52C00D790B2 /* Chimenea.m4a */; };
 		6DBCF4FE1C03C53900D790B2 /* Computadora.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCF4FD1C03C53900D790B2 /* Computadora.m4a */; };
 		6DBCF5001C03C54700D790B2 /* Refrigerador.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCF4FF1C03C54700D790B2 /* Refrigerador.m4a */; };
-		6DF2B41C1BF907420030E294 /* puntajePantalla.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B41B1BF907420030E294 /* puntajePantalla.png */; };
 		6DF2B41E1BF9082A0030E294 /* fondoNivel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B41D1BF9082A0030E294 /* fondoNivel1.png */; };
 		6DF2B4201BF908790030E294 /* cuadNivel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B41F1BF908790030E294 /* cuadNivel1.png */; };
 		6DF2B4221BF909DC0030E294 /* musicNivel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4211BF909DC0030E294 /* musicNivel1.png */; };
@@ -514,6 +517,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D228BDD1C03EC3E008A723A /* logotec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logotec.png; sourceTree = "<group>"; };
+		6D228BDF1C041262008A723A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		6D228BE11C04226B008A723A /* puntajePantalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puntajePantalla.png; sourceTree = "<group>"; };
+		6D228BE31C0426EB008A723A /* Instrucciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrucciones.swift; sourceTree = "<group>"; };
 		6D3794991BC9FC4C001500EB /* Nivel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nivel2.swift; path = ../Nivel2.swift; sourceTree = "<group>"; };
 		6D3EE3991BC9898500CFD061 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
 		6D3EE3D71BC99D8100CFD061 /* Campos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Campos.swift; path = ../Campos.swift; sourceTree = "<group>"; };
@@ -767,7 +774,6 @@
 		6DBCF4FB1C03C52C00D790B2 /* Chimenea.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chimenea.m4a; sourceTree = "<group>"; };
 		6DBCF4FD1C03C53900D790B2 /* Computadora.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Computadora.m4a; sourceTree = "<group>"; };
 		6DBCF4FF1C03C54700D790B2 /* Refrigerador.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Refrigerador.m4a; sourceTree = "<group>"; };
-		6DF2B41B1BF907420030E294 /* puntajePantalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puntajePantalla.png; sourceTree = "<group>"; };
 		6DF2B41D1BF9082A0030E294 /* fondoNivel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoNivel1.png; sourceTree = "<group>"; };
 		6DF2B41F1BF908790030E294 /* cuadNivel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuadNivel1.png; sourceTree = "<group>"; };
 		6DF2B4211BF909DC0030E294 /* musicNivel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = musicNivel1.png; sourceTree = "<group>"; };
@@ -1018,6 +1024,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D228BE01C041262008A723A /* MessageUI.framework in Frameworks */,
 				6D6F37541BD472B900BE1AA0 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1185,6 +1192,7 @@
 		6D4A48391BEB996D00BC52B2 /* Imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				6D228BDD1C03EC3E008A723A /* logotec.png */,
 				6DBCF4971C0375DA00D790B2 /* tada.m4a */,
 				6DFDD6E91BF9732C00FA3513 /* acasa.png */,
 				6DF2B4371BF932E00030E294 /* animales.png */,
@@ -1215,7 +1223,7 @@
 				6D8751D61C029F5A002B6426 /* logo.png */,
 				6DF2B4211BF909DC0030E294 /* musicNivel1.png */,
 				6DFDD6E11BF9669000FA3513 /* perdistePantalla.png */,
-				6DF2B41B1BF907420030E294 /* puntajePantalla.png */,
+				6D228BE11C04226B008A723A /* puntajePantalla.png */,
 				6DF2B43F1BF9334E0030E294 /* ropa.png */,
 				6DF2B4431BF9366A0030E294 /* sigNivel1.png */,
 				6DF2B4471BF937120030E294 /* sigNivel2.png */,
@@ -1257,51 +1265,46 @@
 		6D6F37501BD471F400BE1AA0 /* Audios Casa */ = {
 			isa = PBXGroup;
 			children = (
-				6DBCF4991C03C18800D790B2 /* Sala.m4a */,
-				6DBCF49D1C03C1B700D790B2 /* Jardin.m4a */,
-				6DBCF4A51C03C22500D790B2 /* Cama.m4a */,
-				6DBCF4FD1C03C53900D790B2 /* Computadora.m4a */,
 				6DBCF4E11C03C46E00D790B2 /* Alfombra.m4a */,
-				6DBCF4FB1C03C52C00D790B2 /* Chimenea.m4a */,
-				6DBCF4C91C03C3B200D790B2 /* Cochera.m4a */,
-				6DBCF4EB1C03C4BF00D790B2 /* Organillo.m4a */,
-				6DBCF4C71C03C3A400D790B2 /* Cuadros.m4a */,
-				6DBCF4C51C03C39200D790B2 /* Florero.m4a */,
-				6DBCF4FF1C03C54700D790B2 /* Refrigerador.m4a */,
 				6DBCF4AF1C03C29E00D790B2 /* Banco.m4a */,
-				6DBCF4E91C03C4B000D790B2 /* Lavadora.m4a */,
-				6DBCF4E31C03C47A00D790B2 /* Comedor.m4a */,
-				6DBCF4F51C03C50600D790B2 /* Escalera.m4a */,
-				6DBCF4F71C03C51400D790B2 /* Recamara.m4a */,
-				6DBCF4F91C03C52100D790B2 /* Microondas.m4a */,
-				6DBCF49F1C03C1EF00D790B2 /* Sillas.m4a */,
-				6DBCF4EF1C03C4DB00D790B2 /* Telefono.m4a */,
-				6DBCF4D71C03C41500D790B2 /* Librero.m4a */,
-				6DBCF4F31C03C4F800D790B2 /* Television.m4a */,
-				6DBCF4ED1C03C4CB00D790B2 /* Telescopio.m4a */,
-				6DBCF4F11C03C4E800D790B2 /* Violoncello.m4a */,
-				6DBCF4E71C03C49700D790B2 /* Tocador.m4a */,
-				6DBCF4D51C03C40900D790B2 /* Perchero.m4a */,
-				6DBCF4E51C03C48A00D790B2 /* Xilofono.m4a */,
-				6DBCF4DF1C03C44E00D790B2 /* Espejo.m4a */,
-				6DBCF4D91C03C42200D790B2 /* Saxofon.m4a */,
-				6DBCF4DB1C03C43700D790B2 /* Escoba.m4a */,
-				6DBCF4CD1C03C3CD00D790B2 /* Maceta.m4a */,
-				6DBCF4DD1C03C44200D790B2 /* Regadera.m4a */,
-				6DBCF4CF1C03C3DE00D790B2 /* Cocina.m4a */,
-				6DBCF4D31C03C3FD00D790B2 /* Ventana.m4a */,
-				6DBCF4B31C03C2BC00D790B2 /* Puerta.m4a */,
 				6DBCF4B71C03C30700D790B2 /* Banio.m4a */,
-				6DBCF4D11C03C3EB00D790B2 /* Lavabo.m4a */,
-				6DBCF4A91C03C25000D790B2 /* Sarten.m4a */,
+				6DBCF4A51C03C22500D790B2 /* Cama.m4a */,
+				6DBCF4FB1C03C52C00D790B2 /* Chimenea.m4a */,
 				6DBCF4B91C03C31600D790B2 /* Closet.m4a */,
-				6DBCF4CB1C03C3C100D790B2 /* Toallas.m4a */,
-				6DBCF4B51C03C2F400D790B2 /* Jarra.m4a */,
-				6DBCF4C31C03C36E00D790B2 /* Trompeta.m4a */,
-				6DBCF4A11C03C20200D790B2 /* Reloj.m4a */,
+				6DBCF4C91C03C3B200D790B2 /* Cochera.m4a */,
+				6DBCF4CF1C03C3DE00D790B2 /* Cocina.m4a */,
 				6DBCF4A31C03C21600D790B2 /* Cojin.m4a */,
-				6DBCF4B11C03C2AD00D790B2 /* Sillon.m4a */,
+				6DBCF4E31C03C47A00D790B2 /* Comedor.m4a */,
+				6DBCF4FD1C03C53900D790B2 /* Computadora.m4a */,
+				6DBCF4C71C03C3A400D790B2 /* Cuadros.m4a */,
+				6DBCF4F51C03C50600D790B2 /* Escalera.m4a */,
+				6DBCF4DB1C03C43700D790B2 /* Escoba.m4a */,
+				6DBCF4DF1C03C44E00D790B2 /* Espejo.m4a */,
+				6DBCF4C51C03C39200D790B2 /* Florero.m4a */,
 				6DBCF4A71C03C23700D790B2 /* Foco.m4a */,
+				6DBCF49D1C03C1B700D790B2 /* Jardin.m4a */,
+				6DBCF4B51C03C2F400D790B2 /* Jarra.m4a */,
+				6DBCF4D11C03C3EB00D790B2 /* Lavabo.m4a */,
+				6DBCF4E91C03C4B000D790B2 /* Lavadora.m4a */,
+				6DBCF4D71C03C41500D790B2 /* Librero.m4a */,
+				6DBCF4CD1C03C3CD00D790B2 /* Maceta.m4a */,
+				6DBCF4F91C03C52100D790B2 /* Microondas.m4a */,
+				6DBCF4D51C03C40900D790B2 /* Perchero.m4a */,
+				6DBCF4B31C03C2BC00D790B2 /* Puerta.m4a */,
+				6DBCF4F71C03C51400D790B2 /* Recamara.m4a */,
+				6DBCF4FF1C03C54700D790B2 /* Refrigerador.m4a */,
+				6DBCF4DD1C03C44200D790B2 /* Regadera.m4a */,
+				6DBCF4A11C03C20200D790B2 /* Reloj.m4a */,
+				6DBCF4991C03C18800D790B2 /* Sala.m4a */,
+				6DBCF4A91C03C25000D790B2 /* Sarten.m4a */,
+				6DBCF49F1C03C1EF00D790B2 /* Sillas.m4a */,
+				6DBCF4B11C03C2AD00D790B2 /* Sillon.m4a */,
+				6DBCF4EF1C03C4DB00D790B2 /* Telefono.m4a */,
+				6DBCF4ED1C03C4CB00D790B2 /* Telescopio.m4a */,
+				6DBCF4F31C03C4F800D790B2 /* Television.m4a */,
+				6DBCF4CB1C03C3C100D790B2 /* Toallas.m4a */,
+				6DBCF4E71C03C49700D790B2 /* Tocador.m4a */,
+				6DBCF4D31C03C3FD00D790B2 /* Ventana.m4a */,
 			);
 			name = "Audios Casa";
 			sourceTree = "<group>";
@@ -1561,6 +1564,7 @@
 		6D8A97BF1BA7869E00E23C28 = {
 			isa = PBXGroup;
 			children = (
+				6D228BDF1C041262008A723A /* MessageUI.framework */,
 				6D4A48601BEBD61600BC52B2 /* Settings.bundle */,
 				6D6F37531BD472B900BE1AA0 /* AVFoundation.framework */,
 				6D8A97CA1BA7869E00E23C28 /* CEDAC */,
@@ -1584,6 +1588,7 @@
 				6D4A485E1BEBD39E00BC52B2 /* vista.jpg */,
 				6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */,
 				6D3EE3D71BC99D8100CFD061 /* Campos.swift */,
+				6D228BE31C0426EB008A723A /* Instrucciones.swift */,
 				6D3EE3DB1BC9B21000CFD061 /* Nivel1.swift */,
 				6D3794991BC9FC4C001500EB /* Nivel2.swift */,
 				6D6F36791BD43B0900BE1AA0 /* Nivel3.swift */,
@@ -1643,17 +1648,10 @@
 		6DBCF4801C03705B00D790B2 /* Audios Instrumentos */ = {
 			isa = PBXGroup;
 			children = (
-				6DBCF4C11C03C35E00D790B2 /* Silbato.m4a */,
-				6DBCF4BF1C03C34500D790B2 /* Platillos.m4a */,
-				6DBCF4BD1C03C33600D790B2 /* Violin.m4a */,
-				6DBCF4BB1C03C32600D790B2 /* Triangulo.m4a */,
-				6DBCF49B1C03C1A300D790B2 /* Tambor.m4a */,
 				6DBCF4811C03708A00D790B2 /* Acordeon.m4a */,
-				6DBCF4AD1C03C29000D790B2 /* Piano.m4a */,
 				6DBCF4831C03709C00D790B2 /* Armonica.m4a */,
 				6DBCF4851C0370AC00D790B2 /* Arpa.m4a */,
 				6DBCF4871C0370C000D790B2 /* Bateria.m4a */,
-				6DBCF4AB1C03C26000D790B2 /* Pandero.m4a */,
 				6DBCF4891C0370D400D790B2 /* Castanuelas.m4a */,
 				6DBCF48B1C0370E500D790B2 /* Claves.m4a */,
 				6DBCF48D1C0370F400D790B2 /* Flauta.m4a */,
@@ -1661,6 +1659,18 @@
 				6DBCF4911C03711100D790B2 /* Mandolina.m4a */,
 				6DBCF4931C03711E00D790B2 /* Maracas.m4a */,
 				6DBCF4951C03712C00D790B2 /* Marimba.m4a */,
+				6DBCF4EB1C03C4BF00D790B2 /* Organillo.m4a */,
+				6DBCF4AB1C03C26000D790B2 /* Pandero.m4a */,
+				6DBCF4AD1C03C29000D790B2 /* Piano.m4a */,
+				6DBCF4BF1C03C34500D790B2 /* Platillos.m4a */,
+				6DBCF4D91C03C42200D790B2 /* Saxofon.m4a */,
+				6DBCF4C11C03C35E00D790B2 /* Silbato.m4a */,
+				6DBCF49B1C03C1A300D790B2 /* Tambor.m4a */,
+				6DBCF4BB1C03C32600D790B2 /* Triangulo.m4a */,
+				6DBCF4C31C03C36E00D790B2 /* Trompeta.m4a */,
+				6DBCF4BD1C03C33600D790B2 /* Violin.m4a */,
+				6DBCF4F11C03C4E800D790B2 /* Violoncello.m4a */,
+				6DBCF4E51C03C48A00D790B2 /* Xilofono.m4a */,
 			);
 			name = "Audios Instrumentos";
 			sourceTree = "<group>";
@@ -1789,6 +1799,7 @@
 				6DBCF4941C03711E00D790B2 /* Maracas.m4a in Resources */,
 				6DFDD8331BFCE30200FA3513 /* claves.jpg in Resources */,
 				6D84DE121C02864600E7EFB2 /* Iguana.m4a in Resources */,
+				6D228BDE1C03EC3E008A723A /* logotec.png in Resources */,
 				6D8751CD1C029BC2002B6426 /* Cabeza.m4a in Resources */,
 				6DFDD7801BFCDF3400FA3513 /* loro.jpg in Resources */,
 				6DF2B43E1BF933370030E294 /* instrumentos.png in Resources */,
@@ -2006,7 +2017,6 @@
 				6D8751C11C029B10002B6426 /* Cuello.m4a in Resources */,
 				6DFDD7A61BFCE04500FA3513 /* banco.jpg in Resources */,
 				6DFDD71C1BFCDD3F00FA3513 /* fresa.jpg in Resources */,
-				6DF2B41C1BF907420030E294 /* puntajePantalla.png in Resources */,
 				6D8751D11C029BFA002B6426 /* Hombro.m4a in Resources */,
 				6D84DDC41C02827700E7EFB2 /* Papaya.m4a in Resources */,
 				6DBCF4E21C03C46E00D790B2 /* Alfombra.m4a in Resources */,
@@ -2066,6 +2076,7 @@
 				6D84DE8A1C02980000E7EFB2 /* Codo.m4a in Resources */,
 				6D84DE401C02884A00E7EFB2 /* Anillo.m4a in Resources */,
 				6DFDD6E21BF9669000FA3513 /* perdistePantalla.png in Resources */,
+				6D228BE21C04226B008A723A /* puntajePantalla.png in Resources */,
 				6DF2B4261BF91E040030E294 /* vidasMenos.png in Resources */,
 				6DFDD7901BFCDF7000FA3513 /* pez.jpg in Resources */,
 				6D84DE4C1C0288B200E7EFB2 /* Bufanda.m4a in Resources */,
@@ -2278,6 +2289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D9838C31BEC1D71005148A9 /* Registrarse.swift in Sources */,
+				6D228BE41C0426EB008A723A /* Instrucciones.swift in Sources */,
 				6D8A97D01BA7869E00E23C28 /* ViewController.swift in Sources */,
 				6D6F367A1BD43B0900BE1AA0 /* Nivel3.swift in Sources */,
 				6D37949A1BC9FC4C001500EB /* Nivel2.swift in Sources */,
