@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6D228BDE1C03EC3E008A723A /* logotec.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D228BDD1C03EC3E008A723A /* logotec.png */; };
 		6D228BE01C041262008A723A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D228BDF1C041262008A723A /* MessageUI.framework */; };
-		6D228BE21C04226B008A723A /* puntajePantalla.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D228BE11C04226B008A723A /* puntajePantalla.png */; };
 		6D228BE41C0426EB008A723A /* Instrucciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D228BE31C0426EB008A723A /* Instrucciones.swift */; };
 		6D37949A1BC9FC4C001500EB /* Nivel2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3794991BC9FC4C001500EB /* Nivel2.swift */; };
 		6D3EE39A1BC9898500CFD061 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EE3991BC9898500CFD061 /* info.png */; };
@@ -194,6 +193,7 @@
 		6D8A97D51BA7869F00E23C28 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D41BA7869F00E23C28 /* Images.xcassets */; };
 		6D8A97D81BA7869F00E23C28 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D61BA7869F00E23C28 /* LaunchScreen.xib */; };
 		6D8A97E41BA7869F00E23C28 /* CEDACTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97E31BA7869F00E23C28 /* CEDACTests.swift */; };
+		6D8C79AC1C08C4E1006B3FBB /* puntajePantalla.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8C79AB1C08C4E1006B3FBB /* puntajePantalla.png */; };
 		6D9838C31BEC1D71005148A9 /* Registrarse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9838C21BEC1D71005148A9 /* Registrarse.swift */; };
 		6DBCF46B1C036FA700D790B2 /* Ojo.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCF46A1C036FA700D790B2 /* Ojo.m4a */; };
 		6DBCF46D1C036FB700D790B2 /* Nariz.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6DBCF46C1C036FB700D790B2 /* Nariz.m4a */; };
@@ -519,7 +519,6 @@
 /* Begin PBXFileReference section */
 		6D228BDD1C03EC3E008A723A /* logotec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logotec.png; sourceTree = "<group>"; };
 		6D228BDF1C041262008A723A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		6D228BE11C04226B008A723A /* puntajePantalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puntajePantalla.png; sourceTree = "<group>"; };
 		6D228BE31C0426EB008A723A /* Instrucciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrucciones.swift; sourceTree = "<group>"; };
 		6D3794991BC9FC4C001500EB /* Nivel2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Nivel2.swift; path = ../Nivel2.swift; sourceTree = "<group>"; };
 		6D3EE3991BC9898500CFD061 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
@@ -697,16 +696,17 @@
 		6D88D3AE1C07E34F0073465C /* fondoInstrucciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoInstrucciones.png; sourceTree = "<group>"; };
 		6D88D3B01C07E5630073465C /* perdistePantalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perdistePantalla.png; sourceTree = "<group>"; };
 		6D88D3B21C07E9250073465C /* fondoNiveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoNiveles.png; sourceTree = "<group>"; };
-		6D8A97C81BA7869E00E23C28 /* CEDAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEDAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8A97C81BA7869E00E23C28 /* aJugar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aJugar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8A97CC1BA7869E00E23C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D8A97CF1BA7869E00E23C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6D8A97D21BA7869F00E23C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6D8A97D41BA7869F00E23C28 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6D8A97D71BA7869F00E23C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		6D8A97DD1BA7869F00E23C28 /* CEDACTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CEDACTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D8A97DD1BA7869F00E23C28 /* aJugar.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aJugar.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8A97E21BA7869F00E23C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8A97E31BA7869F00E23C28 /* CEDACTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEDACTests.swift; sourceTree = "<group>"; };
+		6D8C79AB1C08C4E1006B3FBB /* puntajePantalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = puntajePantalla.png; sourceTree = "<group>"; };
 		6D9838C21BEC1D71005148A9 /* Registrarse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Registrarse.swift; sourceTree = "<group>"; };
 		6DBCF46A1C036FA700D790B2 /* Ojo.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ojo.m4a; sourceTree = "<group>"; };
 		6DBCF46C1C036FB700D790B2 /* Nariz.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nariz.m4a; sourceTree = "<group>"; };
@@ -1220,10 +1220,10 @@
 				6D4A484E1BEB9D8B00BC52B2 /* instrucciones.png */,
 				6D88D3AC1C07E2A10073465C /* instrumentos.png */,
 				6DFDD6F51BF977C900FA3513 /* jugarMenu.png */,
+				6D8C79AB1C08C4E1006B3FBB /* puntajePantalla.png */,
 				6D8751D61C029F5A002B6426 /* logo.png */,
 				6DF2B4211BF909DC0030E294 /* musicNivel1.png */,
 				6D88D3B01C07E5630073465C /* perdistePantalla.png */,
-				6D228BE11C04226B008A723A /* puntajePantalla.png */,
 				6D4D60721C07E1560020E297 /* ropa.png */,
 				6DF2B4431BF9366A0030E294 /* sigNivel1.png */,
 				6DF2B4471BF937120030E294 /* sigNivel2.png */,
@@ -1576,8 +1576,8 @@
 		6D8A97C91BA7869E00E23C28 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6D8A97C81BA7869E00E23C28 /* CEDAC.app */,
-				6D8A97DD1BA7869F00E23C28 /* CEDACTests.xctest */,
+				6D8A97C81BA7869E00E23C28 /* aJugar.app */,
+				6D8A97DD1BA7869F00E23C28 /* aJugar.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1708,9 +1708,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6D8A97C71BA7869E00E23C28 /* CEDAC */ = {
+		6D8A97C71BA7869E00E23C28 /* aJugar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D8A97E71BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDAC" */;
+			buildConfigurationList = 6D8A97E71BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "aJugar" */;
 			buildPhases = (
 				6D8A97C41BA7869E00E23C28 /* Sources */,
 				6D8A97C51BA7869E00E23C28 /* Frameworks */,
@@ -1720,14 +1720,14 @@
 			);
 			dependencies = (
 			);
-			name = CEDAC;
+			name = aJugar;
 			productName = CEDAC;
-			productReference = 6D8A97C81BA7869E00E23C28 /* CEDAC.app */;
+			productReference = 6D8A97C81BA7869E00E23C28 /* aJugar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6D8A97DC1BA7869F00E23C28 /* CEDACTests */ = {
+		6D8A97DC1BA7869F00E23C28 /* aJugarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6D8A97EA1BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDACTests" */;
+			buildConfigurationList = 6D8A97EA1BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "aJugarTests" */;
 			buildPhases = (
 				6D8A97D91BA7869F00E23C28 /* Sources */,
 				6D8A97DA1BA7869F00E23C28 /* Frameworks */,
@@ -1738,9 +1738,9 @@
 			dependencies = (
 				6D8A97DF1BA7869F00E23C28 /* PBXTargetDependency */,
 			);
-			name = CEDACTests;
+			name = aJugarTests;
 			productName = CEDACTests;
-			productReference = 6D8A97DD1BA7869F00E23C28 /* CEDACTests.xctest */;
+			productReference = 6D8A97DD1BA7869F00E23C28 /* aJugar.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -1763,7 +1763,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6D8A97C31BA7869E00E23C28 /* Build configuration list for PBXProject "CEDAC" */;
+			buildConfigurationList = 6D8A97C31BA7869E00E23C28 /* Build configuration list for PBXProject "aJugar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1776,8 +1776,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6D8A97C71BA7869E00E23C28 /* CEDAC */,
-				6D8A97DC1BA7869F00E23C28 /* CEDACTests */,
+				6D8A97C71BA7869E00E23C28 /* aJugar */,
+				6D8A97DC1BA7869F00E23C28 /* aJugarTests */,
 			);
 		};
 /* End PBXProject section */
@@ -2075,8 +2075,8 @@
 				6DBCF48C1C0370E500D790B2 /* Claves.m4a in Resources */,
 				6D84DE8A1C02980000E7EFB2 /* Codo.m4a in Resources */,
 				6D84DE401C02884A00E7EFB2 /* Anillo.m4a in Resources */,
-				6D228BE21C04226B008A723A /* puntajePantalla.png in Resources */,
 				6DF2B4261BF91E040030E294 /* vidasMenos.png in Resources */,
+				6D8C79AC1C08C4E1006B3FBB /* puntajePantalla.png in Resources */,
 				6DFDD7901BFCDF7000FA3513 /* pez.jpg in Resources */,
 				6D84DE4C1C0288B200E7EFB2 /* Bufanda.m4a in Resources */,
 				6DFDD7381BFCDDAE00FA3513 /* papaya.jpg in Resources */,
@@ -2314,7 +2314,7 @@
 /* Begin PBXTargetDependency section */
 		6D8A97DF1BA7869F00E23C28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6D8A97C71BA7869E00E23C28 /* CEDAC */;
+			target = 6D8A97C71BA7869E00E23C28 /* aJugar */;
 			targetProxy = 6D8A97DE1BA7869F00E23C28 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -2435,8 +2435,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.cedac.CEDAC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = aJugar;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -2450,8 +2451,9 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
 				PRODUCT_BUNDLE_IDENTIFIER = mx.cedac.CEDAC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = aJugar;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -2470,8 +2472,8 @@
 				INFOPLIST_FILE = CEDACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.rmr.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDAC.app/CEDAC";
+				PRODUCT_NAME = aJugar;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aJugar.app/aJugar";
 			};
 			name = Debug;
 		};
@@ -2486,15 +2488,15 @@
 				INFOPLIST_FILE = CEDACTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "mx.rmr.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CEDAC.app/CEDAC";
+				PRODUCT_NAME = aJugar;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aJugar.app/aJugar";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6D8A97C31BA7869E00E23C28 /* Build configuration list for PBXProject "CEDAC" */ = {
+		6D8A97C31BA7869E00E23C28 /* Build configuration list for PBXProject "aJugar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D8A97E51BA7869F00E23C28 /* Debug */,
@@ -2503,7 +2505,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D8A97E71BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDAC" */ = {
+		6D8A97E71BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "aJugar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D8A97E81BA7869F00E23C28 /* Debug */,
@@ -2512,7 +2514,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6D8A97EA1BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "CEDACTests" */ = {
+		6D8A97EA1BA7869F00E23C28 /* Build configuration list for PBXNativeTarget "aJugarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6D8A97EB1BA7869F00E23C28 /* Debug */,

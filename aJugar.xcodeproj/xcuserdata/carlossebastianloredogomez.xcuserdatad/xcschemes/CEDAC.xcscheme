@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D8A97C71BA7869E00E23C28"
-               BuildableName = "CEDAC.app"
-               BlueprintName = "CEDAC"
-               ReferencedContainer = "container:CEDAC.xcodeproj">
+               BuildableName = "aJugar.app"
+               BlueprintName = "aJugar"
+               ReferencedContainer = "container:aJugar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D8A97DC1BA7869F00E23C28"
-               BuildableName = "CEDACTests.xctest"
-               BlueprintName = "CEDACTests"
-               ReferencedContainer = "container:CEDAC.xcodeproj">
+               BuildableName = "aJugar.xctest"
+               BlueprintName = "aJugarTests"
+               ReferencedContainer = "container:aJugar.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D8A97DC1BA7869F00E23C28"
-               BuildableName = "CEDACTests.xctest"
-               BlueprintName = "CEDACTests"
-               ReferencedContainer = "container:CEDAC.xcodeproj">
+               BuildableName = "aJugar.xctest"
+               BlueprintName = "aJugarTests"
+               ReferencedContainer = "container:aJugar.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D8A97C71BA7869E00E23C28"
-            BuildableName = "CEDAC.app"
-            BlueprintName = "CEDAC"
-            ReferencedContainer = "container:CEDAC.xcodeproj">
+            BuildableName = "aJugar.app"
+            BlueprintName = "aJugar"
+            ReferencedContainer = "container:aJugar.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D8A97C71BA7869E00E23C28"
-            BuildableName = "CEDAC.app"
-            BlueprintName = "CEDAC"
-            ReferencedContainer = "container:CEDAC.xcodeproj">
+            BuildableName = "aJugar.app"
+            BlueprintName = "aJugar"
+            ReferencedContainer = "container:aJugar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6D8A97C71BA7869E00E23C28"
-            BuildableName = "CEDAC.app"
-            BlueprintName = "CEDAC"
-            ReferencedContainer = "container:CEDAC.xcodeproj">
+            BuildableName = "aJugar.app"
+            BlueprintName = "aJugar"
+            ReferencedContainer = "container:aJugar.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
