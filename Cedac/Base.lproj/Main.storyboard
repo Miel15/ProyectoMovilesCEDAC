@@ -999,6 +999,9 @@
                                         <rect key="frame" x="475" y="457" width="70" height="30"/>
                                         <animations/>
                                         <state key="normal" title="Regístrate"/>
+                                        <connections>
+                                            <segue destination="IZV-68-hkr" kind="show" id="jdO-Wn-Ok2"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nombre y Apellido:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5o-zz-i4d">
                                         <rect key="frame" x="260" y="237" width="146" height="21"/>
@@ -2745,6 +2748,75 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PJ1-LP-03c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-769" y="-268"/>
+        </scene>
+        <!--Registrarse-->
+        <scene sceneID="QOW-TW-huc">
+            <objects>
+                <viewController id="IZV-68-hkr" customClass="Registrarse" customModule="aJugar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="vQk-2x-08n"/>
+                        <viewControllerLayoutGuide type="bottom" id="9vU-Cn-ML8"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TRr-k2-eng">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Regístrate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BAI-nb-isg">
+                                <rect key="frame" x="473" y="115" width="78" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nombre y Apellido:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cXq-ej-FFV">
+                                <rect key="frame" x="178" y="225" width="146" height="21"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bwt-EJ-G5O">
+                                <rect key="frame" x="348" y="221" width="438" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B9E-a6-8I5">
+                                <rect key="frame" x="301" y="396" width="55" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Hombre"/>
+                                <connections>
+                                    <action selector="hombre:" destination="IZV-68-hkr" eventType="touchUpInside" id="0uH-lk-KOF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tl-aU-kWX">
+                                <rect key="frame" x="586" y="396" width="39" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Mujer"/>
+                                <connections>
+                                    <action selector="mujer:" destination="IZV-68-hkr" eventType="touchUpInside" id="gPQ-vu-Ta6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2rw-3M-Hg9">
+                                <rect key="frame" x="402" y="572" width="62" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Registrar"/>
+                            </button>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="hombre" destination="B9E-a6-8I5" id="hN1-Sw-ChR"/>
+                        <outlet property="mujer" destination="8Tl-aU-kWX" id="J5e-g3-bgg"/>
+                        <outlet property="tfNombre" destination="bwt-EJ-G5O" id="2M2-Sr-chc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TOz-AN-hw8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-640" y="863"/>
         </scene>
     </scenes>
     <resources>

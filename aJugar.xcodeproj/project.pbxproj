@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6D04E1EF1C08F913002AEDC2 /* blabla.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D04E1EE1C08F913002AEDC2 /* blabla.png */; };
 		6D228BDE1C03EC3E008A723A /* logotec.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D228BDD1C03EC3E008A723A /* logotec.png */; };
 		6D228BE01C041262008A723A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D228BDF1C041262008A723A /* MessageUI.framework */; };
 		6D228BE41C0426EB008A723A /* Instrucciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D228BE31C0426EB008A723A /* Instrucciones.swift */; };
@@ -180,7 +181,6 @@
 		6D8752101C02B010002B6426 /* iconM7.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D87520F1C02B010002B6426 /* iconM7.png */; };
 		6D8752121C02B02F002B6426 /* iconM8.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8752111C02B02F002B6426 /* iconM8.png */; };
 		6D8752141C02B04E002B6426 /* iconM9.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8752131C02B04E002B6426 /* iconM9.png */; };
-		6D8752161C02B069002B6426 /* iconM10.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8752151C02B069002B6426 /* iconM10.png */; };
 		6D8752181C02B084002B6426 /* iconM11.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8752171C02B084002B6426 /* iconM11.png */; };
 		6D87F9BB1BF05CF200940C06 /* berlin-sans-fb-demi-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D87F9BA1BF05CF200940C06 /* berlin-sans-fb-demi-bold.ttf */; };
 		6D88D3AD1C07E2A10073465C /* instrumentos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D88D3AC1C07E2A10073465C /* instrumentos.png */; };
@@ -517,6 +517,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6D04E1EE1C08F913002AEDC2 /* blabla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blabla.png; sourceTree = "<group>"; };
 		6D228BDD1C03EC3E008A723A /* logotec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logotec.png; sourceTree = "<group>"; };
 		6D228BDF1C041262008A723A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		6D228BE31C0426EB008A723A /* Instrucciones.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instrucciones.swift; sourceTree = "<group>"; };
@@ -689,7 +690,6 @@
 		6D87520F1C02B010002B6426 /* iconM7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconM7.png; sourceTree = "<group>"; };
 		6D8752111C02B02F002B6426 /* iconM8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconM8.png; sourceTree = "<group>"; };
 		6D8752131C02B04E002B6426 /* iconM9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconM9.png; sourceTree = "<group>"; };
-		6D8752151C02B069002B6426 /* iconM10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconM10.png; sourceTree = "<group>"; };
 		6D8752171C02B084002B6426 /* iconM11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconM11.png; sourceTree = "<group>"; };
 		6D87F9BA1BF05CF200940C06 /* berlin-sans-fb-demi-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "berlin-sans-fb-demi-bold.ttf"; sourceTree = "<group>"; };
 		6D88D3AC1C07E2A10073465C /* instrumentos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentos.png; sourceTree = "<group>"; };
@@ -1243,7 +1243,7 @@
 				6D87520F1C02B010002B6426 /* iconM7.png */,
 				6D8752111C02B02F002B6426 /* iconM8.png */,
 				6D8752131C02B04E002B6426 /* iconM9.png */,
-				6D8752151C02B069002B6426 /* iconM10.png */,
+				6D04E1EE1C08F913002AEDC2 /* blabla.png */,
 				6D8752171C02B084002B6426 /* iconM11.png */,
 			);
 			name = Imagenes;
@@ -1974,7 +1974,6 @@
 				6DFDD83D1BFCE32600FA3513 /* marimba.jpg in Resources */,
 				6DBCF4EE1C03C4CB00D790B2 /* Telescopio.m4a in Resources */,
 				6D84DE701C02968500E7EFB2 /* Pantuflas.m4a in Resources */,
-				6D8752161C02B069002B6426 /* iconM10.png in Resources */,
 				6DF2B4421BF935FF0030E294 /* ganasteNivel1.png in Resources */,
 				6DFDD7CA1BFCE0D500FA3513 /* lavabo.jpg in Resources */,
 				6DFDD8161BFCE23F00FA3513 /* ojo.jpg in Resources */,
@@ -2166,6 +2165,7 @@
 				6DFDD7761BFCDF1200FA3513 /* jirafa.jpg in Resources */,
 				6DFDD7581BFCDEB200FA3513 /* armadillo.jpg in Resources */,
 				6D4A483D1BEB9A1400BC52B2 /* dificultad1.png in Resources */,
+				6D04E1EF1C08F913002AEDC2 /* blabla.png in Resources */,
 				6D84DDE01C0283CC00E7EFB2 /* Hot Cakes.m4a in Resources */,
 				6D84DE8C1C02981100E7EFB2 /* Ceja.m4a in Resources */,
 				6DBCF4CA1C03C3B200D790B2 /* Cochera.m4a in Resources */,
@@ -2434,7 +2434,7 @@
 				INFOPLIST_FILE = CEDAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.ajugar;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.cedac.CEDAC;
 				PRODUCT_NAME = aJugar;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
@@ -2450,7 +2450,7 @@
 				INFOPLIST_FILE = CEDAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				New_Setting = "";
-				PRODUCT_BUNDLE_IDENTIFIER = mx.rmr.ajugar;
+				PRODUCT_BUNDLE_IDENTIFIER = mx.cedac.CEDAC;
 				PRODUCT_NAME = aJugar;
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
