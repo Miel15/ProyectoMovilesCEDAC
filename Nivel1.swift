@@ -109,7 +109,7 @@ class Nivel1: UIViewController {
         }
         if LabelText == "Partes del cuerpo" {
             //26 elementos
-            dicBanderas = ["Axila" : "axila.png", "Boca" : "boca.jpg", "Brazo" : "brazo.jpg", "Cabello" : "cabello.jpg", "Cabeza" : "cabeza.jpg", "Ceja" : "ceja.jpg", "Codo" : "codo.jpg", "Cuello" : "cuello.jpg", "Dedo" : "dedo.jpg", "Dientes" : "dientes.jpg", "Espalda" : "espalda.jpg", "Frente" : "frente.jpg", "Hombro" : "hombro.jpg", "Lengua" : "lengua.jpg", "Mano" : "mano.jpg", "Mejilla" : "mejilla.jpg", "Nariz" : "nariz.jpg", "Ojo" : "ojo.jpg", "Ombligo" : "ombligo.jpg", "Oreja" : "oreja.jpg", "Pestaña" : "pestania.jpg", "Pies" : "pies.jpg", "Piernas" : "piernas.jpg", "Rodilla" : "rodilla.jpg", "Torso" : "torso.jpg", "Uñas" : "unias.jpg"]
+            dicBanderas = ["Axila" : "axila.jpg", "Boca" : "boca.jpg", "Brazo" : "brazo.jpg", "Cabello" : "cabello.jpg", "Cabeza" : "cabeza.jpg", "Ceja" : "ceja.jpg", "Codo" : "codo.jpg", "Cuello" : "cuello.jpg", "Dedo" : "dedo.jpg", "Dientes" : "dientes.jpg", "Espalda" : "espalda.jpg", "Frente" : "frente.jpg", "Hombro" : "hombro.jpg", "Lengua" : "lengua.jpg", "Mano" : "mano.jpg", "Mejilla" : "mejilla.jpg", "Nariz" : "nariz.jpg", "Ojo" : "ojo.jpg", "Ombligo" : "ombligo.jpg", "Oreja" : "oreja.jpg", "Pestaña" : "pestania.jpg", "Pies" : "pies.jpg", "Piernas" : "piernas.jpg", "Rodilla" : "rodilla.jpg", "Torso" : "torso.jpg", "Uñas" : "unias.jpg"]
         }
         if LabelText == "Instrumentos" {
             //23 elementos
@@ -285,6 +285,7 @@ class Nivel1: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -300,6 +301,7 @@ class Nivel1: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -315,6 +317,7 @@ class Nivel1: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -571,7 +574,7 @@ class Nivel1: UIViewController {
     }
     
     @IBAction func sigNivel(sender: AnyObject) {
-        //boton = 2
+        player.stop();
     }
     
     @IBAction func repetir(sender: AnyObject) {
@@ -679,4 +682,9 @@ class Nivel1: UIViewController {
             preferencias.synchronize()
         }
     }
+    
+    @IBAction func salir(sender: AnyObject) {
+        player.stop();
+    }
+    
 }

@@ -22,6 +22,11 @@
 		6D4A484F1BEB9D8B00BC52B2 /* instrucciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A484E1BEB9D8B00BC52B2 /* instrucciones.png */; };
 		6D4A485F1BEBD39E00BC52B2 /* vista.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A485E1BEBD39E00BC52B2 /* vista.jpg */; };
 		6D4A48611BEBD61600BC52B2 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6D4A48601BEBD61600BC52B2 /* Settings.bundle */; };
+		6D4D606D1C07E0D10020E297 /* casa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D606C1C07E0D10020E297 /* casa.png */; };
+		6D4D606F1C07E1060020E297 /* animales.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D606E1C07E1060020E297 /* animales.png */; };
+		6D4D60711C07E1310020E297 /* verduras.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D60701C07E1300020E297 /* verduras.png */; };
+		6D4D60731C07E1560020E297 /* ropa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D60721C07E1560020E297 /* ropa.png */; };
+		6D4D60751C07E1AF0020E297 /* cuerpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D4D60741C07E1AF0020E297 /* cuerpo.png */; };
 		6D6F367A1BD43B0900BE1AA0 /* Nivel3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F36791BD43B0900BE1AA0 /* Nivel3.swift */; };
 		6D6F37431BD4642500BE1AA0 /* holi.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37421BD4642500BE1AA0 /* holi.png */; };
 		6D6F37471BD464A600BE1AA0 /* miry.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D6F37461BD464A600BE1AA0 /* miry.png */; };
@@ -179,6 +184,10 @@
 		6D8752161C02B069002B6426 /* iconM10.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8752151C02B069002B6426 /* iconM10.png */; };
 		6D8752181C02B084002B6426 /* iconM11.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D8752171C02B084002B6426 /* iconM11.png */; };
 		6D87F9BB1BF05CF200940C06 /* berlin-sans-fb-demi-bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6D87F9BA1BF05CF200940C06 /* berlin-sans-fb-demi-bold.ttf */; };
+		6D88D3AD1C07E2A10073465C /* instrumentos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D88D3AC1C07E2A10073465C /* instrumentos.png */; };
+		6D88D3AF1C07E34F0073465C /* fondoInstrucciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D88D3AE1C07E34F0073465C /* fondoInstrucciones.png */; };
+		6D88D3B11C07E5630073465C /* perdistePantalla.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D88D3B01C07E5630073465C /* perdistePantalla.png */; };
+		6D88D3B31C07E9250073465C /* fondoNiveles.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D88D3B21C07E9250073465C /* fondoNiveles.png */; };
 		6D8A97CE1BA7869E00E23C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */; };
 		6D8A97D01BA7869E00E23C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8A97CF1BA7869E00E23C28 /* ViewController.swift */; };
 		6D8A97D31BA7869F00E23C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D8A97D11BA7869F00E23C28 /* Main.storyboard */; };
@@ -273,25 +282,16 @@
 		6DF2B4301BF929040030E294 /* vidasNivel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B42F1BF929040030E294 /* vidasNivel3.png */; };
 		6DF2B4321BF9295C0030E294 /* cuadNivel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4311BF9295C0030E294 /* cuadNivel3.png */; };
 		6DF2B4341BF932060030E294 /* camposSemanticos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4331BF932060030E294 /* camposSemanticos.png */; };
-		6DF2B4361BF932910030E294 /* verduras.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4351BF932910030E294 /* verduras.png */; };
-		6DF2B4381BF932E00030E294 /* animales.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4371BF932E00030E294 /* animales.png */; };
-		6DF2B43A1BF933050030E294 /* casa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4391BF933050030E294 /* casa.png */; };
-		6DF2B43C1BF933160030E294 /* cuerpo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B43B1BF933160030E294 /* cuerpo.png */; };
-		6DF2B43E1BF933370030E294 /* instrumentos.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B43D1BF933370030E294 /* instrumentos.png */; };
-		6DF2B4401BF9334E0030E294 /* ropa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B43F1BF9334E0030E294 /* ropa.png */; };
 		6DF2B4421BF935FF0030E294 /* ganasteNivel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4411BF935FF0030E294 /* ganasteNivel1.png */; };
 		6DF2B4441BF9366A0030E294 /* sigNivel1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4431BF9366A0030E294 /* sigNivel1.png */; };
 		6DF2B4461BF936D80030E294 /* ganasteNivel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4451BF936D80030E294 /* ganasteNivel2.png */; };
 		6DF2B4481BF937120030E294 /* sigNivel2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DF2B4471BF937120030E294 /* sigNivel2.png */; };
-		6DFDD6E21BF9669000FA3513 /* perdistePantalla.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6E11BF9669000FA3513 /* perdistePantalla.png */; };
 		6DFDD6E41BF966FA00FA3513 /* elegir.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6E31BF966FA00FA3513 /* elegir.png */; };
 		6DFDD6E61BF9674800FA3513 /* volverIntentar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6E51BF9674800FA3513 /* volverIntentar.png */; };
 		6DFDD6E81BF972F300FA3513 /* ganasteNivel3.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6E71BF972F300FA3513 /* ganasteNivel3.png */; };
 		6DFDD6EA1BF9732C00FA3513 /* acasa.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6E91BF9732C00FA3513 /* acasa.png */; };
-		6DFDD6EC1BF9757700FA3513 /* fondoNiveles.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6EB1BF9757700FA3513 /* fondoNiveles.png */; };
 		6DFDD6EE1BF975B300FA3513 /* fondoAcercaDe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6ED1BF975B300FA3513 /* fondoAcercaDe.png */; };
 		6DFDD6F01BF9761700FA3513 /* fondoPrincipal.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6EF1BF9761700FA3513 /* fondoPrincipal.png */; };
-		6DFDD6F21BF976F100FA3513 /* fondoInstrucciones.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6F11BF976F100FA3513 /* fondoInstrucciones.png */; };
 		6DFDD6F41BF9775700FA3513 /* trofeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6F31BF9775700FA3513 /* trofeo.png */; };
 		6DFDD6F61BF977C900FA3513 /* jugarMenu.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6F51BF977C900FA3513 /* jugarMenu.png */; };
 		6DFDD6F81BF977FE00FA3513 /* btnAcercaDe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DFDD6F71BF977FE00FA3513 /* btnAcercaDe.png */; };
@@ -532,6 +532,11 @@
 		6D4A484E1BEB9D8B00BC52B2 /* instrucciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrucciones.png; sourceTree = "<group>"; };
 		6D4A485E1BEBD39E00BC52B2 /* vista.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = vista.jpg; sourceTree = "<group>"; };
 		6D4A48601BEBD61600BC52B2 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		6D4D606C1C07E0D10020E297 /* casa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casa.png; sourceTree = "<group>"; };
+		6D4D606E1C07E1060020E297 /* animales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animales.png; sourceTree = "<group>"; };
+		6D4D60701C07E1300020E297 /* verduras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verduras.png; sourceTree = "<group>"; };
+		6D4D60721C07E1560020E297 /* ropa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ropa.png; sourceTree = "<group>"; };
+		6D4D60741C07E1AF0020E297 /* cuerpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuerpo.png; sourceTree = "<group>"; };
 		6D6F36791BD43B0900BE1AA0 /* Nivel3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Nivel3.swift; sourceTree = "<group>"; };
 		6D6F37421BD4642500BE1AA0 /* holi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holi.png; sourceTree = "<group>"; };
 		6D6F37461BD464A600BE1AA0 /* miry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = miry.png; sourceTree = "<group>"; };
@@ -688,6 +693,10 @@
 		6D8752151C02B069002B6426 /* iconM10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconM10.png; sourceTree = "<group>"; };
 		6D8752171C02B084002B6426 /* iconM11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconM11.png; sourceTree = "<group>"; };
 		6D87F9BA1BF05CF200940C06 /* berlin-sans-fb-demi-bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "berlin-sans-fb-demi-bold.ttf"; sourceTree = "<group>"; };
+		6D88D3AC1C07E2A10073465C /* instrumentos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentos.png; sourceTree = "<group>"; };
+		6D88D3AE1C07E34F0073465C /* fondoInstrucciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoInstrucciones.png; sourceTree = "<group>"; };
+		6D88D3B01C07E5630073465C /* perdistePantalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perdistePantalla.png; sourceTree = "<group>"; };
+		6D88D3B21C07E9250073465C /* fondoNiveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoNiveles.png; sourceTree = "<group>"; };
 		6D8A97C81BA7869E00E23C28 /* CEDAC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CEDAC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D8A97CC1BA7869E00E23C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D8A97CD1BA7869E00E23C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -786,25 +795,16 @@
 		6DF2B42F1BF929040030E294 /* vidasNivel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vidasNivel3.png; sourceTree = "<group>"; };
 		6DF2B4311BF9295C0030E294 /* cuadNivel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuadNivel3.png; sourceTree = "<group>"; };
 		6DF2B4331BF932060030E294 /* camposSemanticos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camposSemanticos.png; sourceTree = "<group>"; };
-		6DF2B4351BF932910030E294 /* verduras.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = verduras.png; sourceTree = "<group>"; };
-		6DF2B4371BF932E00030E294 /* animales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = animales.png; sourceTree = "<group>"; };
-		6DF2B4391BF933050030E294 /* casa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = casa.png; sourceTree = "<group>"; };
-		6DF2B43B1BF933160030E294 /* cuerpo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cuerpo.png; sourceTree = "<group>"; };
-		6DF2B43D1BF933370030E294 /* instrumentos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = instrumentos.png; sourceTree = "<group>"; };
-		6DF2B43F1BF9334E0030E294 /* ropa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ropa.png; sourceTree = "<group>"; };
 		6DF2B4411BF935FF0030E294 /* ganasteNivel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganasteNivel1.png; sourceTree = "<group>"; };
 		6DF2B4431BF9366A0030E294 /* sigNivel1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sigNivel1.png; sourceTree = "<group>"; };
 		6DF2B4451BF936D80030E294 /* ganasteNivel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganasteNivel2.png; sourceTree = "<group>"; };
 		6DF2B4471BF937120030E294 /* sigNivel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sigNivel2.png; sourceTree = "<group>"; };
-		6DFDD6E11BF9669000FA3513 /* perdistePantalla.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = perdistePantalla.png; sourceTree = "<group>"; };
 		6DFDD6E31BF966FA00FA3513 /* elegir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = elegir.png; sourceTree = "<group>"; };
 		6DFDD6E51BF9674800FA3513 /* volverIntentar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = volverIntentar.png; sourceTree = "<group>"; };
 		6DFDD6E71BF972F300FA3513 /* ganasteNivel3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ganasteNivel3.png; sourceTree = "<group>"; };
 		6DFDD6E91BF9732C00FA3513 /* acasa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acasa.png; sourceTree = "<group>"; };
-		6DFDD6EB1BF9757700FA3513 /* fondoNiveles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoNiveles.png; sourceTree = "<group>"; };
 		6DFDD6ED1BF975B300FA3513 /* fondoAcercaDe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoAcercaDe.png; sourceTree = "<group>"; };
 		6DFDD6EF1BF9761700FA3513 /* fondoPrincipal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoPrincipal.png; sourceTree = "<group>"; };
-		6DFDD6F11BF976F100FA3513 /* fondoInstrucciones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fondoInstrucciones.png; sourceTree = "<group>"; };
 		6DFDD6F31BF9775700FA3513 /* trofeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trofeo.png; sourceTree = "<group>"; };
 		6DFDD6F51BF977C900FA3513 /* jugarMenu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jugarMenu.png; sourceTree = "<group>"; };
 		6DFDD6F71BF977FE00FA3513 /* btnAcercaDe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnAcercaDe.png; sourceTree = "<group>"; };
@@ -1194,40 +1194,40 @@
 			children = (
 				6D228BDD1C03EC3E008A723A /* logotec.png */,
 				6DBCF4971C0375DA00D790B2 /* tada.m4a */,
+				6D4D606E1C07E1060020E297 /* animales.png */,
 				6DFDD6E91BF9732C00FA3513 /* acasa.png */,
-				6DF2B4371BF932E00030E294 /* animales.png */,
 				6DFDD6F71BF977FE00FA3513 /* btnAcercaDe.png */,
 				6DF2B4331BF932060030E294 /* camposSemanticos.png */,
-				6DF2B4391BF933050030E294 /* casa.png */,
+				6D4D606C1C07E0D10020E297 /* casa.png */,
 				6DF2B41F1BF908790030E294 /* cuadNivel1.png */,
 				6DF2B4291BF9222D0030E294 /* cuadNivel2.png */,
 				6DF2B4311BF9295C0030E294 /* cuadNivel3.png */,
-				6DF2B43B1BF933160030E294 /* cuerpo.png */,
+				6D4D60741C07E1AF0020E297 /* cuerpo.png */,
 				6D4A483C1BEB9A1400BC52B2 /* dificultad1.png */,
 				6D4A483E1BEB9A4700BC52B2 /* dificultad2.png */,
 				6D4A48401BEB9A7E00BC52B2 /* dificultad3.png */,
 				6DFDD6E31BF966FA00FA3513 /* elegir.png */,
 				6DFDD6ED1BF975B300FA3513 /* fondoAcercaDe.png */,
-				6DFDD6F11BF976F100FA3513 /* fondoInstrucciones.png */,
+				6D88D3AE1C07E34F0073465C /* fondoInstrucciones.png */,
 				6DF2B41D1BF9082A0030E294 /* fondoNivel1.png */,
 				6DF2B4271BF921E80030E294 /* fondoNivel2.png */,
 				6DF2B42B1BF9283B0030E294 /* fondoNivel3.png */,
-				6DFDD6EB1BF9757700FA3513 /* fondoNiveles.png */,
+				6D88D3B21C07E9250073465C /* fondoNiveles.png */,
 				6DFDD6EF1BF9761700FA3513 /* fondoPrincipal.png */,
 				6DF2B4411BF935FF0030E294 /* ganasteNivel1.png */,
 				6DF2B4451BF936D80030E294 /* ganasteNivel2.png */,
 				6DFDD6E71BF972F300FA3513 /* ganasteNivel3.png */,
 				6D4A484E1BEB9D8B00BC52B2 /* instrucciones.png */,
-				6DF2B43D1BF933370030E294 /* instrumentos.png */,
+				6D88D3AC1C07E2A10073465C /* instrumentos.png */,
 				6DFDD6F51BF977C900FA3513 /* jugarMenu.png */,
 				6D8751D61C029F5A002B6426 /* logo.png */,
 				6DF2B4211BF909DC0030E294 /* musicNivel1.png */,
-				6DFDD6E11BF9669000FA3513 /* perdistePantalla.png */,
+				6D88D3B01C07E5630073465C /* perdistePantalla.png */,
 				6D228BE11C04226B008A723A /* puntajePantalla.png */,
-				6DF2B43F1BF9334E0030E294 /* ropa.png */,
+				6D4D60721C07E1560020E297 /* ropa.png */,
 				6DF2B4431BF9366A0030E294 /* sigNivel1.png */,
 				6DF2B4471BF937120030E294 /* sigNivel2.png */,
-				6DF2B4351BF932910030E294 /* verduras.png */,
+				6D4D60701C07E1300020E297 /* verduras.png */,
 				6DF2B4251BF91E040030E294 /* vidasMenos.png */,
 				6DF2B42D1BF928AF0030E294 /* vidasNivel2.png */,
 				6DF2B42F1BF929040030E294 /* vidasNivel3.png */,
@@ -1802,12 +1802,10 @@
 				6D228BDE1C03EC3E008A723A /* logotec.png in Resources */,
 				6D8751CD1C029BC2002B6426 /* Cabeza.m4a in Resources */,
 				6DFDD7801BFCDF3400FA3513 /* loro.jpg in Resources */,
-				6DF2B43E1BF933370030E294 /* instrumentos.png in Resources */,
 				6DFDD8651BFCE3E800FA3513 /* calcetines.jpg in Resources */,
 				6DFDD7B41BFCE08500FA3513 /* cojin.jpg in Resources */,
 				6DFDD88D1BFCE47F00FA3513 /* pulseras.jpg in Resources */,
 				6DFDD8221BFCE26500FA3513 /* torso.jpg in Resources */,
-				6DF2B4381BF932E00030E294 /* animales.png in Resources */,
 				6DFDD76C1BFCDEF200FA3513 /* elefante.jpg in Resources */,
 				6DF2B4201BF908790030E294 /* cuadNivel1.png in Resources */,
 				6DFDD7D61BFCE10100FA3513 /* puerta.jpg in Resources */,
@@ -1830,7 +1828,6 @@
 				6DF2B41E1BF9082A0030E294 /* fondoNivel1.png in Resources */,
 				6DFDD85F1BFCE3D300FA3513 /* bolsa.jpg in Resources */,
 				6DFDD8141BFCE23A00FA3513 /* nariz.jpg in Resources */,
-				6DFDD6F21BF976F100FA3513 /* fondoInstrucciones.png in Resources */,
 				6DFDD6E81BF972F300FA3513 /* ganasteNivel3.png in Resources */,
 				6DFDD82F1BFCE2F200FA3513 /* bateria.jpg in Resources */,
 				6DFDD7E81BFCE14300FA3513 /* telefono.jpg in Resources */,
@@ -1840,7 +1837,6 @@
 				6DFDD6EA1BF9732C00FA3513 /* acasa.png in Resources */,
 				6DFDD7FE1BFCE1EE00FA3513 /* ceja.jpg in Resources */,
 				6D84DDB01C0281A100E7EFB2 /* Sopa.m4a in Resources */,
-				6DF2B4361BF932910030E294 /* verduras.png in Resources */,
 				6DBCF49C1C03C1A300D790B2 /* Tambor.m4a in Resources */,
 				6DFDD7A41BFCE03A00FA3513 /* alfombra.jpg in Resources */,
 				6D8752021C02AF15002B6426 /* iconM.png in Resources */,
@@ -1851,6 +1847,7 @@
 				6DFDD8991BFCE4D400FA3513 /* sueter.jpg in Resources */,
 				6DFDD7A81BFCE04C00FA3513 /* banio.jpg in Resources */,
 				6DFDD8511BFCE36B00FA3513 /* violin.jpg in Resources */,
+				6D88D3B31C07E9250073465C /* fondoNiveles.png in Resources */,
 				6DFDD77E1BFCDF2F00FA3513 /* lobo.jpg in Resources */,
 				6D84DE761C0296E800E7EFB2 /* Sombrero.m4a in Resources */,
 				6DBCF47D1C03703D00D790B2 /* Torso.m4a in Resources */,
@@ -1877,6 +1874,7 @@
 				6DBCF4FE1C03C53900D790B2 /* Computadora.m4a in Resources */,
 				6D4A48611BEBD61600BC52B2 /* Settings.bundle in Resources */,
 				6D84DE5E1C02959400E7EFB2 /* Mameluco.m4a in Resources */,
+				6D88D3AD1C07E2A10073465C /* instrumentos.png in Resources */,
 				6D84DE0C1C02861100E7EFB2 /* Conejo.m4a in Resources */,
 				6DFDD84D1BFCE35F00FA3513 /* triangulo.jpg in Resources */,
 				6D84DE741C0296D000E7EFB2 /* Pulseras.m4a in Resources */,
@@ -1920,6 +1918,7 @@
 				6DFDD75A1BFCDEB800FA3513 /* ballena.jpg in Resources */,
 				6DBCF4D41C03C3FD00D790B2 /* Ventana.m4a in Resources */,
 				6D84DE001C02859100E7EFB2 /* Foca.m4a in Resources */,
+				6D4D606F1C07E1060020E297 /* animales.png in Resources */,
 				6DBCF4841C03709C00D790B2 /* Armonica.m4a in Resources */,
 				6DFDD7B01BFCE07B00FA3513 /* cochera.jpg in Resources */,
 				6DFDD7E61BFCE13800FA3513 /* sillon.jpg in Resources */,
@@ -1948,11 +1947,13 @@
 				6DFDD8081BFCE21300FA3513 /* espalda.jpg in Resources */,
 				6D84DDBA1C02821900E7EFB2 /* Leche.m4a in Resources */,
 				6DFDD8201BFCE26000FA3513 /* rodilla.jpg in Resources */,
+				6D4D606D1C07E0D10020E297 /* casa.png in Resources */,
 				6DBCF4771C03700C00D790B2 /* Piernas.m4a in Resources */,
 				6DBCF4711C036FD400D790B2 /* Ombligo.m4a in Resources */,
 				6DFDD8591BFCE3BC00FA3513 /* anillo.jpg in Resources */,
 				6D84DE101C02863300E7EFB2 /* Elefante.m4a in Resources */,
 				6DFDD7E21BFCE12B00FA3513 /* sarten.jpg in Resources */,
+				6D4D60711C07E1310020E297 /* verduras.png in Resources */,
 				6DFDD7081BFCDCE600FA3513 /* cafe.jpg in Resources */,
 				6DFDD7101BFCDD0200FA3513 /* cereal.jpg in Resources */,
 				6D84DE7E1C02973600E7EFB2 /* Tenis.m4a in Resources */,
@@ -1999,15 +2000,14 @@
 				6DFDD8671BFCE3F000FA3513 /* camisa.jpg in Resources */,
 				6DFDD84F1BFCE36500FA3513 /* trompeta.jpg in Resources */,
 				6D84DE661C02963700E7EFB2 /* Falda.m4a in Resources */,
+				6D4D60751C07E1AF0020E297 /* cuerpo.png in Resources */,
 				6D84DE781C0296F800E7EFB2 /* Sudadera.m4a in Resources */,
 				6DFDD86F1BFCE40B00FA3513 /* chanclas.jpg in Resources */,
 				6DFDD81E1BFCE25500FA3513 /* pies.jpg in Resources */,
 				6D84DE201C02870800E7EFB2 /* Oso.m4a in Resources */,
 				6D84DE221C02872900E7EFB2 /* Tortuga.m4a in Resources */,
-				6DF2B4401BF9334E0030E294 /* ropa.png in Resources */,
 				6DFDD8241BFCE26B00FA3513 /* unias.jpg in Resources */,
 				6DBCF4EC1C03C4BF00D790B2 /* Organillo.m4a in Resources */,
-				6DFDD6EC1BF9757700FA3513 /* fondoNiveles.png in Resources */,
 				6DFDD8021BFCE1FC00FA3513 /* cuello.jpg in Resources */,
 				6D87520E1C02AFE7002B6426 /* iconM6.png in Resources */,
 				6DFDD8631BFCE3E200FA3513 /* bufanda.jpg in Resources */,
@@ -2062,7 +2062,7 @@
 				6DBCF4AC1C03C26000D790B2 /* Pandero.m4a in Resources */,
 				6D8A97D31BA7869F00E23C28 /* Main.storyboard in Resources */,
 				6DBCF4AE1C03C29000D790B2 /* Piano.m4a in Resources */,
-				6DF2B43A1BF933050030E294 /* casa.png in Resources */,
+				6D88D3AF1C07E34F0073465C /* fondoInstrucciones.png in Resources */,
 				6DFDD80C1BFCE22200FA3513 /* hombro.jpg in Resources */,
 				6D84DDFC1C02856A00E7EFB2 /* Caballo.m4a in Resources */,
 				6DFDD6F61BF977C900FA3513 /* jugarMenu.png in Resources */,
@@ -2075,7 +2075,6 @@
 				6DBCF48C1C0370E500D790B2 /* Claves.m4a in Resources */,
 				6D84DE8A1C02980000E7EFB2 /* Codo.m4a in Resources */,
 				6D84DE401C02884A00E7EFB2 /* Anillo.m4a in Resources */,
-				6DFDD6E21BF9669000FA3513 /* perdistePantalla.png in Resources */,
 				6D228BE21C04226B008A723A /* puntajePantalla.png in Resources */,
 				6DF2B4261BF91E040030E294 /* vidasMenos.png in Resources */,
 				6DFDD7901BFCDF7000FA3513 /* pez.jpg in Resources */,
@@ -2104,6 +2103,7 @@
 				6DFDD7CC1BFCE0DC00FA3513 /* lavadora.jpg in Resources */,
 				6DFDD83B1BFCE31F00FA3513 /* maracas.jpg in Resources */,
 				6DFDD8291BFCE2DD00FA3513 /* acordeon.jpg in Resources */,
+				6D88D3B11C07E5630073465C /* perdistePantalla.png in Resources */,
 				6D6F37471BD464A600BE1AA0 /* miry.png in Resources */,
 				6D84DE481C02888D00E7EFB2 /* Chanclas.m4a in Resources */,
 				6DBCF4B41C03C2BC00D790B2 /* Puerta.m4a in Resources */,
@@ -2123,6 +2123,7 @@
 				6DFDD71A1BFCDD3900FA3513 /* ensalada.jpg in Resources */,
 				6D84DDD61C02832300E7EFB2 /* Ensalada.m4a in Resources */,
 				6DFDD7861BFCDF4A00FA3513 /* mono.jpg in Resources */,
+				6D4D60731C07E1560020E297 /* ropa.png in Resources */,
 				6D84DE301C0287B300E7EFB2 /* Rinoceronte.m4a in Resources */,
 				6D84DE6E1C02967300E7EFB2 /* Pijama.m4a in Resources */,
 				6D84DE321C0287C000E7EFB2 /* Vaca.m4a in Resources */,
@@ -2146,7 +2147,6 @@
 				6D84DDD01C0282F400E7EFB2 /* Cebolla.m4a in Resources */,
 				6DFDD7961BFCDF8700FA3513 /* rana.jpg in Resources */,
 				6DFDD80A1BFCE21B00FA3513 /* frente.jpg in Resources */,
-				6DF2B43C1BF933160030E294 /* cuerpo.png in Resources */,
 				6DFDD7D21BFCE0F000FA3513 /* microondas.jpg in Resources */,
 				6DFDD7541BFCDEA400FA3513 /* aguila.jpg in Resources */,
 				6DFDD7641BFCDED700FA3513 /* cebra.jpg in Resources */,

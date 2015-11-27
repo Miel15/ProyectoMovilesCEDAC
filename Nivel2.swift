@@ -78,11 +78,11 @@ class Nivel2: UIViewController {
         }
         if LabelText == "Ropa" {
             //40 elementos
-            dicBanderas = ["Abrigo" : "abrigo.jpg", "Anillo" : "anillo.jpg", "Bata" : "bata.jpg", "Blusa" : "blusajpg", "Bolsa" : "bolsa.jpg", "Botas" : "botas.jpg", "Bufanda" : "bufanda.jpg", "Calcetines" : "calcetines.jpg", "Camisa" : "camisa.jpg", "Camiseta" : "camiseta.jpg", "Chaleco" : "chaleco.jpg", "Chamarra" : "chamarra.jpg", "Chanclas" : "chanclas.jpg", "Cinturón" : "cinturon.jpg", "Collar" : "collar.jpg", "Corbata" : "corbata.jpg", "Falda" : "falda.jpg", "Gorra" : "gorra.jpg", "Gorro" : "gorro.jpg", "Guantes" : "guantes.jpg", "Impermeable" : "impermeable.jpg", "Lentes" : "lentes.jpg", "Mameluco" : "mameluco.jpg", "Moño" : "monio.jpg", "Pantalón" : "pantalon.jpg", "Pantuflas" : "pantuflas.jpg", "Pijama" : "pijama.jpg", "Pulseras" : "pulseras.jpg", "Reloj" : "reloj2.jpg", "Saco" : "saco.jpg", "Short" : "short.jpg", "Sombrero" : "sombrero.jpg", "Sudadera" : "sudadera.jpg", "Suéter" : "sueter.jpg", "Tacones" : "tacones.jpg", "Tenis" : "tenis.jpg", "Traje de baño" : "traje_de_banio.jpg", "Traje" : "traje.jpg", "Vestido" : "vestido.jpg", "Zapatos" : "zapatos.jpg"]
+            dicBanderas = ["Abrigo" : "abrigo.jpg", "Anillo" : "anillo.jpg", "Bata" : "bata.jpg", "Blusa" : "blusa.jpg", "Bolsa" : "bolsa.jpg", "Botas" : "botas.jpg", "Bufanda" : "bufanda.jpg", "Calcetines" : "calcetines.jpg", "Camisa" : "camisa.jpg", "Camiseta" : "camiseta.jpg", "Chaleco" : "chaleco.jpg", "Chamarra" : "chamarra.jpg", "Chanclas" : "chanclas.jpg", "Cinturón" : "cinturon.jpg", "Collar" : "collar.jpg", "Corbata" : "corbata.jpg", "Falda" : "falda.jpg", "Gorra" : "gorra.jpg", "Gorro" : "gorro.jpg", "Guantes" : "guantes.jpg", "Impermeable" : "impermeable.jpg", "Lentes" : "lentes.jpg", "Mameluco" : "mameluco.jpg", "Moño" : "monio.jpg", "Pantalón" : "pantalon.jpg", "Pantuflas" : "pantuflas.jpg", "Pijama" : "pijama.jpg", "Pulseras" : "pulseras.jpg", "Reloj" : "reloj2.jpg", "Saco" : "saco.jpg", "Short" : "short.jpg", "Sombrero" : "sombrero.jpg", "Sudadera" : "sudadera.jpg", "Suéter" : "sueter.jpg", "Tacones" : "tacones.jpg", "Tenis" : "tenis.jpg", "Traje de baño" : "traje_de_banio.jpg", "Traje" : "traje.jpg", "Vestido" : "vestido.jpg", "Zapatos" : "zapatos.jpg"]
         }
         if LabelText == "Partes del cuerpo" {
             //26 elementos
-            dicBanderas = ["Axila" : "axila.png", "Boca" : "boca.jpg", "Brazo" : "brazo.jpg", "Cabello" : "cabello.jpg", "Cabeza" : "cabeza.jpg", "Ceja" : "ceja.jpg", "Codo" : "codo.jpg", "Cuello" : "cuello.jpg", "Dedo" : "dedo.jpg", "Dientes" : "dientes.jpg", "Espalda" : "espalda.jpg", "Frente" : "frente.jpg", "Hombro" : "hombro.jpg", "Lengua" : "lengua.jpg", "Mano" : "mano.jpg", "Mejilla" : "mejilla.jpg", "Nariz" : "nariz.jpg", "Ojo" : "ojo.jpg", "Ombligo" : "ombligo.jpg", "Oreja" : "oreja.jpg", "Pestaña" : "pestania.jpg", "Pies" : "pies.jpg", "Piernas" : "piernas.jpg", "Rodilla" : "rodilla.jpg", "Torso" : "torso.jpg", "Uñas" : "unias.jpg"]
+            dicBanderas = ["Axila" : "axila.jpg", "Boca" : "boca.jpg", "Brazo" : "brazo.jpg", "Cabello" : "cabello.jpg", "Cabeza" : "cabeza.jpg", "Ceja" : "ceja.jpg", "Codo" : "codo.jpg", "Cuello" : "cuello.jpg", "Dedo" : "dedo.jpg", "Dientes" : "dientes.jpg", "Espalda" : "espalda.jpg", "Frente" : "frente.jpg", "Hombro" : "hombro.jpg", "Lengua" : "lengua.jpg", "Mano" : "mano.jpg", "Mejilla" : "mejilla.jpg", "Nariz" : "nariz.jpg", "Ojo" : "ojo.jpg", "Ombligo" : "ombligo.jpg", "Oreja" : "oreja.jpg", "Pestaña" : "pestania.jpg", "Pies" : "pies.jpg", "Piernas" : "piernas.jpg", "Rodilla" : "rodilla.jpg", "Torso" : "torso.jpg", "Uñas" : "unias.jpg"]
         }
         if LabelText == "Instrumentos" {
             //23 elementos
@@ -263,6 +263,7 @@ class Nivel2: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -278,6 +279,7 @@ class Nivel2: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -293,6 +295,7 @@ class Nivel2: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -308,6 +311,7 @@ class Nivel2: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -323,6 +327,7 @@ class Nivel2: UIViewController {
         }else{
             errores = errores + 1
             if(vidas == 1){
+                player.stop();
                 viewPerdiste.hidden = false;
             } else {
                 respuestaIncorrecta()
@@ -726,12 +731,15 @@ class Nivel2: UIViewController {
         return false
     }
     
+    @IBAction func salir(sender: AnyObject) {
+        player.stop();
+    }
     
     @IBAction func repetir(sender: AnyObject) {
         reproducirMP3((lblPalabra.text)!)
     }
     
     @IBAction func sigNivel(sender: AnyObject) {
-        //boton = 1
+        player.stop();
     }
 }

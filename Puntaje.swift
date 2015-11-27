@@ -579,6 +579,22 @@ class Puntaje: UIViewController, MFMailComposeViewControllerDelegate {
     @IBOutlet weak var tfCorreo: UITextField!
     
     @IBAction func enviarCorreo(sender: AnyObject) {
+        
+        if tfCorreo.text == "" {
+            let alert =  UIAlertController(title: "Error",
+                message: "Necesitas introducir un correo",
+                preferredStyle: UIAlertControllerStyle.Alert)
+            
+            alert.addAction(UIAlertAction(title: "Aceptar",
+                style: UIAlertActionStyle.Default,
+                handler: nil))
+            
+            self.presentViewController(alert,
+                animated: true,
+                completion:nil
+            )
+        }
+        
         let mailComposeViewController = configuredMailComposeViewController()
         if MFMailComposeViewController.canSendMail() {
             self.presentViewController(mailComposeViewController, animated: true, completion: nil)
@@ -604,7 +620,7 @@ class Puntaje: UIViewController, MFMailComposeViewControllerDelegate {
     }
     
     // MARK: MFMailComposeViewControllerDelegate Method
-    func mailComposeController(controller: MFMailComposeViewController!, didFinishWithResult result: MFMailComposeResult, error: NSError!) {
+    func mailComposeController(controller: MFMailComposeViewController, didFinishWithResult result: MFMailComposeResult, error: NSError?) {
         controller.dismissViewControllerAnimated(true, completion: nil)
     }
     
